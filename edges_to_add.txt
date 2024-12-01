@@ -1,0 +1,235 @@
+pen -> strep
+pen -> rheumatic fever
+pen -> peptido
+pen -> viridans 
+pen -> GBS prophylaxis
+pen -> israelii
+pen -> c. perfringens
+pen -> Pasteurella
+pen -> syphilis (benzathine)
+pen -> n. mening
+beta lactamase -> pen
+hypersensitivity - > pen
+anemia -> pen (IgG antibodies against penicillin bind to RBCs)
+pen -> nephritis
+
+nafcillin oxacillin -> beta lactamase resistance
+nafox -> staph aureus
+nafox -> endocarditis
+nafox -> osteomyelitis
+nafox -> resistance (altered PBPs)
+
+ampamox -> peptidoglycan
+ampax -> strep pharyngitis
+ampamox -> otitis media and sinusists
+ampax -> strep pneum
+ampox -> H,. inf
+ampox -> lyme disease
+ampox -> helico bacter
+amp -> IV anaerobic
+amp- > enterococcus
+amp -> beta lactamase (+ clavulanate sulbactacm
+amp -> listeria
+amp -> gram negative gi rods
+amp -> spleen (prophylaxis
+amp -> epidermal necrolysis
+
+
+piptic -> beta-lactamase inhibitors
+piptic -> anaer
+pitic -> pseudomonas
+
+1st gen -> strep staph
+1st -> strep pharynx
+1st -> proteus, ecoli, klebsiella uti
+1st -> prophylaxis
+2nd -> same as 1st with gram negative 
+3rd -> gram + and gram -
+3rd -> meningitis
+3rd -cns blood brain
+3rd -> hame
+3rd -> pneumonia
+ceftaz -> pseudomonas
+ceftri -> viridans and hacek
+ceft -> endocard
+ceft -> gonnor
+ceft -> lyme
+4th -> pseudomonas
+4th -> no MRSA
+5th -> MRSA
+
+monobactam -> aerobic gram negative rodes
+monobactom -> pseudomonas
+monobactam -> penicillin allergy
+monobactam -> resistant to beta lactamases
+carbapenem -> broad spectrum
+carbapenem -> resistant (used when)
+carbapenem -> gi
+carbapenem -> rash
+carbapenem -> cns
+
+vancomycin -> gram pos
+vanc -> mrsa
+binds dala dala directly
+vanc - > meningit
+vanc -> osteo
+vanc - nosocomial
+vanc -> staph epid
+vanc -> endo
+vanc -> enterococcus
+vanc -> c diff
+vanc - > mast cell
+vanc -> thrombo
+vanc -> nephrotox
+vanc -> ototox
+
+
+dapt -> vanc (resist)
+dapt -> MRSA
+dapt -> bacteremia
+dapt -> skin
+dapt -> no pneumonia (type 2 pneumocytw
+dapt -> rhabdomyolysis
+dapt -> CPK levels
+dapt - > neuropath
+dapt -> allergic
+
+
+tetra -> ribosome (30s)
+tetra 0> bac static
+tetra -> MRSA
+tetra -> rick, ehr, fran, borr
+tetra -> brucella
+tetra -> yersinia
+tetra -> chlamydial cerv and ureth
+tetra- > mycoplasma
+metals have reduced absorption
+teratogeneic
+diarrhea
+photosens
+Fanconi syndrome (renal tubular acidosis)
+
+
+macro - ribosome (50s)
+macro - bacteriostatic
+macro - antiinflam
+macro - prokinetic
+macro - pneumonia
+macro - legion
+macro mycoplas
+macro - chlamyd
+macro - bord
+macro - bart
+macro - coryneb
+macro - mycoba avium
+macro - helico
+macro - cdiff (fidaxomicin)
+macro - hepatitis
+macro - qt interval
+macro - rash
+inhibits pgp efflux
+
+
+clinda - 50s
+clinda - static
+clinda - staph
+clind - anaerobes
+clina - strep pyogenes
+clinda - gram positive
+clinda - MRSA
+clinda - abscesses
+clinda - bacteroides
+clinda - pneumonia
+clinda - perfringens
+clinda - Gardnerella
+clinda - aminoglyco (gentamicin for pid)
+clinda- cdiff (complication) 
+clinda - diarrhea
+clinda - vomiting
+
+chloral - meningitis - strep pneumo, h flu, n men
+chloral - anemia
+chloral - neonate (gray baby)
+chloral - 50s ribosome
+chloral - static
+chloral - ricket
+bone marrow suppression
+
+line - 50s ribosome
+line - gram positive
+line - nosocomial
+line - vanc
+line - enterococcus
+line - thrombocyte
+line - neuropathu(optic, peripheral)
+line - cns (serotonin)
+
+
+amino - 30s ribosome
+amino - cidal
+amino - gram negative aerobic
+amino - beta lactam (vanc)
+amino - IV
+amino - GI
+amino - tularemia
+amino - pestis
+amino - entero kleb, serr
+amino - nosocomial
+amino - uti
+amino - pseudo
+amino - enterococcus (vanc, beta)
+inactivated by acetylation (amikacin)
+amino - oto
+amino - nephron
+amino - pns neuromotor (myasthenia gravis contraindication)
+teratogen
+
+INH - tuber latent
+INh neuropathy
+inh - liver
+inh - cns seizures
+inh causes asymptomatic rise in aminotransferases
+inh can cause lupus and anion gap acidosis
+inh inhibits cyp450
+rifam activates cyp450
+rifam binds rna polymerase
+rifampin prophylaxis for meningitis
+orange body fluids
+eth - optic symtpoms
+pyr - uric acid
+pyr - hepatotoxic
+
+lep - m avium
+lep - macrolide
+dapsone - m leprae
+dapsone - agranulocytosis
+dapsone - anemia
+rifampin - leprosy
+clofazimine
+
+tmp - uti
+tmp - gram negative and positive
+tmp - MRSA
+tmp - nocardia
+tmp - pneumocystis jirovecii
+tmp - hiv cd < 200 toxoplasmosis cd < 100
+tmp - pancytopenia
+tmp - anemia
+tmp - teratogen
+tmp - allergy, rash, fever,
+tmp - kidney acidosis, hyperkalemia
+tmp - photosensitivity
+displaces other drugs from albumin
+inhibit cyp450
+lupus
+
+
+
+
+
+
+
+
+
+
+
