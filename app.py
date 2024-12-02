@@ -3,6 +3,7 @@ import json
 from source import microbiology as micro
 import google.generativeai as genai
 import pandas as pd
+import random
 
 # Initialize the SDK
 genai.configure(api_key="AIzaSyAM7Ta6FzBExxBAKzzGlHXCdLohLC-bO9A")
@@ -10,7 +11,8 @@ genai.configure(api_key="AIzaSyAM7Ta6FzBExxBAKzzGlHXCdLohLC-bO9A")
 app = Flask(__name__)
 
 CLASSES_WITH_CHARACTERISTICS = ["Bacteria", "Coccus", "Bacillus", "Branched_Rods", "Mycobacteria", "Coccobacillus",
-                                "Spirochete", "Fungus", "Virus", "Parasite"]
+                                "Spirochete", "Fungus", "Virus", "PositiveSenseRNA", "NegativeSenseRNA", "DNAVirus",
+                                "Parasite"]
 
 
 def get_nodes(filename):
@@ -236,6 +238,97 @@ def get_info():
         return jsonify({"content": response.text}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 400
+
+
+@app.route("/get_text", methods=["GET"])
+def get_text():
+    # Retrieve the selected node ID and previous node ID from the request arguments
+    selected_node_id = request.args.get("selected_node_id", "unknown")
+    previous_node_id = request.args.get("previous_node_id", "unknown")
+
+    model = genai.GenerativeModel("gemini-1.5-flash")
+
+    # Customize the user message with the location
+    user_message = (f"How does {previous_node_id} relate to {selected_node_id} in the context of microbiology? "
+                    f"keep your response short and concise.")
+
+    try:
+        response = model.generate_content(user_message)
+        return jsonify({"text": response.text}), 200
+    except Exception as e:
+        return jsonify({"text": str(e)}), 400
+
+    # # Generate a custom message using both node IDs
+    # text = (
+    #     f"This is the dynamic message for Node {selected_node_id}, "
+    #     f"connected from Node {previous_node_id}."
+    # )
+    # return jsonify({"text": text})
+
+
+@app.route('/generate_question', methods=['GET'])
+def generate_question():
+    model = genai.GenerativeModel("gemini-1.5-flash")
+    # Load nodes and edges
+    data_node = get_nodes("micro_nodes.csv")
+    data_edge = get_edges("micro_edges.csv")
+    node_list = node_gen(data_node)
+    edge_list = edge_gen(data_edge, [node.identity for node in node_list])
+    prompt = ""
+
+    # Randomly pick a node or edge
+    if random.choice(["node", "edge"]) == "node":
+        node = random.choice(node_list)
+        if (node.properties):
+            property = random.choice(node.properties)
+            prompt = f"{property} in {node.get_name()}"
+        else:
+            edge = random.choice(edge_list)
+            prompt = f"how {edge.get_parent()} {edge.get_connection()} {edge.get_child()}"
+
+    else:
+        edge = random.choice(edge_list)
+        prompt = f"how {edge.get_parent()} {edge.get_connection()} {edge.get_child()}"
+
+    user_message = (
+        f"Create a multiple-choice question about {prompt}."
+        f" Respond with clean JSON only, no extra text or formatting. Use this exact structure:"
+        f"""
+            {{
+                "question": "Your question here",
+                "options": [
+                    "Correct answer",
+                    "Incorrect answer 1",
+                    "Incorrect answer 2",
+                    "Incorrect answer 3"
+                ],
+                "correct_option": "Correct answer"
+            }}
+            """
+    )
+    try:
+        response = model.generate_content(user_message)
+        response_text = response.text.strip()
+
+        # Extract substring from '{' to '}'
+        start_index = response_text.find('{')
+        end_index = response_text.rfind('}') + 1  # Include the closing brace
+        if start_index != -1 and end_index != -1:
+            json_substring = response_text[start_index:end_index]
+        else:
+            json_substring = None  # Handle the case where braces are missing
+
+
+        # Attempt to parse the response as JSON
+        try:
+            question_data = json.loads(json_substring)
+            return jsonify(question_data), 200
+        except json.JSONDecodeError:
+            return jsonify({"error": "Invalid JSON response from model"}), 400
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
+
 
 
 if __name__ == '__main__':

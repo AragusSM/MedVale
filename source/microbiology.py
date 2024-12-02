@@ -106,6 +106,21 @@ class Virus(Pathogen):
         self.gene_material = gene_material  # Specific attribute for Virus
 
 
+class PositiveSenseRNA(Virus):
+    def __init__(self, identity, definition, gene_material, name="PositiveSenseRNAVirus"):
+        super().__init__(identity, definition, gene_material, name)
+
+
+class NegativeSenseRNA(Virus):
+    def __init__(self, identity, definition, gene_material, name="NegativeSenseRNAVirus"):
+        super().__init__(identity, definition, gene_material, name)
+
+
+class DNAVirus(Virus):
+    def __init__(self, identity, definition, gene_material, name="DNAVirus"):
+        super().__init__(identity, definition, gene_material, name)
+
+
 class Parasite(Pathogen):
     def __init__(self, identity, definition, host, name="Bacteria"):
         super().__init__(identity, definition, name)
@@ -116,6 +131,7 @@ class Antimicrobial(Generic):
     def __init__(self, identity, definition, name="Antimicrobial"):
         super().__init__(identity, definition, name)
 
+
 class Antibacterial(Antimicrobial):
     def __init__(self, identity, definition, name="Beta_Lactam"):
         super().__init__(identity, definition, name)
@@ -124,6 +140,7 @@ class Antibacterial(Antimicrobial):
 class Beta_Lactam(Antibacterial):
     def __init__(self, identity, definition, name="Beta_Lactam"):
         super().__init__(identity, definition, name)
+
 
 class Cephalosporin(Beta_Lactam):
     def __init__(self, identity, definition, name="Cephalosporin"):
@@ -144,13 +161,16 @@ class Antimycobacterial(Antibacterial):
     def __init__(self, identity, definition, name="Antimycobacterial"):
         super().__init__(identity, definition, name)
 
+
 class Antifungal(Antimicrobial):
     def __init__(self, identity, definition, name="Antifungal"):
         super().__init__(identity, definition, name)
 
+
 class HIV_Antiviral(Antimicrobial):
     def __init__(self, identity, definition, name="HIV Antiviral"):
         super().__init__(identity, definition, name)
+
 
 class Antiviral(Antimicrobial):
     def __init__(self, identity, definition, name="Antiviral"):

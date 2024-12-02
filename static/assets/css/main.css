@@ -1828,11 +1828,77 @@ section,
   margin-top: 10px;
 }
 
+/* Styling for the node name */
+#node-name2 {
+  color: lawngreen; /* Black text for the node name */
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Picture container, hidden if no image */
+#node-picture-container2 {
+  margin-top: 10px;
+}
+
+#node-picture2 {
+  max-width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+.edge-popup {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color:lightgreen;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+#close-edge-popup2 {
+  color: black;
+}
+
+#edge-label2 {
+  color: darkblue;
+}
+
+.edge-popup .popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:indigo;
+}
+
+.edge-popup .popup-header h5 {
+  margin: 0;
+}
+
+.edge-popup .popup-body {
+  margin-top: 10px;
+}
+
 
 #network-loader {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10; /* Ensure it's above the network canvas */
+}
+
+#network-loader2 {
+  position: absolute;
+  top: 50%;
+  left: 33%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
@@ -2022,6 +2088,15 @@ section,
   margin-top: 20px;
 }
 
+#journey_graph {
+  position: relative;  /* Ensure that the button is positioned relative to this container */
+  width: 100%;
+  height: 600px;
+  border: 1px solid lightgray;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
 
 #openLegendBtn {
   position: absolute;
@@ -2029,3 +2104,88 @@ section,
   left: 20px; /* Position 20px from the left */
   z-index: 10; /* Ensure it's above the network */
 }
+
+#toggleViewBtn {
+  padding: 10px 25px; /* Larger padding for a bigger button */
+  font-size: 16px; /* Increase font size */
+  border-radius: 8px; /* Slightly rounded corners */
+  font-weight: bold; /* Make text more prominent */
+}
+
+#toggleViewBtn:hover {
+  background-color: #0056b3; /* Optional: darker shade on hover */
+}
+
+#toggleViewBtn2 {
+  padding: 8px 15px; /* Larger padding for a bigger button */
+  font-size: 10px; /* Increase font size */
+  border-radius: 8px; /* Slightly rounded corners */
+  font-weight: bold; /* Make text more prominent */
+}
+
+#toggleViewBtn2:hover {
+  background-color: #0056b3; /* Optional: darker shade on hover */
+}
+
+#nodeSelectorContainer {
+  scrollbar-width: thin;
+  scrollbar-color: #424242 lightgray;
+}
+
+#nodeSelectorContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+#nodeSelectorContainer::-webkit-scrollbar-thumb {
+  background-color: #424242;
+  border-radius: 4px;
+}
+
+#nodeSelectorContainer::-webkit-scrollbar-track {
+  background: lightgray;
+}
+
+/* Custom styles for light palette buttons */
+#nodeButtons button {
+  background-color: #d4edda; /* Light green background */
+  color: #155724; /* Dark green text */
+  border: 1px solid #c3e6cb; /* Subtle green border */
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+#nodeButtons button:hover {
+  background-color: #c3e6cb; /* Slightly darker green on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+#typewriterParagraph {
+  margin-left: 20px; /* Adjust the value to control the distance from the left edge */
+  margin-right: 20px; /* Optionally add right margin for symmetry */
+  padding: 10px; /* Add padding inside the element for better readability */
+  max-width: 90%; /* Ensure the paragraph doesn’t stretch too wide */
+  max-height: 100%;
+  white-space: pre-wrap; /* Preserve line breaks */
+  word-wrap: break-word; /* Prevent long words from overflowing */
+  transition: height 0.2s ease; /* Smooth height changes */
+  overflow-y: scroll;
+}
+
+
+
+
+@keyframes blink {
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000;
+  }
+}
+
+#typewriterParagraph {
+  animation: blink 0.6s step-end infinite;
+}
+
+

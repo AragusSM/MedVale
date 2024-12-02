@@ -1120,3 +1120,478 @@ leprosy_drug,cytochrome_p450,side effect,rifabutin activates
 leprosy_drug,mycobacterium_leprae,treatment,"dapsone, clofazimine for lepromatous leprosy + rifampin for both"
 leprosy_drug,granulocyte,side effect,agranulocytosis
 leprosy_drug,anemia,side effect,hemolytic with G6PD deficiency
+virus_generic,capsid,possesses,"viruses have a protein capsid surrounding their genome, different shapes"
+virus_generic,envelope,possesses,some viruses are enveloped
+virus_generic,dna,possesses,some viruses have dna genomes
+virus_generic,rna,possesses,some viruses have rna genomes
+rna_pol,rna,transcribes,
+dna_pol,dna,transcribes,
+virus_generic,glycoprotein,possesses,
+rna,rdrp,enzyme,rdrp is mainly used for negative sense rna viruses to translate their dna to positive sense.
+budding,neuraminidase,enzyme,cleaves sialic acid when budding
+rna,cytoplasm,location,rna viruses usually replicate in the cytoplasm with a few exceptions
+dna,nucleus,location,dna viruses usually replicate in the nucleus with a few exceptions
+viral_replication,golgi_apparatus,uses,viruses use the golgi apparatus for packaging and vesicles
+viral_replication,endoplasmic_reticulum,uses,viruses us the ER for protein processing
+lytic,lysogenic,related,viruses can be latent or active
+viral_replication,endosome,uses,viruses enter the cell through an endosome
+viral_replication,lytic,involves,viruses can replicate by lysing the host cell
+viral_replication,lysogenic,involves,viruses can replicate as the host cell divides by integrating into the genome
+rna,ribosome,uses,organisms and viruses use host cell ribosomes to replicate
+picornaviridae,hep_a,related,
+picornaviridae,poliovirus,related,
+picornaviridae,coxsackievirus,related,
+picornaviridae,rhinovirus,related,
+hep_a,fecal_oral,spread,
+poliovirus,fecal_oral,spread,
+coxsackievirus,fecal_oral,spread,
+rhinovirus,droplet,spread,
+hep_a,liver,affects,hepatitis and hepatomegaly
+hep_a,spleen,affects,splenomegaly
+poliovirus,meningitis,aseptic,"no organsisms, normal glucose, elevated protein"
+coxsackievirus,meningitis,aseptic,"no organsisms, normal glucose, elevated protein"
+rhinovirus,airway,affects,upper respiratory tract
+poliovirus,acid_solubility,stable,allows survival in gastric environment
+poliovirus,malt,affects,gut mucosa such as peyer's patches and tonsils
+poliovirus,cns,affects,anterior horn of spinal cord
+poliovirus,paralysis,symptom,asymmetrical
+poliovirus,vaccine,salk and sabin,"salk vaccine is inactivated that is administered intramuscularly, only one used in the US produces only IgG. Live attenuated vaccine is given orally to produce igG and IgA, has risk of causing paralysis."
+coxsackievirus,pericarditis,symptom,dilated cardiomyopathy
+rhinovirus,acid_solubility,labile,
+rhinovirus,psychrophilic,grows,"33 degrees C, slightly cold"
+rhinovirus,resistance,possesses,over 100 serotypes so no vaccine or treatment
+hep_a,food_poisoning,cause,"uncooked shellfish or contaminated water. Chlorination, UV irradiation, boiling, and bleach can inactivate hep A in contaminated water"
+hep_a,acid_solubility,stable,
+hep_a,contact,close contact or men who have sex with men,
+hep_a,vomiting,symptom,
+hep_a,diarrhea,symptom,
+hep_a,jaundice,symptom,
+hep_a,vaccine,inactivated,
+caliciviridae,food_poisoning,cause,shellfish contaminated with norovirus
+caliciviridae,diarrhea,explosive,"nausea, vomiting, and stomach cramps"
+picornaviridae,strand,single,
+caliciviridae,strand,single,
+dengue_virus,envelope,encased,
+yellow_fever_virus,envelope,encased,
+zika_virus,envelope,encased,
+west_nile_virus,envelope,encased,
+dengue_virus,strand,single,
+yellow_fever_virus,strand,single,
+zika_virus,strand,single,
+west_nile_virus,strand,single,
+dengue_virus,animal_contact,spread,aedes aegypti mosquito is vector
+yellow_fever_virus,animal_contact,spread,aedes aegypti mosquito is vector
+zika_virus,animal_contact,spread,aedes aegypti mosquito is vector
+west_nile_virus,animal_contact,spread,"clux mosquito is vector, birds are reservoir host"
+dengue_virus,hemorrhagic_fever,symptom,
+dengue_virus,thrombocytopenia,symptom,
+dengue_virus,myelosuppression,symptom,
+dengue_virus,kidney,affects,renal failure
+dengue_virus,septic_shock,symptom,
+dengue_virus,vaccine,live attenuated,"tetravalent, given to patients with a prior history of dengue fever"
+yellow_fever_virus,jaundice,symptom,
+yellow_fever_virus,myalgia,symptom,lumbosacral pain
+yellow_fever_virus,hemorrhagic_fever,symptom,"melena, hematemesis, epistaxis, petechiae"
+yellow_fever_virus,thrombocytopenia,symptom,"elevated PT, PTT"
+yellow_fever_virus,vaccine,live attenuated,
+zika_virus,contact,spread,vertical and sexual transmission
+zika_virus,cns,affects,microcephaly
+zika_virus,guillain_barre,symptom,
+west_nile_virus,encephalitis,symptom,
+west_nile_virus,meningitis,symptom,
+west_nile_virus,paralysis,symptom,acute asymmetric flaccid
+west_nile_virus,poliovirus,related,damage to anterior horn cells
+west_nile_virus,cns,affects,"seizures, altered mental status, parkinson like movements"
+west_nile_virus,coma,symptom,in serious neuroinvasive disease
+hep_a,sti,spread,anal-oral
+hep_c,strand,single,
+hep_c,sti,spread,
+hep_c,hematogenous,spread,blood transfusions or needles
+hep_c,envelope,encased,
+hep_c,resistance,possesses,antiproofreading activity of rdrp leads to antigenic variation
+hep_c,liver,affects,cirrhosis
+hep_c,neoplasia,exacerbation,"hepatocellular carcinoma, check AFP and liver ultrasounds"
+hep_c,pcr,testing,"HCV RNA test, indicates active infection"
+hep_c,antibody_test,testing,may be negative with positive RNA test which suggests occult HCV infection (window or immunocompromised)
+hep_c,daa,treatment,
+hep_c,vaccine,hep A and hep B indicated,
+neoplasia,sequelae,example,cancer is common after bacterial or viral infection
+hemorrhagic_fever,sequelae,example,
+hep_c,rdrp,enzyme,no 3 to 5 proofreading activity
+coronavirus,strand,single,
+coronavirus,animal_contact,spread,high pathogenicity coronaviruses
+coronavirus,capsid,contains,helical nucleocapsids with N protein
+coronavirus,envelope,encased,
+coronavirus,glycoprotein,contains,"embedded in envelope. Membrane glycoprotein, envelope glycoprotein, and spike glycoprotein"
+coronavirus,pneumonia,symptom,"binds to ACE2 in alveolar cells, potentially fatal, complicated by acute respiratory distress syndrome"
+coronavirus,rdrp,enzyme,"uses positive sense as a template for negative sense, and then the other way around"
+coronavirus,golgi_apparatus,uses,"S, M, and E proteins, released via exocytosis"
+coronavirus,endoplasmic_reticulum,uses,joins N protein subunits and membrane glycoproteins in the cytoplasm
+coronavirus,droplet,spread,
+coronavirus,asymptomatic,state,
+coronavirus,fever,symptom,
+coronavirus,serology,testing,antigen testing
+coronavirus,pcr,testing,nasopharyngeal swab
+togaviridae,animal_contact,spread,equine encephalitides occurs through mosquitoes and birds. Chikungunya virus is transmitted through aedes aegypti mosquitoes
+togaviridae,envelope,encased,
+togaviridae,capsid,contains,icosahedral
+togaviridae,meningitis,symptom,WEEV EEEV and VEEV. EEEV is most high mortality among adults
+togaviridae,encephalitis,symptom,WEEV EEEV and VEEV. EEEV is most high mortality among adults
+togaviridae,neonate,affects,"WEEV encephalitis more severe, VEEV neuroinvasive more common in children"
+togaviridae,fever,symptom,
+togaviridae,arthritis,symptom,"chronic arthralgia and arthritis, affects the hands"
+togaviridae,rash,symptom,maculopapular
+rubella,strand,single,
+rubella,envelope,encased,
+rubella,droplet,spread,
+rubella,macule,symptom,starts at the face and spreads to trunk
+rubella,papule,symptom,starts at face and spreads to trunk
+rubella,lymphadenopathy,symptom,"posterior cervical, posterior auricular, and subocciptal"
+rubella,arthritis,symptom,adults
+rubella,neonate,symptom,"congenital rubella infection, acquired in utero"
+rubella,rash,symptom,"CRS, blueberry muffin"
+rubella,jaundice,symptom,"CRS, hyperbilirubinemia"
+rubella,eye_infection,symptom,"CRS, cataracts, glaucoma, and retinopathy"
+rubella,cns,affects,"hearing loss, microcephaly"
+rubella,congenital_heart_defect,complication,patent ductus arteriosus
+rubella,vaccine,live attenuated,"MMR or MMR + varicella, avoid in pregnancy, contraindicated in immunocompromised state"
+hiv,strand,single,2 copies
+hiv,reverse_transcriptase,contains,pol gene
+hiv,capsid,contains,"conical capsid composed of p24 subunits, outer protective matrix comprised of p17 protein (core proteins, encoded by gag)"
+hiv,envelope,encased,encoded by env proteins
+hiv,glycoprotein,possesses,"gp41 transmembrane protein helps with fusion, gp120 helps with attachment (env proteins)"
+envelope,glycoprotein,contains,
+hiv,t-cell,infects,"binds to CD4 receptor and a chemokine co-receptor CCR5 or CXCR4, R5 are tropic to CCR5, X4 are tropic towards CSCR4 (later)"
+hiv,macrophage,infects,
+hiv,hematogenous,spread,shared needles
+hiv,sti,spread,"semen, rectal, and vaginal fluids"
+hiv,neonate,spread,vertical transmission during pregnany or breastfeeding
+hiv,flu-like,symptom,"acute retroviral syndrome, viral RNA increases rapidly and T-Cells decline"
+hiv,asymptomatic,state,"latent state 8-10 years in which viral load increases and CD4 count slowly declines, RNA levels remain relatively constant because of host response"
+hiv,enzyme_immunoassay,testing,"4th generation immunoassay, HIV 1 and 2 antibodies and p24 antigen"
+coronavirus,enzyme_immunoassay,testing,
+hep_c,enzyme_immunoassay,testing,
+hiv,pcr,testing,"NAAT testing, later stages"
+hiv,integrase,enzyme,pol gene
+hiv,resistance,possesses,antigen variation and dense glycosylation of gp120
+hiv,golgi_apparatus,uses,
+hiv,endoplasmic_reticulum,uses,
+hiv,protease,enzyme,final cleavage after assembly of polyproteins into functional proteins
+reye_syndrome,sequelae,complication,liver failure and encephalitis
+orthomyxoviridae,strand,single,
+orthomyxoviridae,envelope,contains,
+orthomyxoviridae,nucleus,location,"replicates within nucleus, contrary to many other RNA viruses"
+orthomyxoviridae,resistance,possesses,antigenic drift is point mutations in HA or NA genes. Antigenic shift occurs when different strains combine causing major variations to HA and NA
+orthomyxoviridae,neuraminidase,facilitates release by cleaving sialic acid,
+orthomyxoviridae,hemagglutinin,enzyme,"HA facilitates entry by binding to sialic acid residues, determines cell tropism"
+orthomyxoviridae,m2_protein,enzyme,"proton channel modulates hydrogen ion concentration, facilitating optimal pH for uncoating"
+orthomyxoviridae,droplet,spread,
+orthomyxoviridae,vaccine,killed and live attenuated,"attenuated is intranasal, killed in injected"
+amantadine_rimantadine,orthomyxoviridae,treatment,
+oseltamivir_zanamivir,orthomyxoviridae,treatment,
+orthomyxoviridae,sequelae,exacerbation,pneumonia and infections with staph and strep
+orthomyxoviridae,reye_syndrome,exacerbation,
+orthomyxoviridae,guillain_barre,exacerbation,
+paramyxoviridae,measles,related,
+paramyxoviridae,mumps,related,
+paramyxoviridae,parainfluenza_virus,related,
+paramyxoviridae,strand,single,
+paramyxoviridae,envelope,encased,
+paramyxoviridae,capsid,contains,helical
+paramyxoviridae,droplet,spread,
+paramyxoviridae,vaccine,live attenuated,"for measles, mumps, and rubella"
+paramyxoviridae,rubella,MMR vaccine,avoid during pregnancy and immunosuppressed
+measles,airway,symptom," (cough, coryza(cold), koplik spots)"
+measles,eye_infection,symptom,conjunctivitis
+measles,fever,symptom,high
+measles,rash,symptom,"maculopapular, starts on face and moves inferiorly, slower progressing than rubella, confluent"
+measles,sequelae,exacerbation,"pneumonia, subacute sclerosing panencephalitis"
+measles,hemagglutinin,enzyme,binding to erythrocytes
+measles,fusion_protein,enzyme,
+measles,immunoglobulin,post exposure,post exposure prophylaxis with immunoglobulin or MMR vaccine
+mumps,oral_cavity,parotitis,replicates in salivary gland
+mumps,orchitis,symptom,
+mumps,meningitis,symptom,
+mumps,hemagglutinin,enzyme,
+mumps,fusion_protein,enzyme,
+mumps,neuraminidase,enzyme,
+parainfluenza_virus,hemagglutinin,enzyme,
+parainfluenza_virus,fusion_protein,enzyme,
+parainfluenza_virus,neuraminidase,enzyme,
+pneumoviridae,strand,single,
+pneumoviridae,envelope,encased,
+pneumoviridae,capsid,contains,helical
+pneumoviridae,fusion_protein,enzyme,"F protein, major target for antibodies, causes syncytia (giant cells)"
+pneumoviridae,droplet,spread,
+pneumoviridae,neonate,affects,RSV affects children in 1st year of life. Prematurity also affects HMPV
+pneumoviridae,nosocomial,environment,RSV
+pneumoviridae,pneumonia,symptom,pneumonia and bronchiolitis in infants
+pneumoviridae,copd,complication,RSV and HMPV can be exacerbated in patients with COPD
+pneumoviridae,immunoglobulin,palivizumab,monoclonal igG antibody for treatment of RSV
+pneumoviridae,airway,affects,"HMPV causes lower respiratory infections in children, complicated by asthma"
+rabies,strand,single,
+rabies,capsid,contains,helical and bullet shaped
+rabies,envelope,encased,
+envelope,budding,involves,can be formed from budding
+rabies,glycoprotein,contains,spike shaped allows rabies to attach to host cells
+rabies,animal_contact,spread,zoonatic spread by bites
+rabies,pns,affects,attaches to nicotinic acetylcholine receptor found at postsynaptic membrane of neuromuscular junction. Travels retrograde along nerve axon toward CNS about 50-100 mm per day
+rabies,cns,affects,"hippocampus, thalamus, hypothalamus, brainstem. Spreads centrifugally from CNS to peripheral organs via autonomic and somatic nerves. Hyper activation of sympathetic"
+rabies,encephalitis,symptom,lethal if not prevented before appearance of symptoms
+rabies,coma,symptom,"convulsions, coma, and death in the comatose phase"
+rabies,paralysis,symptom,paralytic rabies is an ascending flaccid paralysis that will be fatal once it reaches respiratory areas
+rabies,immunoglobulin,treatment,passive immunity through rabies immune globulin
+rabies,vaccine,killed,rabies vaccine
+rabies,prophylaxis,prevents,pre rabies vaccine or immunoglublin in high risk occupations or travelers. Post exposure is after bitten
+filoviridae,strand,single,
+filoviridae,capsid,contains,helical structure
+filoviridae,envelope,encased,
+filoviridae,hemorrhagic_fever,symptom,severe bleeding and organ dysfunction
+filoviridae,petechial_rash,symptom,
+filoviridae,septic_shock,symptom,
+filoviridae,animal_contact,spread,"primates, bats"
+bunyaviridae,strand,single,circular structures
+bunyaviridae,golgi_apparatus,uses,acquire their envelopes from golgi apparatus
+bunyaviridae,envelope,encased,
+bunyaviridae,animal_contact,spread,"hanatvirus is trasmitted through feces urine, and saliva of rodents. California encephalitis virus and Rift Valley fever virus are transmitted through mosquitoes"
+bunyaviridae,edema,symptom,Hantavirus can cause pulmonary edema
+bunyaviridae,kidney,affects,Hantavirus can cause prerenal azotemia (cannot adequately filter blood waste due to decreased blood flow)
+bunyaviridae,hemorrhagic_fever,symptom,Hantavirus
+bunyaviridae,encephalitis,symptom,"seizures, california encephalitis or Rift Valley fever"
+arenaviridae,envelope,encased,
+arenaviridae,strand,ambisense,
+arenaviridae,capsid,contains,elongated and helical
+arenaviridae,animal_contact,spread,rodents
+arenaviridae,encephalitis,symptom,aseptic meningoencephalitis
+arenaviridae,myalgia,symptom,
+arenaviridae,fever,symptom,
+arenaviridae,headache,symptom,
+arenaviridae,vomiting,symptom,
+reoviridae,strand,double,
+reoviridae,diarrhea,symptom,"Rotavirus. waterry, gastroentiritis, leading cause of severe diarrhea in young children"
+reoviridae,enterotoxin,NSP4,Rotavirus. increases chloride permeability like cholera
+reoviridae,water,treatment,oral rehydration therapy
+reoviridae,vaccine,live attenuated,"orally, risk of telescoping bowel intussusception"
+herpesviridae,envelope,encased,
+herpesviridae,strand,double,
+herpesviridae,granular_inclusion,contains,eosinophilic inclusions known as Cowdry type A bodies.
+herpes_simplex_viruses,neonate,affects,transmitted vertically
+herpesviridae,herpes_simplex_viruses,related,subtype
+herpes_simplex_viruses,oral_cavity,affects,"HSV1. gingivostomatitis, vesicular lesions and ulcerations within oral cavity and surrounding perioral region. Herpes labialis (cold sores)"
+herpes_simplex_viruses,eye_infection,symptom,"HSV1. keratoconjunctivitis, serpiginous corneal ulcers"
+herpes_simplex_viruses,encephalitis,symptom,"HSV1, sporadic"
+herpes_simplex_viruses,sti,spread,
+herpes_simplex_viruses,lesion,symptom,"vesiular, dew drops on a rose petal"
+herpes_simplex_viruses,cns,resides,latent HSV1 resides in trigeminal ganglia. Latent HSV2 resides in sacral ganglia
+herpes_simplex_viruses,hypersensitivity,symptom,"Erythema multiforme, target lesions that start from extremities and move centrally"
+herpes_simplex_viruses,lymphadenopathy,symptom,"HSV2, tender in the inguinal region"
+herpes_simplex_viruses,meningitis,symptom,"HSV2, aseptic"
+herpes_simplex_viruses,pcr,testing,
+herpes_simplex_viruses,tzanck_smear,testing,"used historically but can arize in other diseases, multinucleated giant cells"
+cytomegalovirus,monocyte,infects,latent
+herpesviridae,cytomegalovirus,related,subtype
+cytomegalovirus,lymphocyte,infects,latent
+cytomegalovirus,neonate,affects,"transmitted vertically, resulting in congenital CMV"
+cytomegalovirus,fever,symptom,
+cytomegalovirus,lymphadenopathy,symptom,back of neck
+cytomegalovirus,serology,testing,
+cytomegalovirus,pcr,testing,
+cytomegalovirus,immunocompromised,complication,"transplant patients (bone marrow, solid organ) and immunocompromised increased risk of CMV reactivation"
+cytomegalovirus,pneumonia,symptom,"transplant paitents higher risk for CMV pneumonia, hepatitis, gastritis, colitis, and encephalitis)"
+cytomegalovirus,hiv,complication,CD4 + counts below 50 are more vulnerable
+cytomegalovirus,eye_infection,symptom,"CMV retinitis, pizza pie retinopathy"
+cytomegalovirus,esophagitis,symptom,
+cytomegalovirus,ulcer,symptom,ulcerative colitis
+cytomegalovirus,granular_inclusion,contains,"owl's eyes inclusions, cells with large ovoid nuclei containing intranuclear basophilic inclusions"
+cytomegalovirus,rash,symptom,Congenital CMV infections can cause blueberry muffin rash
+cytomegalovirus,rubella,related,lymphadenopathy and blueberry muffin rash similar
+cytomegalovirus,jaundice,symptom,congenital CMV
+cytomegalovirus,hepatosplenomegaly,symptom,congenital CMV
+cytomegalovirus,cns,affects,"congenital CMV senorineural hearing loss, intellectual disabilities, microcephaly, seizures, ventriculomegaly, and periventricular calcifications"
+cytomegalovirus,hydrops_fetalis,symptom,congenital CMV
+herpesviridae,epstein-barr_virus,related,subtype
+epstein-barr_virus,cytomegalovirus,related,"distinguished by monospot test, acute EBV infection has heterophile IgM antibodies, which agglutinate horse or sheep red blood cells"
+epstein-barr_virus,fever,symptom,
+epstein-barr_virus,pharyngitis,symptom,tonsillar exudate
+epstein-barr_virus,lymphadenopathy,symptom,posterior cervical region
+epstein-barr_virus,lymphocyte,affects,atypical lymphocytes (downey cells) which are abnormally large reactive cd8+ t-cells with strongly basophilic cytoplasm (seen with peripheral blood smear)
+epstein-barr_virus,b-cell,infects,"latency within b cells, persisting indefinitely within the host, potentially reactivating"
+epstein-barr_virus,glycoprotein,contains,gp350 binds to CD21 on B cells
+epstein-barr_virus,spleen,symptom,"splenomegaly, avoid contact sports when infected with mono due to splenic rupture"
+epstein-barr_virus,neoplasia,exacerbation,"Hasopharyngeal carcinoma. Hodgkin and non-Hodgkin lymphoma (Burkitt lymphoma). Hodgkin lymphoma is characterized by Reed-Sternberg cells, large, abnormal B cells with a distinctive bilobed nucleus"
+epstein-barr_virus,lesion,symptom,endemic burkitt lymphoma presents as swelling or lesions in the jaw
+epstein-barr_virus,hiv,complication,"oral hairy leukoplakia, benign white lesions is triggered by EBV in individuals with HIV or AIDS"
+herpesviridae,varicella-zoster_virus,related,subtype
+varicella-zoster_virus,chickenpox,children,
+varicella-zoster_virus,shingles,adult,
+varicella-zoster_virus,droplet,spread,
+varicella-zoster_virus,tzanck_smear,testing,"hisorically, not used anymore"
+varicella-zoster_virus,pcr,testing,
+chickenpox,sequelae,complication,varicella pneumonia and rarely encephalitis. Adults more likely than children to develop
+varicella-zoster_virus,immunocompromised,complication,elevated risk for complications
+varicella-zoster_virus,vaccine,live attenuated,"note, shingrix, a recombinant subunit vaccine is now used for shingles prevention. CD4 > 200 eligible"
+varicella-zoster_virus,neonate,affects,"vertical transmission, congenital varicella syndram marked by skin scarring, visual impairment, and underdeveloped limbs"
+herpesviridae,hhv-6,related,subtype
+hhv-6,t-cell,infects,targets CD4 helpter t-cells
+hhv-6,fever,symptom,high fever (104 degrees) for 4 days
+hhv-6,cns,symptom,febrile seizures
+hhv-6,rash,symptom,"diffuse, lacy body rash AFTER the fever has subsided, spares the face"
+herpesviridae,hhv-8,related,subtype
+hhv-8,sti,spread,men who have sex with men
+hhv-8,kaposi_sarcoma,causes,AIDS defining illness
+hhv-8,b-cell,infects,B cell lymphoma
+kaposi_sarcoma,bartonella_henselae,related,"bacillary angiomatosis similar to kaposi lesions, microscopic examinations of lesions to differentiate"
+polyomaviridae,strand,double,
+polyomaviridae,jc_virus,related,subtype
+polyomaviridae,bk_virus,related,subtype
+jc_virus,cns,affects,"PML, marked by non-enhancing multifocal brain lesions"
+jc_virus,hiv,complication,at increased risk
+bk_virus,immunocompromised,complication,transplant patients (kidney and bone marrow)
+bk_virus,kidney,affects,nephropathy and hemorrhagic cystitis
+hpv,strand,double,
+hpv,papule,symptom,"1-4 causes cutaneous (hands and feet), 6 and 11 cause anogenital warts"
+hpv,sti,spread,"6 and 11, and others"
+hpv,treponema_pallidum,similar,condyloma lata and condyloma acuminata
+hpv,contact,spread,direct physical contact for 1-4
+hpv,neoplasia,exacerbation,"laryngeal papillomatosis (6 and 11) and squamous cell cancer (16, 18, 31, 33)"
+hpv,vaccine,gardasil 9,does not cover types 1-4
+hpv,p53,affects,E6 protein causes uncontrolled cell proliferation by degrading p53
+hpv,pap_smear,testing,
+hpv,retinoblastoma,affects,"E7 protein targets Rb, leading to unchecked cellular proliferation"
+hpv,immunocompromised,exacerbation,"persistent hpv infection with hiv, increased risk for cervical cancer"
+parvoviridae,strand,single,
+parvoviridae,size,small,one of the smallest viruses
+parvoviridae,droplet,spread,
+parvoviridae,neonate,affects,"vertical transmission, TORCH virus"
+parvoviridae,rash,symptom,"""slapped cheek syndrome"", manifests initially on the face and spreads inferiorly"
+parvoviridae,edema,symptom,
+parvoviridae,arthritis,symptom,arthralgias and arthritis
+parvoviridae,anemia,symptom,"transient aplastic crisis in individuals with sicklle cell, severe and temporary reduction in red blood cell production"
+parvoviridae,hydrops_fetalis,symptom,
+adenovirus,strand,double,
+adenovirus,fecal_oral,spread,less common
+adenovirus,droplet,spread,
+adenovirus,tonsil,affects,acute tonsillitis
+adenovirus,eye_infection,symptom,viral conjunctivitis (pink eye)
+adenovirus,fever,symptom,
+adenovirus,pneumonia,symptom,
+adenovirus,kidney,affects,hemorrhagic cystitis
+adenovirus,vaccine,live attenuated,oral
+poxviridae,strand,double,
+poxviridae,size,large,largest DNA viruses
+poxviridae,cytoplasm,location,replicate in cytoplasm where they azquire lipoprotein membranes from intracellular membranes of host
+poxviridae,rna_pol,enzyme,"DNA dependent RNA polymerase, does not need nuclear machinery"
+poxviridae,granular_inclusion,contains,Guarnieri bodies
+poxviridae,smallpox,related,subtype
+poxviridae,cowpox,related,subtype
+poxviridae,molluscum_contagiosum,related,subtype
+smallpox,lesion,symptom,unifrorm unlike chickenpox
+smallpox,chickenpox,similar,uniform
+cowpox,smallpox,similar,helped with vaccine
+molluscum_contagiosum,lesion,symptom,dome shaped with central umbilical dimple
+molluscum_contagiosum,immunocompromised,complication,lesions will appear in adults
+hep_b,strand,both,"partially single, partially double"
+hep_b,hepatitis,symptom,"viral hepatitis, chronic infection can lead to cirrhosis"
+hep_b,envelope,encased,acquires from host organelles
+hep_b,nucleus,location,Final viral DNA undergoes processes similar to ccDNA formation and transcription
+hep_b,endoplasmic_reticulum,uses,HBs
+hep_b,capsid,contains,core protein
+hep_b,golgi_apparatus,uses,HBs
+hep_b,cytoplasm,location,"packaging of polymerase and core protein, pgRNA converts back to viral DNA which is transported into the nucleus. Surface antigen produced here"
+hep_b,reverse_transcriptase,enzyme,
+hep_b,sti,spread,"sexual contact, IV drug use, and blood transfusions"
+hep_b,neonate,affects,spread during childbirth when there is a mixing of maternal and fetal blood (TORCH)
+hep_b,sequelae,exacerbation,"polyarteritis nodosa (inflammation and necrosis of medium sized vessels). Involves kidneys, manifesting as hypertension, microscopic hematuria, and proteinuria"
+hep_b,rash,symptom,maulopapular or urticarial
+hep_b,arthritis,symptom,polyarthralgia and polyarthritis
+hep_b,glomerulus,affects,Chronic HBV can cause kidney disease like membranous glomerulopathy (subtle basement membrane thicking) and membranoproliferative glomerulonephritis with more extensive tissue changes
+hep_b,glycoprotein,contains,HBsAg (hepatitis B surface antigen) and marks active HBV. HBeAg (hep B envelope antigen) indicates active viral replication and increased infectivity. 
+hep_b,serology,testing,"HBsAg and HBeAg positive during symtomatic phase. Anti-Hbe antibodies indicates resolution of acute infection, anti-HBs indicate recovery from HBV infection or successful vaccination. Vaccine only will test negative for other antibodies"
+hep_b,immunoglobulin,IgM,Anti-HBc IgM 9hepatitis B core antibodies is the first detectable antibody during the window period (viral antigens no longer present and subsequent antibodies yet to form)
+hep_b,neoplasia,exacerbation,hepatocellular carcinoma
+hep_b,hep_d,related,hep_d requires hep_b coinfection (surface antigen required)
+hep_d,strand,single,circular
+hep_d,envelope,encased,
+hep_b,lamivudine,treatment,
+hep_b,nrti,treatment,
+hep_b,interferon_alpha,treatment,
+hep_b,vaccine,killed,"at risk infants, active"
+hep_b,immunoglobulin,HBIG,"At risk infants, passive"
+hep_b,liver,affects,HBV binds to hepatocytes using proteoglycans
+hep_b,dna,converts,partially double stranded DNA is converted into covalently closed circular DNA through genome repair
+hep_b,rna_pol,uses,"Uses host RNA polymerase to transcribe cccDNA into four RNA intermediates, subgenomic RNA and pregenomic RNA produce core protein, viral polymerase, and surface antigens"
+nrti,lamivudine,example,
+nrti,reverse_transcriptase,inhibits,nucleotide analog
+nrti,lipodystrophy,side effect,
+nrti,hiv,treatment,2 NRTIs and 1 integrase inhibitor is typical
+nrti,lactic_acidosis,side effect,
+nrti,cutaneous,side effect,hyperpigmentation of palms and soles
+nrti,anemia,side effect,zidovudine
+nrti,myelosuppression,side effect,zidovudine
+nrti,prophylaxis,prevents,zidovudine prevents vertical transmission. Tenofovir + emtricitabine for HIV PrEP
+nrti,granulocyte,affects,zidovudine can cause agranulocytosis
+nrti,hypersensitivity,side effect,associated with HLA -B 57:01
+nnrti,reverse_transcriptase,inhibits,binds to allosteric site
+nnrti,teratogen,side effect,
+nnrti,liver,affects,liver toxicity
+nnrti,cns,affects,"dizziness, psychosis, etc."
+nnrti,cytochrome_p450,side effect,
+nnrti,cutaneous,side effect,sjs and tens
+nnrti,hiv,treatment,
+protease_inhibitor,protease,inhibits,
+protease_inhibitor,hiv,treatment,
+protease_inhibitor,lipodystrophy,side effect,
+protease_inhibitor,cytochrome_p450,side effect,inhibition with ritonavir
+protease_inhibitor,tuberculosis_drug,interaction,"rifampin induces cyp450, so rifabutin is substituted"
+entry_inhibitor,t-cell,binds,CCR5
+entry_inhibitor,hiv,treatment,gp120 and CCR5 interaction
+fusion_inhibitor,hiv,treatment,gp41 interaction
+integrase_inhibitor,integrase,inhibits,
+integrase_inhibitor,hiv,treatment,
+integrase_inhibitor,myopathy,side effect,may cause rhabdomyolysis
+acy_vala_fam,herpes_simplex_viruses,treatment,
+acy_vala_fam,varicella-zoster_virus,treatment,
+acy_vala_fam,resistance,develops,viral kinase mutations
+acy_vala_fam,shingles,treatment,valacyclovir and famciclovir
+acy_vala_fam,dna_pol,inhibits,replication
+acy_vala_fam,prophylaxis,prevents,HSV prophylaxis in pregnant women with genital herpes or immunocompromised states
+acy_vala_fam,kidney,side effect,"interstitial nephritis or crystalline nephropathy, solved by hydration"
+acy_vala_fam,cns,side effect,"delirium, confusion, vertigo, hallucinations"
+daa,protease,inhibits,NS3/4A
+daa,rdrp,inhibits,NS5B
+daa,headache,side effect,with fatigue and nausea
+gan_val,dna_pol,inhibits,replication
+gan_val,cytomegalovirus,treatment,
+gan_val,resistance,develops,viral kinase mutations
+gan_val,myelosuppression,side effect,additive with zidovudine
+foscarnet,cytomegalovirus,treatment,
+foscarnet,herpes_simplex_viruses,treatment,
+foscarnet,varicella-zoster_virus,treatment,
+foscarnet,kidney,side effect,renal insufficiency
+foscarnet,cns,side effect,seizures
+cidofovir,cytomegalovirus,treatment,
+cidofovir,herpes_simplex_viruses,treatment,
+cidofovir,varicella-zoster_virus,treatment,
+cidofovir,dna_pol,inhibits,
+cidofovir,kidney,side effect,"nephrotoxicity, treated with probenecid (which increases plasma concentrations of different drugs)"
+resistance,recombination,involves,recombination events such as antigenic shift give viruses increased variation and resistance
+hep_e,strand,single,
+hep_e,hepatitis,symptom,
+hep_e,caliciviridae,related,
+hep_e,fecal_oral,spread,
+hep_e,immunocompromised,exacerbation,
+hep_e,serology,testing,
+htlv-1,strand,single,
+htlv-1,integrase,enzyme,
+htlv-1,t-cell,infects,attaches to protiens on T cels or dentritic cells
+htlv-1,asymptomatic,state,latent provirus
+htlv-1,budding,performs,
+htlv-1,sti,spread,blood transfer and sexual contact
+htlv-1,cns,affects,"HTLV1 associated progressive myelopathy (tropical spastic paraparesis)."", ""Uveitis, arthritis ,polymyositis, dermatitis, and keratoconjunctivitis""]"
+htlv-1,pcr,testing,"[""peripheral blood mononuclear cells and distinguish between type 1 and 2"
+htlv-1,antibody_test,testing,recombinant HTLV antigens
+htlv-1,kidney,affects,bladder symtpoms and spastic galt
+htlv-1,neoplasia,exacerbation,"[""gag, pol, and env genes"", provirus cell proto-oncogene"", ""Adult T cell Leukemia"""
+htlv-1,envelope,encased,
+htlv-1,glycoprotein,contains,
+htlv-1,pcr,testing,
