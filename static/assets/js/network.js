@@ -68,9 +68,10 @@ function showSection(sectionId) {
     const edgePopup = document.getElementById("edgePopup");
 
     // Set popup content
-    document.getElementById("edge-label").textContent = edgeData.label || "No Label";
-    document.getElementById("edge-description").textContent = edgeData.description || "";
-    document.getElementById("edge-connection").textContent = `${fromNode.label} <-> ${toNode.label}`;
+    document.getElementById("edge-description").textContent = edgeData.label || "No Label";
+    document.getElementById("edge-connection").textContent = edgeData.description || "";
+    document.getElementById("edge-label").innerHTML = `
+      ${fromNode.label} <span style="color: white;">&lt;---&gt;</span> ${toNode.label}`;
 
     // Show the popup
     edgePopup.style.display = "block";
@@ -318,9 +319,16 @@ function showSection(sectionId) {
 
     showLoader();
 
+    // Set a threshold for hiding edge labels
+    const edgeLabelThreshold = 400; // Adjust the threshold as needed
+    const edgeFontSize = edges.length > edgeLabelThreshold ? 0 : 7.5; // 0 hides the labels
+
+    // Filter edges to include only one edge per node
+    const filteredEdges = filterEdgesToSinglePerNode(edges);
+
     // Initialize the network
     const container = document.getElementById("network_graph");
-    const data = { nodes: nodes, edges: edges };
+    const data = { nodes: nodes, edges: filteredEdges };
     const options = {
       nodes: {
         shape: "dot", // Use circle shape
@@ -339,7 +347,7 @@ function showSection(sectionId) {
             highlight: '#00008B'
         },
         font: {
-          size: 7.5, // Smaller font size for edges
+          size: edgeFontSize, // Smaller font size for edges
           align: "middle"
         },
       },
@@ -351,16 +359,16 @@ function showSection(sectionId) {
       physics: {
         enabled: true,
         stabilization: {
-            iterations: 200, // Reduce iterations for faster stabilization
+            iterations: 300, // Reduce iterations for faster stabilization
             updateInterval: 20,
             fit: true, // Keep the current fit behavior
             onlyDynamicEdges: false // Apply to all edges
         },
         barnesHut: {
-            gravitationalConstant: -4000, // Increase gravitational pull for better clustering
-            centralGravity: 0.1, // Increase to bring nodes closer to the center faster
-            springLength: 200, // Shorten spring length for tighter layouts
-            springConstant: 0.04 // Slightly increase for quicker stabilization
+            gravitationalConstant: -2000, // Increase gravitational pull for better clustering
+            centralGravity: 0.5, // Increase to bring nodes closer to the center faster
+            springLength: 180, // Shorten spring length for tighter layouts
+            springConstant: 0.06 // Slightly increase for quicker stabilization
         }
       }
         
@@ -401,6 +409,24 @@ function showSection(sectionId) {
       }
     });
 
+    // Function to filter edges to include only one edge per node
+    function filterEdgesToSinglePerNode(edges) {
+      const edgeMap = new Map();
+      const filteredEdges = new vis.DataSet();
+
+      edges.forEach(edge => {
+        if (!edgeMap.has(edge.from)) {
+          edgeMap.set(edge.from, edge);
+          filteredEdges.add(edge);
+        } else if (!edgeMap.has(edge.to)) {
+          edgeMap.set(edge.to, edge);
+          filteredEdges.add(edge);
+        }
+      });
+
+      return filteredEdges;
+    }
+
     // Store active filters
     let activeFilters = {
       nodes: [], // Filtered nodes
@@ -439,6 +465,11 @@ function showSection(sectionId) {
       // Clear other filters
       activeFilters = { class: [], edgeLabels: [], nodes: [] };
 
+      network.setOptions({ 
+        physics: { enabled: true },
+        edges: { smooth: true},   // Disable smooth edges 
+      });
+
       const selectedClasses = Array.from(classFilterDropdown.selectedOptions).map(opt => opt.value);
 
       // Update active filters with selected classes
@@ -461,6 +492,14 @@ function showSection(sectionId) {
       });
 
 
+      network.setOptions({
+        edges: {
+          font: {
+            size: filteredEdges.length > edgeLabelThreshold ? 0 : 7.5,
+          },
+        },
+      });
+  
       // Update the network with the filtered data
       network.setData({
         nodes: new vis.DataSet(filteredNodes),
@@ -508,7 +547,13 @@ function showSection(sectionId) {
       
       showLoader();
       // Clear other filters
+
       activeFilters = { class: [], edgeLabels: [], nodes: [] };
+
+      network.setOptions({ 
+        physics: { enabled: true },
+        edges: { smooth: true},   // Disable smooth edges 
+      });
 
       // Get the selected edge label
       const selectedLabel = document.getElementById("edgeLabelFilter").value;
@@ -542,6 +587,13 @@ function showSection(sectionId) {
 
       activeFilters.nodes = Array.from(filteredNodeIds);
 
+      network.setOptions({
+        edges: {
+          font: {
+            size: filteredEdges.length > edgeLabelThreshold ? 0 : 7.5,
+          },
+        },
+      });
 
       // Update the network with the filtered nodes and edges
       network.setData({
@@ -589,6 +641,11 @@ function showSection(sectionId) {
 
       showLoader();
 
+      network.setOptions({ 
+        physics: { enabled: true },
+        edges: { smooth: true},   // Disable smooth edges 
+      });
+
       // Clear other filters
       activeFilters = { class: [], edgeLabels: [], nodes: [] };
 
@@ -615,6 +672,13 @@ function showSection(sectionId) {
         return filteredNodeIds.has(edge.from) || filteredNodeIds.has(edge.to);
       });
 
+      network.setOptions({
+        edges: {
+          font: {
+            size: filteredEdges.length > edgeLabelThreshold ? 0 : 7.5,
+          },
+        },
+      });
 
       // Update network data
       network.setData({
@@ -694,13 +758,44 @@ function showSection(sectionId) {
 
         showLoader();
 
+        network.setOptions({ 
+          physics: { enabled: true },
+          edges: { smooth: true},   // Disable smooth edges 
+        });
+
         const selectedOrder = radio.value;
 
         // Get the filtered nodes and edges based on active filters
         const { filteredNodes, filteredEdges } = getFilteredNodesAndEdges();
 
-        if (selectedOrder === "full") {
+        if (selectedOrder === "subset") {
           // Show the full network
+
+          const filteredEdges = filterEdgesToSinglePerNode(edges);
+
+          network.setOptions({
+            edges: {
+              font: {
+                size: filteredEdges.length > edgeLabelThreshold ? 0 : 7.5,
+              },
+            },
+          });
+
+          network.setData({
+            nodes: nodes, // Full nodes dataset
+            edges: filteredEdges, // Full edges dataset
+          });
+        }
+        else if (selectedOrder === "full") {
+          // Show the full network
+          network.setOptions({
+            edges: {
+              font: {
+                size: edges.length > edgeLabelThreshold ? 0 : 7.5,
+              },
+            },
+          });
+
           network.setData({
             nodes: nodes, // Full nodes dataset
             edges: edges, // Full edges dataset
@@ -710,6 +805,13 @@ function showSection(sectionId) {
           const renderOrder = parseInt(selectedOrder, 10);
           const { finalNodes, finalEdges } = getNodesAndEdgesByOrder(filteredNodes, filteredEdges, renderOrder);
 
+          network.setOptions({
+            edges: {
+              font: {
+                size: finalEdges.length > edgeLabelThreshold ? 0 : 7.5,
+              },
+            },
+          });
           
           // Update the network with the new data
           network.setData({
@@ -718,8 +820,16 @@ function showSection(sectionId) {
           });
         }
 
-        // Event: Hide loader when stabilization is done
-        network.once("stabilizationIterationsDone", () => hideLoader());
+        // Event: Hide loader and disable physics after stabilization
+        network.once("stabilizationIterationsDone", () => {
+          hideLoader(); // Hide the loader
+          if (selectedOrder==="full"){
+            network.setOptions({
+              physics: { enabled: false }, // Disable physics
+              edges: { smooth: false },   // Disable smooth edges
+            });
+          }
+        });
 
 
       });
@@ -745,6 +855,83 @@ function showSection(sectionId) {
       const filteredEdges = edges.get();
       return { filteredNodes, filteredEdges };
     }
+
+    document.getElementById("searchBtn").addEventListener("click", () => {
+      const searchTerm = document.getElementById("searchBar").value.toLowerCase().trim();
+    
+      if (!searchTerm) {
+        alert("Please enter a search term.");
+        return;
+      }
+
+      network.setOptions({ 
+        physics: { enabled: true },
+        edges: { smooth: true},   // Disable smooth edges 
+      });
+    
+      // Filter nodes based on name, definition, or properties
+      const matchingNodes = nodes.get({
+        filter: (node) =>
+          (node.label && node.label.toLowerCase().includes(searchTerm)) ||
+          (node.definition && node.definition.toLowerCase().includes(searchTerm)) ||
+          (node.properties && node.properties.some((prop) => prop.toLowerCase().includes(searchTerm))),
+      });
+    
+      // Get IDs of matching nodes
+      const matchingNodeIds = matchingNodes.map((node) => node.id);
+    
+      // Filter edges based on connection name, description, or keyword match
+      const matchingEdges = edges.get({
+        filter: (edge) =>
+          (edge.label && edge.label.toLowerCase().includes(searchTerm)) ||
+          (edge.description && edge.description.toLowerCase().includes(searchTerm)),
+      });
+
+      // Check if no nodes or edges match
+      if (matchingNodes.length === 0 && matchingEdges.length === 0) {
+        alert("No nodes or edges match the search term.");
+        return;
+      }
+    
+      // Collect all nodes connected by matching edges
+      const connectedNodeIds = matchingEdges.reduce((ids, edge) => {
+        ids.add(edge.from);
+        ids.add(edge.to);
+        return ids;
+      }, new Set(matchingNodeIds));
+    
+      // Add any additional edges associated with the connected nodes
+      const allAssociatedEdges = edges.get({
+        filter: (edge) => connectedNodeIds.has(edge.from) && connectedNodeIds.has(edge.to),
+      });
+    
+      // Collect all nodes connected by associated edges
+      allAssociatedEdges.forEach((edge) => {
+        connectedNodeIds.add(edge.from);
+        connectedNodeIds.add(edge.to);
+      });
+    
+      // Get the final set of nodes to display
+      const finalNodes = nodes.get({
+        filter: (node) => connectedNodeIds.has(node.id),
+      });
+
+      network.setOptions({
+        edges: {
+          font: {
+            size: allAssociatedEdges.length > edgeLabelThreshold ? 0 : 7.5,
+          },
+        },
+      });
+    
+      // Update the network with the filtered nodes and edges
+      network.setData({
+        nodes: new vis.DataSet(finalNodes),
+        edges: new vis.DataSet(allAssociatedEdges),
+      });
+    });
+    
+    
 
 
 
@@ -810,6 +997,8 @@ function initializeJourneyNetwork() {
   // Populate the connected nodes selector
   populateScrollableButtons(currentNodeId);
 
+  populateResetJourneyDropdown();
+
   // Add event listener for node clicks
   journeyNetwork.on("click", function (params) {
     if (params.nodes.length > 0) {
@@ -873,6 +1062,66 @@ function populateScrollableButtons(nodeId) {
   });
 }
 
+// Populate the node selection dropdown
+function populateResetJourneyDropdown() {
+  const resetJourneySelect = document.getElementById("resetJourneySelect");
+
+  // Clear previous options
+  resetJourneySelect.innerHTML = '<option value="" disabled selected>Select Starting Node</option>';
+
+  // Collect nodes into an array
+  const nodeArray = nodes.get().map(node => ({
+    id: node.id,
+    label: node.label || node.name || node.id, // Use label, name, or ID for display
+  }));
+
+  // Sort nodes alphabetically by their labels
+  nodeArray.sort((a, b) => a.label.localeCompare(b.label, undefined, { sensitivity: 'base' }));
+
+
+  // Populate the dropdown with sorted nodes
+  nodeArray.forEach(node => {
+    const option = document.createElement("option");
+    option.value = node.id; // Use node ID for filtering
+    option.textContent = node.label; // Display node label
+    resetJourneySelect.appendChild(option);
+  });
+}
+
+// Handle node selection with Select2
+$('#resetJourneySelect').on('select2:select', (event) => {
+  const selectedNodeId = event.params.data.id; // Get the selected node ID
+
+  if (!selectedNodeId) {
+    alert("Please select a node.");
+    return;
+  }
+
+  // Clear the journey network
+  journeyNodes.clear();
+  journeyEdges.clear();
+
+  // Get the selected node
+  const selectedNode = nodes.get(selectedNodeId);
+
+  if (!selectedNode) {
+    alert("Selected node not found.");
+    return;
+  }
+
+  // Add the selected node to the journey network
+  journeyNodes.add(selectedNode);
+
+  // Update the journey network with the new starting node
+  journeyNetwork.setData({ nodes: journeyNodes, edges: journeyEdges });
+
+  // Update the node selection buttons
+  populateScrollableButtons(selectedNode.id);
+
+  // Clear the Select2 selection
+  $('#resetJourneySelect').val(null).trigger('change');
+});
+
 // Function to add a new node and edge to the journey network
 function addNodeAndEdge(fromNodeId, toNodeId) {
   // Add the new node
@@ -933,12 +1182,112 @@ function typeWriterEffect(elementId, text, speed, step = 1) {
   type();
 }
 
+let questionType = "random"; // Default to random questions
+let questionFormat = "basic"; // Default to basic questions
+
+
+// Handle segmented button clicks
+document.getElementById("randomButton").addEventListener("click", () => {
+  questionType = "random";
+
+  // Update button styles
+  document.getElementById("randomButton").classList.add("active");
+  document.getElementById("focusedButton").classList.remove("active");
+
+  // Hide the dropdown
+  $("#focusedNodeSelect").next(".select2-container").hide();
+});
+
+document.getElementById("focusedButton").addEventListener("click", () => {
+  questionType = "focused";
+
+  // Update button styles
+  document.getElementById("focusedButton").classList.add("active");
+  document.getElementById("randomButton").classList.remove("active");
+
+  // Show and populate the dropdown
+  populateFocusedNodeDropdown();
+  $("#focusedNodeSelect").next(".select2-container").show();
+});
+
+// Handle segmented button clicks for Basic/Vignette
+document.getElementById("basicButton").addEventListener("click", () => {
+  questionFormat = "basic";
+  document.getElementById("basicButton").classList.add("active");
+  document.getElementById("vignetteButton").classList.remove("active");
+});
+
+document.getElementById("vignetteButton").addEventListener("click", () => {
+  questionFormat = "vignette";
+  document.getElementById("vignetteButton").classList.add("active");
+  document.getElementById("basicButton").classList.remove("active");
+});
+
+// Populate the dropdown for focused questions
+function populateFocusedNodeDropdown() {
+  const focusedNodeSelect = $("#focusedNodeSelect");
+  focusedNodeSelect.empty(); // Clear existing options
+
+  
+  // Collect nodes into an array
+  const nodeArray = nodes.get().map(node => ({
+    id: node.id,
+    label: node.label || node.name || node.id, // Use label, name, or ID for display
+  }));
+
+  // Sort nodes alphabetically by their labels
+  nodeArray.sort((a, b) => a.label.localeCompare(b.label, undefined, { sensitivity: 'base' }));
+
+
+  // Populate the dropdown with sorted nodes
+  nodeArray.forEach(node => {
+    focusedNodeSelect.append(new Option(node.label || `Node ${node.id}`, node.id));
+  });
+
+  // Refresh Select2
+  focusedNodeSelect.trigger("change");
+}
 
 let correctAnswer = ""; // Variable to store the correct answer
+let correctExplanation = ""; // Variable to store the explanation
+
+// Function to shuffle an array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+  }
+  return array;
+}
 
 // Handle Generate Question Button Click
 document.getElementById("generateQuestionBtn").addEventListener("click", () => {
-  fetch("/generate_question")
+
+  let url = "/generate_question";
+  let queryParams = {
+    format: questionFormat, // Include question format in the query
+  };
+
+  // Check if the user selected focused questions
+  if (questionType === "focused") {
+    const selectedNodeIds = $("#focusedNodeSelect").val(); // Get selected values from Select2
+
+    if (!selectedNodeIds || selectedNodeIds.length === 0) {
+      alert("Please select at least one node for focused questions.");
+      return;
+    }
+
+    // Add the selected nodes to the query params
+    queryParams.node_ids = selectedNodeIds.join(",");
+  }
+
+  // Append query parameters to the URL if applicable
+  if (Object.keys(queryParams).length > 0) {
+    const queryString = new URLSearchParams(queryParams).toString();
+    url = `${url}?${queryString}`;
+  }
+
+  fetch(url)
     .then(response => response.json())
     .then(data => {
       if (data.error) {
@@ -957,30 +1306,50 @@ document.getElementById("generateQuestionBtn").addEventListener("click", () => {
 
       // Extract the correct answer
       correctAnswer = data.correct_option;
+      correctExplanation = data.explanation;
 
-      // Render options as radio buttons
+      // Combine the options into an array of objects for better tracking
+      const options = data.options.map(option => ({
+        text: option,
+        isCorrect: option === correctAnswer,
+      }));
+
+      // Shuffle the options
+      const shuffledOptions = shuffleArray(options);
+
+      // Render shuffled options as styled radio buttons
       questionOptions.innerHTML = ""; // Clear existing options
-      data.options.forEach((option, index) => {
+      shuffledOptions.forEach((option, index) => {
+        // Create the answer container
         const optionDiv = document.createElement("div");
-        optionDiv.style.marginBottom = "10px";
+        optionDiv.className = "answer-choice"; // Add class for styling
 
+        // Create the styled radio button
         const radio = document.createElement("input");
         radio.type = "radio";
         radio.name = "mcqOption";
-        radio.value = option;
+        radio.value = option.text;
         radio.id = `option${index}`;
+        radio.className = "styled-radio"; // Add class for styling
 
+        // Create the label for the option
         const label = document.createElement("label");
         label.htmlFor = `option${index}`;
-        label.textContent = option;
+        label.textContent = option.text;
 
+        // Append the radio button and label to the container
         optionDiv.appendChild(radio);
         optionDiv.appendChild(label);
+
+        // Append the option container to the options list
         questionOptions.appendChild(optionDiv);
       });
 
       // Show the Submit button
       submitAnswerBtn.style.display = "inline-block";
+      //reset the feedback
+      const feedbackElement = document.getElementById("answerFeedback");
+      feedbackElement.innerHTML = ``;
     })
     .catch(error => {
       console.error("Error generating question:", error);
@@ -999,20 +1368,56 @@ document.getElementById("submitAnswerBtn").addEventListener("click", () => {
   }
 
   if (selectedOption.value === correctAnswer) {
-    feedbackElement.textContent = "Correct! Well done!";
-    feedbackElement.style.color = "green";
+    feedbackElement.innerHTML = `<span style="color: green;">Correct! Well done! <br>Explanation: ${correctExplanation}</span>`;
   } else {
-    feedbackElement.textContent = "Incorrect. Try again!";
-    feedbackElement.style.color = "red";
+    feedbackElement.innerHTML = `<span style="color: red;">Incorrect. Try again!</span>`;
   }
 });
 
 
 
 
-
 // Show the first section (home) by default on page load
 document.addEventListener('DOMContentLoaded', () => {
+
+    $('#classFilterDropdown').select2({
+      placeholder: "Filter by Class", // Custom placeholder for this dropdown
+      allowClear: true,              // Allow clearing the selected options
+      width: '100%'                  // Adjust width to fit container
+    });
+
+    // Initialize Select2 for the Edge Label Filter Dropdown
+    $('#edgeLabelFilter').select2({
+      placeholder: "Filter by Connection", // Custom placeholder for this dropdown
+      allowClear: true,                          // Allow clearing the selected options
+      width: '100%'                              // Adjust width to fit container
+    });
+
+    $('#nodeFilterDropdown').select2({
+      placeholder: "Filter by Concept", // Custom placeholder for this dropdown
+      allowClear: true,              // Allow clearing the selected options
+      width: '100%'                  // Adjust width to fit container
+    });
+
+    $('#resetJourneySelect').select2({
+      placeholder: "Select Starting Node", // Custom placeholder for this dropdown
+      allowClear: true,              // Allow clearing the selected options
+      width: '40%'                  // Adjust width to fit container
+    });
+
+    // Initialize Select2 for the multi-select dropdown
+    $(document).ready(function () {
+      $("#focusedNodeSelect").select2({
+        placeholder: "Select Nodes",
+        allowClear: true,
+        width: "resolve", // Automatically adjust to container width
+      });
+
+      // Hide the Select2 container on initialization
+      $("#focusedNodeSelect").next(".select2-container").hide();
+    });
+
+
     showSection('home');
 
     const paragraphText = "Select related concepts to build a pathway. A description of each new edge will be shown here";

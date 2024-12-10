@@ -1990,7 +1990,7 @@ section,
 .btn-styled {
   font-family: var(--heading-font);
   font-weight: 500;
-  font-size: 10px;
+  font-size: 8.5px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 6px 18px; /* Ensure consistent vertical padding with the dropdown */
@@ -2058,8 +2058,8 @@ section,
 .filter-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
+  gap: 10px;
+  justify-content: space-evenly;
   align-items: center; /* Align all items vertically in the center */
 }
 
@@ -2067,8 +2067,117 @@ section,
 .filter-item {
   display: flex;
   align-items: center; /* Vertically align dropdown and button */
-  gap: 10px; /* Space between dropdown and button */
+  gap: 5px; /* Space between dropdown and button */
 }
+
+/* Style the overall Select2 container */
+#resetJourneySelect + .select2-container {
+  width: 300px !important; /* Set a fixed width */
+  font-size: 14px;         /* Adjust font size */
+  border-radius: 5px;      /* Rounded corners */
+}
+
+/* Style the selection box */
+#resetJourneySelect + .select2-container .select2-selection--single {
+  border: 2px solid #28a745; /* Green border */
+  background-color: #f8f9fa; /* Light gray background */
+  height: 40px;              /* Set height */
+  padding: 5px;              /* Adjust padding */
+  display: flex;
+  align-items: center;       /* Vertically align text */
+}
+
+/* Style the placeholder text */
+#resetJourneySelect + .select2-container .select2-selection__placeholder {
+  color: #6c757d; /* Gray color */
+  font-style: italic;
+}
+
+/* Style the dropdown items */
+#resetJourneySelect + .select2-container .select2-results__option {
+  color: #000;              /* Text color */
+  padding: 10px;            /* Increase padding */
+}
+
+#resetJourneySelect + .select2-container .select2-results__option--highlighted {
+  background-color: #007bff; /* Highlighted item background */
+  color: #fff;               /* Highlighted item text color */
+}
+
+/* Center and align the question-config elements */
+.question-config {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center;    /* Align the items vertically */
+  gap: 20px;              /* Space between segments and dropdown */
+}
+
+/* Style segmented buttons */
+.segmented-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.btn-segmented {
+  padding: 10px 20px;
+  border: 2px solid #003772;
+  background-color: white;
+  color: #000000;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-segmented.active {
+  background-color: #00366f;
+  color: white;
+}
+
+
+/* Style the Select2 dropdown for focusedNodeSelect */
+#focusedNodeSelect + .select2-container {
+  width: 300px !important; /* Set a fixed width */
+}
+
+/* Style the multiple selection input */
+#focusedNodeSelect + .select2-container--default .select2-selection--multiple {
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 5px;        /* Rounded corners */
+  background-color: #f8f9fa; /* Light background */
+  padding: 5px;             /* Add padding */
+}
+
+/* Style the selected items (tags) */
+#focusedNodeSelect + .select2-container--default .select2-selection__choice {
+  background-color: #007bff; /* Blue background for selected items */
+  color: white;              /* White text for selected items */
+  border: 1px solid #0056b3; /* Darker blue border */
+  border-radius: 3px;        /* Slightly rounded corners for tags */
+  padding: 2px 5px;          /* Adjust padding for tags */
+  margin: 2px;               /* Space between tags */
+}
+
+/* Style the "remove" button on tags */
+#focusedNodeSelect + .select2-container--default .select2-selection__choice__remove {
+  color: white; /* White remove button */
+  cursor: pointer;
+  margin-right: 5px; /* Add space between remove button and text */
+}
+
+/* Style the dropdown menu options */
+#focusedNodeSelect + .select2-container--default .select2-results__option {
+  padding: 10px; /* Add padding for better spacing */
+  color: #333;   /* Text color */
+}
+
+/* Style the highlighted dropdown menu option */
+#focusedNodeSelect + .select2-container--default .select2-results__option--highlighted {
+  background-color: #007bff; /* Highlighted item background */
+  color: white;              /* Highlighted item text color */
+}
+
+
 
 /* Color swatch for the legend */
 .color-swatch {
@@ -2098,11 +2207,20 @@ section,
 }
 
 
-#openLegendBtn {
-  position: absolute;
-  bottom: 20px; /* Position 20px from the bottom */
-  left: 20px; /* Position 20px from the left */
-  z-index: 10; /* Ensure it's above the network */
+.filter-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#searchBar {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
 }
 
 #toggleViewBtn {
@@ -2170,6 +2288,68 @@ section,
   word-wrap: break-word; /* Prevent long words from overflowing */
   transition: height 0.2s ease; /* Smooth height changes */
   overflow-y: scroll;
+}
+
+/* Center the dynamically injected answers container */
+#questionOptions {
+  display: flex;
+  flex-direction: column; /* Stack answer choices vertically */
+  gap: 10px;              /* Space between answers */
+  align-items: flex-start; /* Align items (labels) to the left */
+  justify-content: center; /* Center the container vertically */
+  margin: 0 auto;         /* Center horizontally */
+  width: 100%;            /* Full width */
+  max-width: 600px;       /* Optional: Limit container width */
+}
+
+/* Align answer choices and add spacing */
+.answer-choice {
+  display: flex;
+  align-items: center;    /* Align radio button and text */
+  gap: 10px;              /* Space between radio button and text */
+  font-size: 16px;        /* Text size for better readability */
+  color: #333;            /* Text color */
+}
+
+/* Style the radio buttons as rounded squares */
+.styled-radio {
+  appearance: none;        /* Remove default styling */
+  width: 20px !important;            /* Set width */
+  height: 20px !important;            /* Set height */
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 5px;      /* Rounded corners for square shape */
+  outline: none;           /* Remove focus outline */
+  cursor: pointer;         /* Pointer cursor for interactivity */
+  position: relative;
+  background-color: white; /* Default background color */
+}
+
+/* Add a white checkmark when checked */
+.styled-radio:checked {
+  background-color: #007bff; /* Checked state background color */
+  border-color: #0056b3;     /* Checked state border color */
+}
+
+.styled-radio:checked::after {
+  content: '✓';             /* White checkmark */
+  font-size: 15px;          /* Adjust checkmark size */
+  color: white;             /* White color for checkmark */
+  position: absolute;
+  top: -2px;
+  left: 2px;
+}
+
+/* Adjust hover state for better interactivity */
+.styled-radio:hover {
+  border-color: #0056b3; /* Darker blue border on hover */
+}
+
+
+/* Feedback text styling */
+#answerFeedback {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
 }
 
 

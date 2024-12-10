@@ -1,0 +1,404 @@
+pen -> strep
+pen -> rheumatic fever
+pen -> peptido
+pen -> viridans 
+pen -> GBS prophylaxis
+pen -> israelii
+pen -> c. perfringens
+pen -> Pasteurella
+pen -> syphilis (benzathine)
+pen -> n. mening
+beta lactamase -> pen
+hypersensitivity - > pen
+anemia -> pen (IgG antibodies against penicillin bind to RBCs)
+pen -> nephritis
+
+nafcillin oxacillin -> beta lactamase resistance
+nafox -> staph aureus
+nafox -> endocarditis
+nafox -> osteomyelitis
+nafox -> resistance (altered PBPs)
+
+ampamox -> peptidoglycan
+ampax -> strep pharyngitis
+ampamox -> otitis media and sinusists
+ampax -> strep pneum
+ampox -> H,. inf
+ampox -> lyme disease
+ampox -> helico bacter
+amp -> IV anaerobic
+amp- > enterococcus
+amp -> beta lactamase (+ clavulanate sulbactacm
+amp -> listeria
+amp -> gram negative gi rods
+amp -> spleen (prophylaxis
+amp -> epidermal necrolysis (SJS TENS)
+
+
+piptic -> beta-lactamase inhibitors
+piptic -> anaer
+pitic -> pseudomonas
+
+1st gen -> strep staph
+1st -> strep pharynx
+1st -> proteus, ecoli, klebsiella uti
+1st -> prophylaxis
+2nd -> same as 1st with gram negative 
+3rd -> gram + and gram -
+3rd -> meningitis
+3rd -cns blood brain
+3rd -> hame
+3rd -> pneumonia
+ceftaz -> pseudomonas
+ceftri -> viridans and hacek
+ceft -> endocard
+ceft -> gonnor
+ceft -> lyme
+4th -> pseudomonas
+4th -> no MRSA
+5th -> MRSA
+
+monobactam -> aerobic gram negative rodes
+monobactom -> pseudomonas
+monobactam -> penicillin allergy
+monobactam -> resistant to beta lactamases
+carbapenem -> broad spectrum
+carbapenem -> resistant (used when)
+carbapenem -> gi
+carbapenem -> rash
+carbapenem -> cns
+
+vancomycin -> gram pos
+vanc -> mrsa
+binds dala dala directly
+vanc - > meningit
+vanc -> osteo
+vanc - nosocomial
+vanc -> staph epid
+vanc -> endo
+vanc -> enterococcus
+vanc -> c diff
+vanc - > mast cell
+vanc -> thrombo
+vanc -> nephrotox
+vanc -> ototox
+
+
+dapt -> vanc (resist)
+dapt -> MRSA
+dapt -> bacteremia
+dapt -> skin
+dapt -> no pneumonia (type 2 pneumocytw
+dapt -> rhabdomyolysis
+dapt -> CPK levels
+dapt - > neuropath
+dapt -> allergic
+
+
+tetra -> ribosome (30s)
+tetra 0> bac static
+tetra -> MRSA
+tetra -> rick, ehr, fran, borr
+tetra -> brucella
+tetra -> yersinia
+tetra -> chlamydial cerv and ureth
+tetra- > mycoplasma
+metals have reduced absorption
+teratogeneic
+diarrhea
+photosens
+Fanconi syndrome (renal tubular acidosis)
+
+
+macro - ribosome (50s)
+macro - bacteriostatic
+macro - antiinflam
+macro - prokinetic
+macro - pneumonia
+macro - legion
+macro mycoplas
+macro - chlamyd
+macro - bord
+macro - bart
+macro - coryneb
+macro - mycoba avium
+macro - helico
+macro - cdiff (fidaxomicin)
+macro - hepatitis
+macro - qt interval
+macro - rash
+inhibits pgp efflux
+
+
+clinda - 50s
+clinda - static
+clinda - staph
+clind - anaerobes
+clina - strep pyogenes
+clinda - gram positive
+clinda - MRSA
+clinda - abscesses
+clinda - bacteroides
+clinda - pneumonia
+clinda - perfringens
+clinda - Gardnerella
+clinda - aminoglyco (gentamicin for pid)
+clinda- cdiff (complication) 
+clinda - diarrhea
+clinda - vomiting
+
+chloral - meningitis - strep pneumo, h flu, n men
+chloral - anemia
+chloral - neonate (gray baby)
+chloral - 50s ribosome
+chloral - static
+chloral - ricket
+bone marrow suppression
+
+line - 50s ribosome
+line - gram positive
+line - nosocomial
+line - vanc
+line - enterococcus
+line - thrombocyte
+line - neuropathu(optic, peripheral)
+line - cns (serotonin)
+
+
+amino - 30s ribosome
+amino - cidal
+amino - gram negative aerobic
+amino - beta lactam (vanc)
+amino - IV
+amino - GI
+amino - tularemia
+amino - pestis
+amino - entero kleb, serr
+amino - nosocomial
+amino - uti
+amino - pseudo
+amino - enterococcus (vanc, beta)
+inactivated by acetylation (amikacin)
+amino - oto
+amino - nephron
+amino - pns neuromotor (myasthenia gravis contraindication)
+teratogen
+
+INH - tuber latent
+INh neuropathy
+inh - liver
+inh - cns seizures
+inh causes asymptomatic rise in aminotransferases
+inh can cause lupus and anion gap acidosis
+inh inhibits cyp450
+rifam activates cyp450
+rifam binds rna polymerase
+rifampin prophylaxis for meningitis
+orange body fluids
+eth - optic symtpoms
+pyr - uric acid
+pyr - hepatotoxic
+
+lep - m avium
+lep - macrolide
+dapsone - m leprae
+dapsone - agranulocytosis
+dapsone - anemia
+rifampin - leprosy
+clofazimine
+
+tmp - uti
+tmp - gram negative and positive
+tmp - MRSA
+tmp - nocardia
+tmp - pneumocystis jirovecii
+tmp - hiv cd < 200 toxoplasmosis cd < 100
+tmp - pancytopenia
+tmp - anemia
+tmp - teratogen
+tmp - allergy, rash, fever,
+tmp - kidney acidosis, hyperkalemia
+tmp - photosensitivity
+displaces other drugs from albumin
+inhibit cyp450
+lupus
+
+
+
+fluoro - topoisomerase(dna gyrase)
+fluro - gram negative
+flureo - cidal
+fluoro - gi
+fluoro - uti (complicated)
+fluoro -pseudo
+fluor -pyelonephritis
+fluro - osteomy (gram neg)
+fluoro - salmonella
+fluro - anthrax
+fluro - mycoplasma, legionella
+fluro - oral route (multivalent metals interfere)
+fluro - qt interval
+fluro - vomiting
+fluto - diarrhea
+flruo - tendon damage in elderly and steroid
+fluro - teratogen
+fluro - pregnancy
+
+metro - anaerobic
+free radical metabolites
+metro - giardia
+metro - patient partener
+metro - trichomonas
+metro - Gardnerella
+metro - helicon bacter substitute
+metro - bacteroides
+metro - clostridium
+metro - cdiff
+metro - palpitations, vomiting with alcohol
+
+
+amphotericin, nystatin - ergosterol, pores
+fungal cell membrane composed of ergosterol
+treats sever systemic fungal infections
+iv administration
+liposomal drug formulation
+ampho - fever
+intrathecal for cns
+ampho - renal
+flucytosine converted to CU and encorporated into dna
+
+azole - ketoconazole, miconazole, clotrimazole (imidazoles
+triazoles (itraconzole, fluconazole, and voriconazole)
+inhibit cyp450 that turns lanosterol into ergosterol
+voriconazole - candida ,aspergillosis
+fuconazole - mucocutaneous candidiasis
+itraconzole - systemic mycoses
+ketoconazole - skin
+jkeooconazole - adrenal steroid interferes
+clotrimazole, miconazole - tinea and candidiasis
+
+griseofulvin - tinea
+griseofulcin binds to micro tubules, activate cyp450
+terbinafine - fungicidal, inhibits ergosterol synth blocks squalene epoxidase
+terbinafine - hepato
+terbinafine - dermatophytes and onchomycosis
+echinocandins caspofungin micafungin and anidulafungin
+echinocandins interfer with beta 13 glucan synthesis on cell wall
+echhinocandins - candida
+
+
+NRTI nucleoside/tide reverse transcriptase inhibitors
+needs 2-3 phosphorylations to use
+reverse transcriptase
+analogs lack hydroxyl group
+inhibits 3 to 5 
+mitochondrial toxicity
+lipodystrophy
+neuropathy
+lactic acidosis
+lamivudine - hep B and HIV 
+emtricitabine similar to lamivudine
+emt - pigmentation
+nucleotide tenofivir
+tenofivir - bone density, kidney injury
+tenofivir -prep and HepB
+zidovudine - myelosuppression
+abacavir - HLAB allele, type 4 sensitibity, contraindicated in vascular disease 
+2 NRTIs and 1 integrase inhibitor
+
+
+NNRTIs - non
+nevirapine, efavirenz, and delaviridine
+bind to the HIV reverse transcriptase (allosteric)
+flu like , ab pain, jaundice, and fever
+hepatic failure, cns(insomnia, nightmares)
+teratogen
+cyp450 inducers
+steven johnson syndrome (rash)
+
+protease inhibitors
+ritonavir, atazanavir, and indinavir
+block HIV protease since no cleavage
+HIV pol gene codes for protease and responsile for resistance
+insulin resistance
+dyslipidemiase, lipodystrophy,
+idinavir  - kidney
+ritonavir inhibits cyp450
+
+
+entry inhibitors - maraviroc
+gp120 chemokine receptor and CCR5 (CD40)
+maraviroc binds CCr5
+gp41 HIV fusion
+enfurvirtide binds gp41
+pol gene encose protease vererse trasnciptase and integras
+integrase prevents viral DNA to integrate (raltegravir)
+integrase - rhabdomyolysis
+
+
+Acyclovir, Valacyclovir, Famiciclovir
+herpes simplex
+acyclovir - guanisine analog (phosphorylated 3 times) converted via thymidine kinase
+cidofivir is good for acyclovir resistant
+foscarnet directly inhjibit viral DNA polymerase
+valacyclovir has improved oral and reccurent
+acyc treats HSV encephalitis and neonatal and systemic
+famycyclovir and vala are preferred treatments for varicella shingles
+important in prophylaxis (transplant and pregnant with herpes)
+acyc - nephritis (treated by adequate hydration)
+acyc cns - confuction delirium, vertigo, etc
+
+
+Hepatitis C direct acting antivirals
+NS34A protease )injibited by previr
+asvir - NS5A inhibitor
+buvir - NS5B RDRP inhibitor (inhibiuts RNA production)
+interferon alfa + ribavirin no longer recommended
+DAA 0. fixed dose dual therapy (2 different drugs)
+DAA -> nausea
+DAA - 6 month delay (natural clearance)
+DAA -. check 12 weeks (check for vrial eradication)
+PCR to check
+
+
+Ganciclovir, Valganciclovir, Foscarnet, Cidofovir
+cytomegalovirus
+ganciclovir is guanisine anology by a CMV encoded protein kinase, competes for viral DNA polymerase, 
+CMVcommon with CD4 < 50
+valganciclovir -> better oral bioavailability
+valg - solid organ and bone marrow transplant
+gan/valg -> myelosuppression (zidovudine increased)
+foscarnet and cidofivir bypass
+foscarnet - renal
+foscarnet - hypomagnesia, hypokalemia, hypocalcemia
+cidofovir nephrotoxic
+probenecid blocks tubular secretion of cidofovir
+cidofivir is nucleoside analog while foscarnet is pyrophosphate
+
+amphotericin B -> histo
+amphotericin B -> severe blasto
+itraconazole or fluconazole -> mild to moderate blasto
+azoles -> local cocc and paracoc
+amphotericin B -> severe coccidioides and paracoc
+selenium sulfide (Selsun blue)
+terbinafine and griseofulvin -> onychomycosis from dermat
+azoles -> topical dermat
+itraconazole -> sporotrichosis
+fluconazole -> candida albicans
+ampho B -> flu resistant candida
+nystatin -> cutaneous and oral candida
+voriconazole -> asper
+ampho -> asper
+ampho -> crypto
+flucytosine -> crypto
+fluconazole for maintenance -> crypto
+ampho -> mucormy
+metro -> giardia
+metro -> entamoeba
+paromomycin and iodoquinol -> entamoeba
+nitazoxanide -> cryptospor
+ampho -> naegleria
+benznidazole -> T. cruzi
+nifurtimox -> T cruzi
+
+

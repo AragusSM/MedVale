@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>MedVale - an AI powered Study Tool</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{{ url_for('static', filename='assets/img/favicon.png') }}" rel="icon">
+  <link href="{{ url_for('static', filename='assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{{ url_for('static', filename='assets/css/main.css') }}" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet">
+    <style>
+        #network {
+            width: 100%;
+            height: 1000px;
+            border: 1px solid lightgray;
+        }
+        #journey{
+            width: 100%;
+            height: 900px;
+            border: 1px solid lightgray;
+        }
+        #testgen{
+          width: 100%;
+            height: 800px;
+            border: 1px solid lightgray;
+        }
+    </style>
+
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="#" onclick="showSection('home')" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">MedVale</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#" onclick="showSection('home')">Home</a></li>
+          <li><a href="#" onclick="showSection('network')">Networks</a></li>
+          <li><a href="#" onclick="showSection('testgen')">TestGen</a></li>
+          <li><a href="#" onclick="showSection('about')">About</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Home Section -->
+    <section id="home" class="hero section active" style="display: none;">
+      <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+              <h1>Learn Faster and More Effectively with MedVale</h1>
+              <p>A dual system of mindmaps and novel questions to help supplement medical school</p>
+              <div class="d-flex">
+                <a href="#" onclick="showSection('network')" class="btn-get-started" style="margin-right: 8px;">Go to Networks</a>
+                <a href="#" onclick="showSection('testgen')" class="btn-get-started" style="margin-left: 8px;">Go to Questions</a>
+              </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img">
+              <img src="{{ url_for('static', filename='assets/img/hero-img.png') }}" class="img-fluid animated" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Network Section -->
+    <section id="network" class="section" style="display: none;">
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col-md-8">
+        </div>
+    
+        <!-- Right Column -->
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <button id="toggleViewBtn" class="btn-styled">Take Me On a Journey!</button>
+        </div>
+      </div>
+      
+      <!-- Main network section content -->
+      <div id="fullNetworkContainer" style="display: block;">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Network Section</h2>
+          <p>Interact with select networks and visualize connections between concepts.</p>      
+          <!-- Filter Section -->
+          <div class="filter-container" style="margin-top: 20px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
+            <!-- Filter by Class -->
+            <div class="filter-item" style="display: flex; align-items: center; gap: 10px;">
+              <select id="classFilterDropdown" class="styled-dropdown" multiple>
+                <option value="" disabled>Filter by Class</option>
+                <!-- Options will be dynamically populated -->
+              </select>
+              <button id="applyFilter" class="btn-styled">Apply Class Filter</button>
+            </div>
+          
+            <!-- Filter by Edge Label -->
+            <div class="filter-item" style="display: flex; align-items: center; gap: 10px;">
+              <select id="edgeLabelFilter" class="styled-dropdown">
+                <option value="">Filter by Edge</option>
+                <!-- Edge labels will be dynamically populated -->
+              </select>
+              <button id="applyEdgeLabelFilter" class="btn-styled">Apply Edge Filter</button>
+            </div>
+          
+            <!-- Filter by Node -->
+            <div class="filter-item" style="display: flex; align-items: center; gap: 10px;">
+              <select id="nodeFilterDropdown" class="styled-dropdown">
+                <option value="">Filter by Node</option>
+                <!-- Node labels will be dynamically populated -->
+              </select>
+              <button id="applyNodeFilter" class="btn-styled">Apply Node Filter</button>
+            </div>
+          </div>
+          
+
+          <!-- Render Order Section -->
+          <div class="render-order-container" style="margin-top: 20px; display: flex; flex-direction: column; align-items: center;">
+            <label style="font-weight: bold; margin-bottom: 10px;">Render Order:</label>
+            <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; align-items: center;">
+              <div>
+                <input type="radio" id="fullNetwork" name="renderOrder" value="full" checked>
+                <label for="fullNetwork">Show Full Network</label>
+              </div>
+              <div>
+                <input type="radio" id="order0" name="renderOrder" value="0">
+                <label for="order0">0th Order</label>
+              </div>
+              <div>
+                <input type="radio" id="order1" name="renderOrder" value="1">
+                <label for="order1">1st Order</label>
+              </div>
+              <div>
+                <input type="radio" id="order2" name="renderOrder" value="2">
+                <label for="order2">2nd Order</label>
+              </div>
+              <div>
+                <input type="radio" id="order3" name="renderOrder" value="3">
+                <label for="order3">3rd Order</label>
+              </div>
+            </div>
+          </div>
+
+
+
+          
+          <div id="network_graph"></div>
+          <!-- Injected JSON Data -->
+          <!-- Button to toggle the legend modal -->
+          <button id="openLegendBtn" class="btn-styled" data-bs-toggle="modal" data-bs-target="#colorLegendModal">
+            Legend
+          </button>
+            <div id="network-loader" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="spinner"></div>
+              <p>Loading network...</p>
+            </div>
+
+          <script id="nodes-data" type="application/json">
+              {{ nodes | tojson }}
+          </script>
+          <script id="edges-data" type="application/json">
+              {{ edges | tojson }}
+          </script>
+          <script id="nodelists-data" type="application/json">
+              {{ node_lists | tojson }}
+          </script>
+          <!-- Color Legend Section -->
+
+          <!-- Bootstrap Modal for Color Legend -->
+          <div class="modal fade" id="colorLegendModal" tabindex="-1" aria-labelledby="colorLegendModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="colorLegendModalLabel">Node Color Legend</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><span class="color-swatch" style="background-color: #dcffff;"></span> Default</li>
+                            <li><span class="color-swatch" style="background-color: #2d57cf;"></span> Gram Positive Bacteria</li>
+                            <li><span class="color-swatch" style="background-color: #ff3939;"></span> Gram Negative Bacteria</li>
+                            <li><span class="color-swatch" style="background-color: #ff6ce5;"></span> Gram Indeterminate</li>
+                            <li><span class="color-swatch" style="background-color: #18ffc1;"></span> Antimicrobials</li>
+                            <li><span class="color-swatch" style="background-color: #ffac21;"></span> Fungi</li>
+                            <li><span class="color-swatch" style="background-color: #8e5bd9;"></span> DNA Viruses</li>
+                            <li><span class="color-swatch" style="background-color: #ffed10;"></span> RNA Viruses</li>
+                            <li><span class="color-swatch" style="background-color: #a07658;"></span> Parasites</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Popup Modal for Node Details (Fixed to top-left) -->
+      <div id="nodePopup" class="node-popup" style="display: none;">
+        <div class="popup-header">
+          <h5 id="node-name"></h5>
+          <button id="close-popup" class="btn-close">&times;</button>
+        </div>
+        <div class="popup-body">
+          <p id="node-definition"></p>
+          <ul id="node-properties"></ul>
+          <div id="node-picture-container">
+            <img id="node-picture" src="" alt="" style="max-width: 100%; display: none;">
+          </div>
+        </div>
+      </div>
+      <!-- Popup Modal for Edge Details (Fixed to top-right) -->
+      <div id="edgePopup" class="edge-popup" style="display: none;">
+        <div class="popup-header">
+          <h5 id="edge-label"></h5>
+          <button id="close-edge-popup" class="btn-close">&times;</button>
+        </div>
+        <div class="popup-body">
+          <p id="edge-description"></p>
+          <p id="edge-connection" style="font-style: italic; color: gray;"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="section" style="display: none;">
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col-md-8 d-flex justify-content-center align-items-center">
+          <p id="typewriterParagraph"><em>Select related concepts to build a pathway. A description of each new edge will be shown here</em></p>
+        </div>
+    
+        <!-- Right Column -->
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <button id="toggleViewBtn2" class="btn-styled">Take Me Back</button>
+        </div>
+      </div>
+      
+      <!-- Main network section content -->
+      <div id="fullNetworkContainer2" style="display: block;">
+        <div class="container section-title" data-aos="fade-up">
+          <div class="row">
+            <div class="col-md-8 d-flex justify-content-center align-items-center">
+              <div id="network-loader2" style="position: absolute; top: 50%; left: 30%; transform: translate(-50%, -50%);">
+                <div class="spinner"></div>
+                <p>Loading network...</p>
+              </div>
+              <div id="journey_graph"></div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <!-- Scrollable Node Selector -->
+              <div id="nodeSelectorContainer" style="width: 200px; height: 580px; overflow-y: auto; margin-top: 20px;">
+                <div id="nodeButtons" style="display: flex; flex-direction: column; gap: 10px; padding: 10px;">
+                  <!-- Buttons for connected nodes will be dynamically added here -->
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <br>
+        <!-- Button to toggle the legend modal -->
+        <button id="openLegendBtn2" class="btn-styled" data-bs-toggle="modal" data-bs-target="#colorLegendModal2">
+          Legend
+        </button>
+
+        <!-- Color Legend Section -->
+
+        <!-- Bootstrap Modal for Color Legend -->
+        <div class="modal fade" id="colorLegendModal2" tabindex="-1" aria-labelledby="colorLegendModalLabel2" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="colorLegendModalLabel2">Node Color Legend</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <ul>
+                          <li><span class="color-swatch" style="background-color: #dcffff;"></span> Default</li>
+                          <li><span class="color-swatch" style="background-color: #2d57cf;"></span> Gram Positive Bacteria</li>
+                          <li><span class="color-swatch" style="background-color: #ff3939;"></span> Gram Negative Bacteria</li>
+                          <li><span class="color-swatch" style="background-color: #ff6ce5;"></span> Gram Indeterminate</li>
+                          <li><span class="color-swatch" style="background-color: #18ffc1;"></span> Antimicrobials</li>
+                          <li><span class="color-swatch" style="background-color: #ffac21;"></span> Fungi</li>
+                          <li><span class="color-swatch" style="background-color: #8e5bd9;"></span> DNA Viruses</li>
+                          <li><span class="color-swatch" style="background-color: #ffed10;"></span> RNA Viruses</li>
+                          <li><span class="color-swatch" style="background-color: #a07658;"></span> Parasites</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+          
+      </div>
+      <!-- Popup Modal for Node Details (Fixed to top-left) -->
+      <div id="nodePopup2" class="node-popup" style="display: none;">
+        <div class="popup-header">
+          <h5 id="node-name2"></h5>
+          <button id="close-popup2" class="btn-close">&times;</button>
+        </div>
+        <div class="popup-body">
+          <p id="node-definition2"></p>
+          <ul id="node-properties2"></ul>
+          <div id="node-picture-container2">
+            <img id="node-picture2" src="" alt="" style="max-width: 100%; display: none;">
+          </div>
+        </div>
+      </div>
+      <!-- Popup Modal for Edge Details (Fixed to top-right) -->
+      <div id="edgePopup2" class="edge-popup" style="display: none;">
+        <div class="popup-header">
+          <h5 id="edge-label2"></h5>
+          <button id="close-edge-popup2" class="btn-close">&times;</button>
+        </div>
+        <div class="popup-body">
+          <p id="edge-description2"></p>
+          <p id="edge-connection2" style="font-style: italic; color: gray;"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TestGen Section -->
+    <section id="testgen" class="section" style="display: none;">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>TestGen Section</h2>
+        <p>Click here to generate questions pertaining to the network.</p>
+        
+        <br>
+        
+        <!-- Generate Question Button -->
+        <button id="generateQuestionBtn" class="btn btn-primary">Generate Question</button>
+
+        <br>
+        <!-- Question Container -->
+        <div id="questionContainer">
+          <br>
+          <p id="questionText"></p>
+          <br>
+          <div id="questionOptions" style="margin-bottom: 20px;"></div>
+          <button id="submitAnswerBtn" class="btn btn-success" style="display: none;">Submit Answer</button>
+          <p id="answerFeedback"></p>
+        </div>
+        
+        
+
+        <div id="info-response" class="mt-3"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section" style="display: none;">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About MedVale</h2>
+        <p>Learn more about MedVale and its mission to support medical education.</p>
+      </div>
+
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{{ url_for('static', filename='assets/img/testimonials/networks.jpg') }}" class="testimonial-img" alt="">
+                  <h3>Networks</h3>
+                  <h4>Concept Maps</h4>
+                  <p>
+                    <span>The network is to help visualize concepts in different fields of medicine. Students can play with the widgets while learning how different topics come together. 
+                       The overall network may be too much to process, so we have filters that allow you to study individual concepts at a time. All the data is generated from csv files, 
+                       so you can input your own nodes and edges!. Note, when filtering and loading large networks, there may be lagtime, and stabilization my take a while.</span>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{{ url_for('static', filename='assets/img/testimonials/journey.jpg') }}" class="testimonial-img" alt="">
+                  <h3>Journey</h3>
+                  <h4>Pathways</h4>
+                  <p>
+                    <span>In the networks section, you can click a button to "Take Me On a Journey", which opens an AI powered network tracer that can trace random paths throughout the network.
+                      Pathways are a great tool for connecting different concepts that one may not even realize were related. After each addition, an AI bot will give a brief summary of the connection.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{{ url_for('static', filename='assets/img/testimonials/questions.jpg') }}" class="testimonial-img" alt="">
+                  <h3>Test Gen</h3>
+                  <h4>Novel Question Generation</h4>
+                  
+                  <p>
+                    <span>The perfect test and quiz study tool. Using large language models, we can replicate test questions using the data tables passed into the network.
+                      If you have free time, running through a few questions will definitely be helpful.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>More Coming Soon!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{ url_for('static', filename='assets/img/team/asparagus.jpg') }}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Aragus</h4>
+                <span>Founder</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{ url_for('static', filename='assets/img/team/generic.jpg') }}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4></h4>
+                <span></span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{ url_for('static', filename='assets/img/team/generic.jpg') }}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4></h4>
+                <span></span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{ url_for('static', filename='assets/img/team/generic.jpg') }}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4></h4>
+                <span></span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url_for('static', filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/php-email-form/validate.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/aos/aos.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+
+  <!-- Main JS File -->
+  <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+
+  <!-- Custom JS for Section Switching and Form Submission -->
+  <script src="{{ url_for('static', filename='assets/js/network.js') }}"></script>
+
+
+</body>
+
+</html>

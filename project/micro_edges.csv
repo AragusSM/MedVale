@@ -1,0 +1,1597 @@
+﻿From,To,Label,Desc
+host,pathogen,infection,"host is infected by a pathogen (viruses, bacteria, fungi, or parasites can all serve as pathogens)"
+pathogen,bacteria_domain,example,one example of a pathogen is bacteria
+pathogen,eukarya_domain,example,members of the eukaryotic domain can be pathogens
+pathogen,virus_generic,example,"viruses are common pathogens but are considered non-living, and lack most components present in eukaryotic and even prokaryotic cells. "
+eukarya_domain,fungi_generic,kingdom,most fungi that can cause disease are eukaryotic
+eukarya_domain,parasite_generic,subset,most parasites are eukaryotic
+eukarya_domain,nuclear_membrane,contains,eukaryotes contain a membrane bound nucleus
+bacteria_domain,peptidoglycan,contains,"a key structure in bacteria is their peptidoglycan cell wall, although there are a few exceptions. Gram postivie organisms have thicker peptidoglycan than gram negatives"
+bacteria_domain,ribosome,contains,ribosomes are largely conserved within domains. Bacteria have 30s + 50s subunits which combine to make the 70s ribosome
+eukarya_domain,cell_membrane_sterols,contains,most eukaryotic cells contain membrane sterols like cholesterol. Bacteria mostly do not with the exception of mycoplasma
+eukarya_domain,ribosome,contains,"ribosomes are largely conserved within domains. Bacteria have 40s + 60s subunits which combine to make the 80s ribosome. However, mitochondria in eukaryotes have the same ribosome subunits as bacteria"
+eukarya_domain,organelles,contains,eukaryotes contain membrane bound organelles
+archaea_domain,atp,uses,used as mediator for energy transfer
+eukarya_domain,atp,uses,used as mediator for energy transfer
+bacteria_domain,atp,uses,used as mediator for energy transfer
+archaea_domain,cell_membrane,encased,enclosed by a lipoprotein membrane
+eukarya_domain,cell_membrane,encased,enclosed by a lipoprotein membrane. Polyunsaturated fatty acids
+bacteria_domain,cell_membrane,encased,enclosed by a lipoprotein membrane. Monounsaturated fatty acids. Phosphatidyl ethanolamine
+virus_generic,size,small,<0.2 microns
+eukarya_domain,size,large,around 1mm
+bacteria_domain,size,medium,around 1 - 20 microns
+bacteria_domain,gram_stain,testing,"can determine what type of bacteria through appearance after staining (purple -> gram-positive, pink -> gram negative, etc.)"
+gram_stain,acid_fast,type,"Initial carbol fuchsin stain (red) retained after acid-alcohol treatment masking methylene blue counter-stain. Stain retention due to a wax-like nearly impermeable cell wall containing mycolic acid and large amounts of fatty acids, waxes, and complex lipids"
+gram_stain,gram_positive_cell_wall,appears,crystal violet-iodine complex is resistant to acetone/alcohol wash due to a thick peptidoglycan wall. Cells retain violet color.
+gram_stain,gram_negative_cell_wall,appears,crystal violet-iodine complex washed out by acetone/alcohol due to a thin peptidoglycan layer. Cells show the pink safranin counterstain
+gram_positive_cell_wall,teichoic_acid,contains,"techoic acids are a common feature of the gram positive cell wall, some are peripheral and others are integral"
+gram_negative_cell_wall,lipopolysaccharide,contains,lipopolysaccharides are expressed on the surface of the outer membrane
+gram_positive_cell_wall,peptidoglycan,contains,primary structure outside of membrane
+gram_negative_cell_wall,peptidoglycan,contains,very thin between the 2 membranes
+gram_negative_cell_wall,periplasmic_space,contains,"region between 2 membranes, contains enzymes, peptidoglycan, carriers, and controls access to the cell"
+bacteria_domain,capsule,encased,some bacteria are enclosed by a capsule made of mostly polysaccharide (or protein in some cases)
+bacteria_domain,chromosome,possesses,"bacteria possess circular chromosomes and DNA, and they also contain short circular DNA loops called plasmids"
+bacteria_domain,granular_inclusion,contains,"storage molecules, not membrane enclosed. 1. Volutin: polyphosphate “metachromatic granules” – Corynebacterium. 2. Lipid: poly-beta-hydroxybutyrate-Pseudomonas 3. Carbohydrate: glycogen - oral Streptococci"
+bacteria_domain,pili,possesses,some bacteria possess pili/fimbriae for adherence and conjugation
+bacteria_domain,flagellum,possesses,some bacteria possess motile flagella that assist movement and chemotaxis
+sanitization,cleaning,similar,cleaning refers to inorganic material and organic while sanitization is more organic
+sterilization,physical,method,physical methods such as heat through autoclave can result in sterilization
+sterilization,protein_agent,method,"some protein modifying agents can result in sterilization, such as iodine, hydrogen peroxide, ethylene oxide, formaldehyde, and glutaraldehyde"
+disinfection,sanitization,synonym,"disinfection and sanitation both reduce the number of organsims in a location, although disinfection technically clears everything except spores while sanitation might not eliminate all non-spore organisms"
+bacteriocidal,pasteurization,method,can kill some milk-borne pathogens
+bacteriocidal,disinfection,method,disinfection is biocidal but does not eliminate spores
+bacteriocidal,sterilization,method,kills everything
+bacteriocidal,bacteriostatic,potency,bacteriocidal substances are more potent than bacteriostatic substances as they kill bacteria or prevent multiplication afterwards
+disinfection,membrane_agent,method,most membrane agents are non-sporicidal and thus belong in the disinfectant class
+bacteriocidal,biocide,agent,biocides are mostly bacteriocidal (but can also be considered bacteriostatic)
+biocide,physical,method,heat or filtration are examples of physical biocides
+pathogen,septic,state,"if a surface or organism contains pathogens, they are considered septic"
+sterilization,aseptic,state,aseptic if sterile
+biocide,membrane_agent,agent,membrane modifying agents are biocides
+biocide,protein_agent,agent,protein modifying agents are biocides
+biocide,nucleic_acid_agent,agent,nucleic acid modifying agents are biocides
+bacteriostatic,preservative,agent,"preservatives achieve bacteriostasis by making sure food or other products are not contaminated, or that bacteria cannot multiply within"
+biocide,antibiotic,agent,antibiotics are also technically biocides
+endospore,bacteria_domain,form,some bacteria have the ability to form resistant spores
+physiology,mesophilic,temperature,mesophilic bacteria prefer a medium temperature to grow
+physiology,psychrophilic,temperature,psychrophilic bacteria prefer colder temps to grow optimally
+physiology,thermophilic,temperature,thermophilic bacteria prefer hotter temperatures to grow optimally
+physiology,oxygen_metabolism,oxygen,different bacteria have different requirements for oxygen
+oxygen_metabolism,superoxide_dismutase,enzyme,superoxide is an enzyme in the oxygen metabolism pathway. OBLIGATE ANAEROBES do not have superoxide dismutase
+oxygen_metabolism,catalase,enzyme,catalase is an enzyme in the oxygen metabolism pathway. AEROBES and FACULTATIVE SPECIES have this enzyme
+oxygen_metabolism,peroxidase,enzyme,peroxidase is an enzyme in the oxygen metabolism pathway. FACULTATIVE SPECIES and AEROTOLERANT SPECIES have this enzyme
+pathogen,physiology,optimums,All bacteria associated with the human host (normal flora and pathogens) are: mesophilic heterotrophic chemosynthetic
+physiology,energy_source,energy,different bacteria prefer different energy sources
+physiology,end_products,biproduct,respiration produces different molecules as byproducts
+physiology,aerobic_respiration,energy,"organisms that undergo aerobic respiration make use of oxygen as the final electron acceptor through glycolysis, the citric acid cycle, and finally through the electron transport chain. Obligate aerobes have more efficient electron transport chains compared to facultative anaerobes"
+aerobic_respiration,anaerobic_respiration,energy,"use some of the pathways of aerobic respiration, but uses other electron acceptors such as NO3"
+physiology,fermentation,energy,anaerobic bacteria undergo fermentation through converting glucose to pyruvate to lactate or other end products
+energy_source,bacterial_growth,result,nutrients provide resources for bacterial growth
+bacterial_growth,direct_cell_count,measures,counting direct cells is a simple method but can be time consuming and does not count only live cells
+bacterial_growth,viable_cell_count,measures,viable cell method counts live cells but only those that can form colonies
+bacterial_growth,spectrophotometry,measures,sectrophotometry is quick but also counts dead cells
+bacterial_growth,metabolic_activity,measures,counts live cells and is used industrially to find optimums.
+staphylococcus_aureus,coagulase,positive,
+staphylococcus_aureus,catalase,positive,
+staphylococcus_aureus,mannitol_agar,grows,
+staphylococcus_aureus,beta_hemolysis,performs,
+staphylococcus_aureus,nares,colonizes,
+staphylococcus_aureus,pneumonia,symptom,often a result of post viral infection
+staphylococcus_aureus,arthritis,symptom,"can be septic, bacteremia"
+staphylococcus_aureus,sepsis,symptom,septic arthritis or toxic shock
+staphylococcus_aureus,impetigo,symptom,golden yellow crust
+staphylococcus_aureus,folliculitis,symptom,
+staphylococcus_aureus,furuncle,symptom,
+staphylococcus_aureus,cgd,complication,children with cgd have weakened primary immune response against S. aureus
+staphylococcus_aureus,erysipelas,symptom,
+staphylococcus_aureus,cellulitis,symptom,
+staphylococcus_aureus,carbuncle,symptom,
+staphylococcus_aureus,heat_solubility,stable,Enterotoxin A is a heat stable toxin
+staphylococcus_aureus,abscess,symptom,
+sepsis,septic_shock,exacerbation,"sepsis can result in septic shock, characterized by extremely low blood pressure and multiple organ failiure."
+staphylococcus_aureus,endocarditis,symptom,prominent in IV drug users
+staphylococcus_aureus,osteomyelitis,symptom,
+staphylococcus_aureus,toxic_shock_syndrome,symptom,"caused by TSST, which is a superantigen and causes release of inflammatory cytokines"
+staphylococcus_aureus,scalded_skin_syndrome,symptom,exfoliative toxin which is a protease causes this
+staphylococcus_aureus,vomiting,symptom,
+staphylococcus_aureus,food_poisoning,cause,"rapid onset, vomiting, found in meat and mayo/ other refrigerated raw products, toxin is heat stable"
+staphylococcus_aureus,resistance,possesses,"beta lactamases, altered PBPs"
+staphylococcus_aureus,beta_lactamase,contains,most strands of S. aureus contain beta lactamases and belong in the MSSA class. MRSA are additionally resistant to methicillin due to altered PBPs
+staphylococcus_epidermidis,catalase,positive,
+staphylococcus_epidermidis,coagulase,negative,
+staphylococcus_epidermidis,urease,positive,can turn urea to ammonia
+staphylococcus_epidermidis,novobiocin,sensitive,
+staphylococcus_epidermidis,endocarditis,symptom,
+staphylococcus_epidermidis,biofilm,builds,polysaccharide
+staphylococcus_saprophyticus,catalase,positive,
+staphylococcus_saprophyticus,coagulase,negative,
+staphylococcus_saprophyticus,urease,positive,
+staphylococcus_saprophyticus,novobiocin,resistant,
+staphylococcus_saprophyticus,honeymoon_cystitis,symptom,common in sexually active young adults
+uti,pyelonephritis,synonym,
+staphylococcus_saprophyticus,uti,symptom,2nd most common cause of utis in women behind e. coli
+staphylococcus_saprophyticus,prostatitis,symptom,
+streptococcus_pyogenes,catalase,enzyme,
+streptococcus_pyogenes,capsule,hyaluronic acid,not immunogenic
+streptococcus_pyogenes,beta_hemolysis,performs,
+streptococcus_pyogenes,pharyngitis,symptom,
+streptococcus_pyogenes,impetigo,symptom,honey crust
+streptococcus_pyogenes,erysipelas,symptom,
+streptococcus_pyogenes,cellulitis,symptom,
+streptococcus_pyogenes,pharyngitis,symptom,
+streptococcus_pyogenes,rash,symptom,"diffuse, strawberry tongue, part of scarlet fever"
+streptococcus_pyogenes,toxic_shock_syndrome,symptom,"specifically toxic shock like syndrome, caused by TSLS (exotoxin A) superantigen, different from staph in that it requires spread of bacteria instead of spread of toxin"
+streptococcus_pyogenes,necrotizing_fasciitis,symptom,"exotoxin B, flesh eating strains"
+streptococcus_pyogenes,myocarditis,symptom,M-protein is similar to myosin which causes a immune response in Rheumatic fever
+streptococcus_pyogenes,pericarditis,symptom,M-protein is similar to myosin which causes a immune response in Rheumatic fever
+streptococcus_pyogenes,sepsis,symptom,
+streptococcus_pyogenes,nodule,symptom,part of RF
+streptococcus_pyogenes,arthritis,symptom,"polyarthritis, part of RF"
+streptococcus_pyogenes,lesion,symptom,"erythema marginatum, a skin condition that appears as a rash of bright pink or red circular lesions with a pale center and a sharply defined border, part of RF"
+streptococcus_pyogenes,cns,symptom,"Sydenham's chorea, rapid movement of neck muscles, part of rheumatic fever"
+streptococcus_pyogenes,sequelae,secondary,rheumatic fever (after no prompt treatment) and glomerulonephritis (can occur 2-3 weeks after even with treatment)
+streptococcus_pyogenes,glomerulus,symptom,"glomerulonephritis, cola-colored urine, facial edema"
+streptococcus_pyogenes,edema,symptom,facial edema
+streptococcus_pyogenes,rbc,enzyme,"streptolysin O lyses red blood cells, common test is antistreptolysin O antibody produced by host"
+streptococcus_pyogenes,bacitracin,sensitive,
+streptococcus_pyogenes,chromosome,attacks,DNAse depolymerizes DNA
+streptococcus_pyogenes,platelet,clotting,streptokinase converts plasminogen to plasmin
+streptococcus_pyogenes,droplet,spread,
+streptococcus_pyogenes,contact,spread,
+streptococcus_pyogenes,pyoderma,symptom,
+streptococcus_agalactiae,staphylococcus_aureus,CAMP test,"when S agalactiae is plated with staph aureus, an increased zone of hemolysis is observed (arrowhead)"
+streptococcus_agalactiae,hippurate,positive,
+streptococcus_agalactiae,neonate,affects,"causes neonatal meningitis (common cause), late onset"
+streptococcus_agalactiae,meningitis,symptom,"causes neonatal meningitis (common cause), late onset"
+streptococcus_agalactiae,beta_hemolysis,performs,
+streptococcus_agalactiae,bacitracin,resistant,
+streptococcus_agalactiae,sepsis,symptom,"neonatal, early or late onset"
+streptococcus_agalactiae,pneumonia,symptom,early onset
+streptococcus_agalactiae,catalase,positive,
+streptococcus_agalactiae,coagulase,negative,
+streptococcus_agalactiae,contact,spread,"postpartum from mother to child, increased if premature rupture, prolonged labor, preterm birth, or precolonization"
+streptococcus_agalactiae,capsule,polysaccharide,
+streptococcus_pneumoniae,alpha_hemolysis,performs,
+streptococcus_pneumoniae,capsule,polysaccharide,major virulence factor
+streptococcus_pneumoniae,optochin,sensitive,
+streptococcus_pneumoniae,bile,sensitive,
+streptococcus_pneumoniae,meningitis,symptom,one of most common causes of bacterial meningitis
+streptococcus_pneumoniae,otitis_media,symptom,one of most common causes
+streptococcus_pneumoniae,pneumonia,symptom,one of most common causes
+streptococcus_pneumoniae,sinusitis,symptom,one of most common causes
+streptococcus_pneumoniae,immunoglobulin,affects,"igA protease, helps with mucosal colonization"
+streptococcus_pneumoniae,spleen,complication,"encapsulated resistance, asplenic patients more at risk"
+streptococcus_pneumoniae,vaccine,"adult vaccine is 23-valent, polysaccharide IgM, child is 7/13 valent polysaccharide protein IgG",
+streptococcus_pneumoniae,nasopharynx,spread,
+streptococcus_pneumoniae,bacteremia,symptom,high rate in elderly
+streptococcus_pneumoniae,sepsis,symptom,high rate in elderly
+streptococcus_viridans,alpha_hemolysis,performs,
+streptococcus_viridans,optochin,resistant,
+streptococcus_viridans,bile,resistant,
+streptococcus_viridans,dental,spread,strep mutans spreads through dental carries
+streptococcus_viridans,endocarditis,symptom,strep sanguinus causes endocarditis in already damaged heart valves (specifically mitral valve)
+streptococcus_viridans,nasopharynx,colonizes,
+streptococcus_viridans,platelet,adheres,aggregates platelets with dextrans
+enterococcus_faecium,bile,resistant,
+enterococcus_faecium,uti,symptom,
+enterococcus_faecium,endocarditis,symptom,
+enterococcus_faecium,biliary_tree,infects,
+enterococcus_faecium,resistance,possesses,vancomycin resistance
+enterococcus_faecium,gamma_hemolysis,performs,
+enterococcus_faecium,gut,colonizes,
+enterococcus_faecium,nosocomial,environment,common in hospital patients where there is antibiotic resistance
+enterococcus_faecium,biofilm,builds,
+enterococcus_faecalis,bile,resistant,
+enterococcus_faecalis,uti,symptom,
+enterococcus_faecalis,endocarditis,symptom,
+enterococcus_faecalis,biliary_tree,infects,
+streptococcus_gallolyticus,capsule,polysaccharide,
+enterococcus_faecalis,gut,colonizes,
+enterococcus_faecalis,nosocomial,environment,common in hospital patients where there is antibiotic resistance
+enterococcus_faecalis,biofilm,builds,
+streptococcus_gallolyticus,gamma_hemolysis,performs,
+streptococcus_gallolyticus,bile,resistant,hydrolyzes esculine
+streptococcus_gallolyticus,biofilm,builds,heart valves
+streptococcus_gallolyticus,gut,colonizes,
+streptococcus_gallolyticus,endocarditis,symptom,
+streptococcus_gallolyticus,neoplasia,causes,sequelae is colorectal neoplasia
+bacillus_anthracis,soil,spread,
+bacillus_anthracis,animal_contact,spread,
+bacillus_anthracis,lesion,symptom,black eschar
+bacillus_anthracis,oxygen_metabolism,obligate aerobe,
+bacillus_anthracis,capsule,PROTEIN,(poly-d glutamate)
+bacillus_anthracis,endospore,form,
+bacillus_anthracis,exotoxin,toxin,"composed of A-B structure. B binds, and A is cleaved into edema facter and lethal factor"
+bacillus_anthracis,pulmonary_hemorrhage,symptom,"from inhalation of spores, woolsorter's disease, high mortality"
+bacillus_anthracis,edema,symptom,"adenylate cyclase from edema factor, inhibits phagocytosis"
+bacillus_anthracis,lymphadenopathy,symptom,widened mediastinum and lymph nodes
+bacillus_anthracis,necrosis,symptom,"lethal factor is paart of exotoxin and cleaves map kinase, causing necrosis"
+bacillus_cereus,vomiting,symptom,"1-5 hours, heat stable toxin"
+bacillus_cereus,food_poisoning,cause,flash fried or reheated rice
+bacillus_cereus,endospore,form,
+bacillus_cereus,diarrhea,symptom,"8-16 hours, heat labile enterotoxin"
+bacillus_cereus,heat_solubility,property,contains both heat stable and heat labile enterotoxin
+bacillus_cereus,enterotoxin,toxin,
+clostridium_tetani,oxygen_metabolism,obligate anaerobe,
+clostridium_tetani,endospore,form,
+clostridium_tetani,soil,spread,
+clostridium_tetani,puncture_wound,spread,rusty nails or barbed wire
+clostridium_tetani,paralysis,spastic,"spastic, snare protein in renshaw cells (release inhibitory neurotransmetters like gaba and glycine) inhibited, uncontrolled motor stimulation"
+clostridium_tetani,exotoxin,tetanospasmin,"2 component exotoxin that travels retrograde through motor neurons, cleaves snare proteins of renshaw cells"
+clostridium_tetani,vaccine,toxoid vaccine,tetanus toxin conjugated to antibody
+clostridium_tetani,neonate,tetanus neonatorum,passed from mother to child in umbilical region in unsanitary conditions
+clostridium_botulinum,food_poisoning,cause,canning of foods
+clostridium_botulinum,heat_solubility,labile,"botulinum toxin is labile, adults usually ingest preformed toxin"
+clostridium_botulinum,exotoxin,botulinum toxin,attacks snare proteins on acetylcholine motor neurons
+clostridium_botulinum,endospore,form,
+clostridium_botulinum,paralysis,flaccid,"descending, ptosis, attacks motor neurons resulting in inability to fire action potentials"
+clostridium_botulinum,oxygen_metabolism,obligate anaerobe,
+clostridium_botulinum,neonate,affects,floppy baby syndrome from ingesting spores in foods like honey. Gut microbiota not formed so spores can germinate
+clostridium_botulinum,puncture_wound,cause,"wound botulism is localized, followed by germination and systemic spread of toxin"
+clostridium_perfringens,puncture_wound,cause,deep penetrating wounds
+clostridium_perfringens,soil,spread,
+clostridium_perfringens,oxygen_metabolism,obligate anaerobe,hyperbaric treatment can reduce growth and production of alpha toxin. Also contributes to angiogenesis
+clostridium_perfringens,exotoxin,"alpha toxin, theta toxin, others","lecithinase. It is the alpha toxin that is responsible for much of the tissue destruction seen in the myonecrosis associated with gas gangrene, and is another example of an localized infection with systemic toxemia. This cytotoxin is associated with increased vascular permeability, massive hemolysis and bleeding, tissue destruction, hepatic toxicity, and myocardial dysfunction (bradycardia, hypotension). Shock and renal failure occur rapidly, within a few days of onset. theta toxin causes minor hemolytic toxin, creates double zone of hemolysis (alpha is outer while theta is inner), Four other toxins which are involved in infections caused by this organism are hemolysin, DNase, hyaluronidase, and collagenase. These toxins cause lysis or destruction of red blood cells, DNA, hyaluronic acid, and collagen, respectively, leading to tissue destruction and necrosis."
+clostridium_perfringens,alpha_hemolysis,performs,double zone of hemolysis formed by theta and alpha toxins
+clostridium_perfringens,food_poisoning,cause,"late onset, warmed meat dishes, enterotoxin is heat labile and results in diarrhea without fever or vomiting. Ingestion of preformed toxin results in more rapid onset of cramps and diarrhea (like a superantigen). No fever or vomiting"
+clostridium_perfringens,heat_solubility,labile,enterotoxin is labile
+clostridium_perfringens,enterotoxin,produces,associated with perfringens food poisoning
+clostridium_perfringens,crepitus,symptom,
+clostridioides_difficile,oxygen_metabolism,obligate anaerobe,
+clostridioides_difficile,endospore,form,
+clostridioides_difficile,gut,colonizes,"normal flora, toxic megacolon can complicate and colon damage in disease state. Fecal microbiota transplant may be a cure"
+clostridioides_difficile,fecal_oral,spread,
+clostridioides_difficile,nosocomial,spread,spread by poor hygiene/hand washing
+clostridioides_difficile,contact,spread,contact precautions
+clostridioides_difficile,antibiotic,cause,"antibiotic disruption caused by fluoroquinolones, penicillin, sephalosporins, PPIs, etc."
+clostridioides_difficile,pseudomembrane,symptom,"pseudomembranous colitis, necrosis and formation of pseudomembranes"
+clostridioides_difficile,diarrhea,symptom,high volume and foul smelling
+clostridioides_difficile,fever,symptom,(realistically most infections produce fever but we'll highlight it if it was mentioned in lecture material)
+clostridioides_difficile,leukocytosis,symptom,
+clostridioides_difficile,pcr,testing,
+clostridioides_difficile,enzyme_immunoassay,testing,tests for glutamate dehydrogenase (does not distinguish toxicity)
+clostridioides_difficile,enterotoxin,"toxin A, toxin B",present in toxigenic c. diff. toxin B tends to be more toxin. Act on colon mucosal cells and disrupt cytoskeleton and tight junctions
+clostridioides_difficile,exudate,symptom,yellow-white exudates from pseudomembranes
+corynebacterium_diphtheriae,granular_inclusion,contains,metachromatic granules stained with analin dye
+corynebacterium_diphtheriae,exotoxin,dip. Toxin,"active and binding subunit, inhibits elongation factor 2 and protein synthesis (ribosylation). Receptor in humans is HB-EGF. Only produces toxin in environment with low iron"
+corynebacterium_diphtheriae,pseudomembrane,builds,
+corynebacterium_diphtheriae,tonsil,affects,
+corynebacterium_diphtheriae,oropharynx,affects,
+corynebacterium_diphtheriae,airway,affects,
+corynebacterium_diphtheriae,lymphadenopathy,symptom,
+corynebacterium_diphtheriae,paralysis,symptom,local posterior oropharynx paralysis
+corynebacterium_diphtheriae,vaccine,toxoid vaccine,produces igG antibodies
+corynebacterium_diphtheriae,myocarditis,symptom,
+corynebacterium_diphtheriae,staphylococcus_aureus,symptom,"share some symptoms like septic arthritis, osteomyelitis, endocarditis, and abscesses"
+corynebacterium_diphtheriae,papule,symptom,cutaneous diptheriae
+corynebacterium_diphtheriae,ulcer,symptom,cutaneous diptheriae
+corynebacterium_diphtheriae,enzyme_immunoassay,testing,elek test tests for toxic strains by having antitoxin antibodies bind to toxins
+listeria_monocytogenes,flagellum,motility,outside of cell
+listeria_monocytogenes,intracellular,facultative,internalins direct endocytosis
+listeria_monocytogenes,beta_hemolysis,performs,
+listeria_monocytogenes,catalase,positive,
+listeria_monocytogenes,oxygen_metabolism,microaerophilic,lower O2 than normal
+listeria_monocytogenes,actin_rocket,motility,polymerizes host actin to propel itself from cell to cell in the cytoplasm
+listeria_monocytogenes,psychrophilic,grows,
+listeria_monocytogenes,food_poisoning,cause,"packaged meat, cheese, milk (refrigerated)"
+listeria_monocytogenes,meningitis,symptom,
+listeria_monocytogenes,neonate,affects,
+listeria_monocytogenes,immunocompromised,affects,higher risk
+actinomyces_israelii,oxygen_metabolism,obligate anaerobe,or facultative anaerobes
+actinomyces_israelii,oropharynx,colonizes,normal flora
+actinomyces_israelii,dental,caused by dental work or jaw trauma,
+actinomyces_israelii,sinusitis,symptom,draining sinus tracts
+actinomyces_israelii,abscess,symptom,
+nocardia_asteroides,oxygen_metabolism,obligate aerobe,
+nocardia_asteroides,soil,spread,
+nocardia_asteroides,acid_fast,stains,contains mycolic acid
+acid_fast,carbol_fuchsin_stain,involves,
+carbol_fuchsin_stain,mycolic_acid,involves,
+nocardia_asteroides,catalase,positive,
+nocardia_asteroides,cgd,complication,patients with cgd have weakened immune response
+nocardia_asteroides,urease,enzyme,
+nocardia_asteroides,airway,symptom,lung cavitary lesions
+nocardia_asteroides,cns,symptom,brain abscesses
+nocardia_asteroides,cutaneous,symptom,"induration, lesions"
+nocardia_asteroides,pneumonia,symptom,
+nocardia_asteroides,protease,enzyme,virulence factor
+nocardia_asteroides,hiv,complication,risk factor
+nocardia_asteroides,immunocompromised,complication,risk factor
+immunocompromised,hiv,cause,hiv causes immunocompromisation by attacking cd4 cells
+nocardia_asteroides,induration,symptom,
+nocardia_asteroides,lesion,symptom,
+neisseria_meningitidis,fermentation,energy,ferments maltose in addition to glucose
+neisseria_meningitidis,oxidase,positive,
+neisseria_meningitidis,chocolate_agar,medium,also known as VPN (thayer-martin agar)
+neisseria_meningitidis,catalase,positive,
+neisseria_meningitidis,complement,defense,"membrane attack complex C5-C9 is the main defense against N. meningitidis, vaccine indicated in hypocomplementemia"
+neisseria_meningitidis,pili,attaches,promotes colonization
+neisseria_meningitidis,capsule,polysaccharide,"non-immunogenic in type B, similar to neurological tissue"
+neisseria_meningitidis,immunoglobulin,affects,"igA protease, helps with mucosal colonization"
+neisseria_meningitidis,lipopolysaccharide,toxin,"Lipooligosaccharide endotoxin, primary virulence factor that causes sepsis and DIC, forms blebs"
+neisseria_meningitidis,nasopharynx,colonizes,"igA protease, helps with mucosal colonization"
+neisseria_meningitidis,asymptomatic,state,carrier
+neisseria_meningitidis,droplet,spread,
+neisseria_meningitidis,contact,spread,confined spaces like barracks
+neisseria_meningitidis,vascular_injury,symptom,caused by LOS
+neisseria_meningitidis,dic,symptom,caused by LOS
+neisseria_meningitidis,septic_shock,symptom,hypo-volumic shock
+dic,thrombocytopenia,symptom,part of DIC
+dic,thrombosis,symptom,part of DIC
+neisseria_meningitidis,waterhouse-friderichsen_syndrome,symptom,can be additional complication and severe
+waterhouse-friderichsen_syndrome,hypoglycemia,involves,due to adrenal insufficiency
+waterhouse-friderichsen_syndrome,hyponatremia,involves,due to adrenal insufficiency
+waterhouse-friderichsen_syndrome,hyperkalemia,involves,due to adrenal insufficiency
+neisseria_meningitidis,meningitis,symptom,2nd most common cause of bacterial meningitis
+neisseria_meningitidis,pericarditis,symptom,immune complex mediated
+neisseria_meningitidis,arthritis,symptom,immune complex mediated
+neisseria_meningitidis,fever,symptom,
+neisseria_meningitidis,myalgia,symptom,
+neisseria_meningitidis,pharyngitis,symptom,
+neisseria_meningitidis,flu-like,symptom,
+neisseria_meningitidis,pharyngitis,symptom,like strep
+neisseria_meningitidis,petechial_rash,symptom,
+neisseria_meningitidis,spinal_tap,testing,way to test for N. M. infection
+neisseria_meningitidis,prophylaxis,prevents,rifampin and ciprofloxacin post exposure
+neisseria_meningitidis,vaccine,"quad, conjugate, serotype","different types of vaccines including all inclusive capsular polysaccharide quad vaccine, conjugate vaccine with capsule antigen and dip toxoid, and a recombinant serotype B vaccine"
+neisseria_meningitidis,spleen,complication,"lack of defense against encapsulated organisms, vaccine indicated in asplenic patients"
+neisseria_gonorrhoeae,intracellular,facultative,within PMNs/neutrophils
+neisseria_gonorrhoeae,sti,symptom,
+neisseria_gonorrhoeae,asymptomatic,state,carrier
+neisseria_gonorrhoeae,neonate,affects,passed from mother to child in vaginal canal
+neisseria_gonorrhoeae,eye_infection,symptom,"ophthalmia neonatorum, serious eye infection in the first 5 days (earlier compared to chlamydia)"
+neisseria_gonorrhoeae,fermentation,energy,glucose only
+neisseria_gonorrhoeae,oxidase,positive,
+neisseria_gonorrhoeae,catalase,positive,
+neisseria_gonorrhoeae,chocolate_agar,medium,grows on chocolate agar / thayer-martin agar
+neisseria_gonorrhoeae,pili,possesses,antigenic variation makes it hard to vaccinate against
+neisseria_gonorrhoeae,protease,enzyme,
+neisseria_gonorrhoeae,beta_lactamase,enzyme,
+neisseria_gonorrhoeae,lipopolysaccharide,toxin,endotoxin
+neisseria_gonorrhoeae,physiology,iron_metabolism,acquires iron from environment
+neisseria_gonorrhoeae,neutrophil,infects,"intracellular in pmns, pili prevent killing"
+neisseria_gonorrhoeae,urethritis,symptom,"males, opacity proteins, painful urination and milky discharge"
+neisseria_gonorrhoeae,prostatitis,symptom,males
+neisseria_gonorrhoeae,orchitis,symptom,"males, testicular pain"
+neisseria_gonorrhoeae,cervicitis,symptom,"females, mucopurulent (discharge and swelling)"
+neisseria_gonorrhoeae,pid,symptom,"females, ab pain, dispareunia"
+neisseria_gonorrhoeae,salpingitis,symptom,"females, can result in ectopic pregnancy and infertility"
+neisseria_gonorrhoeae,fitz-hugh-curtis_syndrome,symptom,"inflammation of liver and peritonium, violin string adhesions"
+neisseria_gonorrhoeae,bacteremia,symptom,disseminated gonococcal infection - later stage
+neisseria_gonorrhoeae,tenosynovitis,symptom,later stage
+neisseria_gonorrhoeae,arthritis,symptom,"purulent, may be present in synovial fluid"
+neisseria_gonorrhoeae,dermatitis,symptom,later stage
+neisseria_gonorrhoeae,pcr,testing,can be tested with pcr methods (NAAT)
+neisseria_gonorrhoeae,chlamydia_trachomatis,coinfection,can be covered with doxycycline or macrolides
+neisseria_gonorrhoeae,prophylaxis,condoms,
+fitz-hugh-curtis_syndrome,liver,involves,"inflammation, violin string adhesions"
+moraxella_catarrhalis,catalase,positive,
+moraxella_catarrhalis,nasopharynx,colonizes,
+moraxella_catarrhalis,oxidase,positive,
+moraxella_catarrhalis,oxygen_metabolism,obligate aerobe,
+moraxella_catarrhalis,biofilm,builds,
+moraxella_catarrhalis,beta_lactamase,enzyme,prevents beta lactams
+moraxella_catarrhalis,otitis_media,symptom,
+moraxella_catarrhalis,sinusitis,symptom,
+moraxella_catarrhalis,copd,exacerbation,
+klebsiella_pneumoniae,pneumonia,symptom,
+klebsiella_pneumoniae,nosocomial,environment,
+klebsiella_pneumoniae,uti,symptom,
+klebsiella_pneumoniae,resistance,possesses,multi-drug resistant
+fermentation,macconkey_agar,testing,pink colonies if it ferments lactose
+klebsiella_pneumoniae,fermentation,lactose,pink colonies on MacConkey agar
+klebsiella_pneumoniae,abscess,symptom,
+klebsiella_pneumoniae,capsule,polysaccharide,
+klebsiella_pneumoniae,airway,symptom,currant JELLY sputum
+klebsiella_pneumoniae,urease,positive,
+enterobacter_cloacae,pneumonia,symptom,
+enterobacter_cloacae,uti,symptom,
+enterobacter_cloacae,resistance,possesses,
+enterobacter_cloacae,fermentation,lactose,
+enterobacter_cloacae,macconkey_agar,testing,pink colonies
+enterobacter_cloacae,flagellum,motility,
+enterobacter_cloacae,nosocomial,environment,
+serratia_marcescens,pneumonia,symptom,
+serratia_marcescens,uti,symptom,
+serratia_marcescens,resistance,possesses,
+serratia_marcescens,fermentation,lactose,
+serratia_marcescens,macconkey_agar,testing,"pink colonies, forms pink pigment in shower"
+serratia_marcescens,flagellum,motility,
+serratia_marcescens,nosocomial,environment,
+klebsiella_pneumoniae,enterobacter_cloacae,related,
+enterobacter_cloacae,serratia_marcescens,related,
+serratia_marcescens,klebsiella_pneumoniae,related,
+non_typhoid_salmonella,flagellum,motility,
+non_typhoid_salmonella,capsule,polysaccharide,
+non_typhoid_salmonella,intracellular,facultative,within macrophages
+non_typhoid_salmonella,macrophage,infects,infects and travels with macrophages
+non_typhoid_salmonella,m_cell,infects,cross gastrointestinal mcells to disseminate
+non_typhoid_salmonella,acid_solubility,labile,
+non_typhoid_salmonella,hektoen_agar,testing,black colonies
+non_typhoid_salmonella,type_three_secretion,secretion,injects effector proteins directly into host cells and allows endocytosis
+non_typhoid_salmonella,phagolysosome,disables,effector proteins inhibit phagosome-lysosome fusion
+non_typhoid_salmonella,water,spread,
+non_typhoid_salmonella,food_poisoning,cause,poulty is #1 reservoir
+non_typhoid_salmonella,animal_contact,spread,
+non_typhoid_salmonella,bacteremia,exacerbation,
+non_typhoid_salmonella,gastroentiritis,symptom,
+non_typhoid_salmonella,septic_shock,symptom,
+non_typhoid_salmonella,vascular_injury,symptom,
+non_typhoid_salmonella,meningitis,symptom,
+non_typhoid_salmonella,osteomyelitis,symptom,
+non_typhoid_salmonella,antibiotic,treatment,usually self limiting but antibiotics may be indicated in severe cases
+typhoidal_salmonella,flagellum,motility,
+typhoidal_salmonella,capsule,polysaccharide,"VI antgien resists neutrophilic response, inhibits chemotaxis, interferes with complement and oxidative burst"
+typhoidal_salmonella,intracellular,facultative,macrophages
+typhoidal_salmonella,m_cell,infects,
+typhoidal_salmonella,acid_solubility,labile,
+typhoidal_salmonella,hektoen_agar,testing,black colonies
+typhoidal_salmonella,type_three_secretion,secretion,injects effector proteins directly into host cells and allows endocytosis
+typhoidal_salmonella,fever,symptom,"typhoid fever is enteric, meaning is progressively gets higher and infects bone marrow"
+typhoidal_salmonella,fecal_oral,spread,humans are only reservoir host of typhoidal
+typhoidal_salmonella,asymptomatic,state,colonizes gallbladder in carrier state
+typhoidal_salmonella,monocyte,defense,monocytic immune response
+typhoidal_salmonella,bradycardia,symptom,
+typhoidal_salmonella,macule,symptom,may present with rose-colored macules (kind of like petechial rash)
+typhoidal_salmonella,anemia,symptom,
+typhoidal_salmonella,hepatosplenomegaly,symptom,
+typhoidal_salmonella,intestinal_bleeding,affects,intestinal bleeding and perforation
+typhoidal_salmonella,leukopenia,symptom,
+typhoidal_salmonella,vaccine,injectable/conjugate vaccine,vi capsular polysaccharide conjugated with tetanus toxoid protein
+typhoidal_salmonella,biofilm,builds,
+sec_pathway,type_two_secretion,dependent,
+sec_pathway,type_five_secretion,dependent,
+sec_pathway,type_three_secretion,independent,
+sec_pathway,type_four_secretion,independent,
+sec_pathway,type_one_secretion,independent,
+shigella,acid_solubility,stable,stability leads to low load to casuse infection
+shigella,m_cell,infects,escapes through phagolysosome
+shigella,actin_rocket,motility,
+shigella,intracellular,facultative,
+shigella,bloody_stool,symptom,
+shigella,leukocyte,defense,leukocytes observed
+shigella,diarrhea,symptom,inflammatory
+shigella,type_three_secretion,secretion,inflammatory cytokines
+shigella,exotoxin,shiga toxin,"glomerulaar damage, inhibits 60s subunit of ribosomes"
+shigella,thrombocytopenia,symptom,drop in platelets
+shigella,schistocyte,symptom,lysed red blood cells
+shigella,hus,symptom,
+shigella,lipopolysaccharide,toxin,
+escherichia_coli,fermentation,lactose,
+escherichia_coli,macconkey_agar,testing,pink colonies
+escherichia_coli,eosin_methylene_blue_agar,testing,green sheen
+escherichia_coli,capsule,polysaccharide,
+escherichia_coli,catalase,positive,
+escherichia_coli,pili,possesses,#1 cause of UTI
+escherichia_coli,sepsis,symptom,#1 cause of gram negative sepsis
+escherichia_coli,lipopolysaccharide,toxin,
+escherichia_coli,meningitis,neonatal,K antigen
+escherichia_coli,enterohemorrhagic_ecoli,type,0157H7 antigen is the main serotype for outbreaks
+escherichia_coli,enterotoxigenic_ecoli,type,
+escherichia_coli,enteropathogenic_ecoli,type,
+escherichia_coli,enteroinvasive_ecoli,type,
+escherichia_coli,neonate,meningitis,K antigen
+enterohemorrhagic_ecoli,food_poisoning,cause,undercooked meat
+enterohemorrhagic_ecoli,bloody_stool,symptom,
+enterohemorrhagic_ecoli,fermentation,not sorbitol,
+enterohemorrhagic_ecoli,exotoxin,shiga-like toxin,inhibits 60s unit of ribosomes
+enterohemorrhagic_ecoli,hus,symptom,
+hus,glomerulus,damage,
+hus,thrombocytopenia,involves,
+hus,schistocyte,involves,
+enterotoxigenic_ecoli,diarrhea,symptom,watery
+enterotoxigenic_ecoli,water,spread,common in Mexico
+enterotoxigenic_ecoli,heat_solubility,both,"heat labile toxin increases cAMP - similar to cholera toxin, heat stable toxin increases cGMP - similar to yersenia entercolitis"
+enterotoxigenic_ecoli,exotoxin,2 types,"heat labile toxin increases cAMP - similar to cholera toxin, heat stable toxin increases cGMP - similar to yersenia entercolitis"
+enterotoxigenic_ecoli,vibrio_cholera,similar,heat labile is similar to cholera toxin
+yersinia_enterocolitica,animal_contact,spread,"puppy feces, toddlers commonly infected"
+yersinia_enterocolitica,food_poisoning,cause,contaminated milk
+yersinia_enterocolitica,psychrophilic,grows,cold resistant
+yersinia_enterocolitica,capsule,polysaccharide,
+yersinia_enterocolitica,appendicitis,mimics,
+yersinia_enterocolitica,gut,affects,
+yersinia_enterocolitica,leukocytosis,symptom,
+yersinia_enterocolitica,fever,symptom,
+yersinia_enterocolitica,abscess,symptom,
+yersinia_enterocolitica,lymphadenopathy,symptom,mesenteric lymph node enlargement
+yersinia_enterocolitica,enterotoxigenic_ecoli,similar,heat stable toxin similar
+yersinia_pestis,animal_contact,spread,rats and prairie dogs
+yersinia_pestis,flea,vector,
+yersinia_pestis,lymphadenopathy,symptom,"bubos, responsible for bubonic plague"
+yersinia_pestis,abscess,symptom,
+yersinia_pestis,dic,symptom,endotoxin necrosis
+yersinia_pestis,exotoxin,yersinia associated proteins,inhibits phagocytosis and cytokine production
+yersinia_pestis,type_three_secretion,secretion,
+yersinia_pestis,vaccine,killed,
+campylobacter_jejuni,thermophilic,grows, at 42C
+campylobacter_jejuni,animal_contact,spread,intestinal tracts of animals (especially poultry)
+campylobacter_jejuni,fecal_oral,spread,
+campylobacter_jejuni,bloody_stool,symptom,diarrhea
+campylobacter_jejuni,oxidase,positive,
+campylobacter_jejuni,bacteremia,exacerbation,
+campylobacter_jejuni,arthritis,reactive,
+campylobacter_jejuni,guillain_barre,symptom,ascending demyelination
+guillain_barre,pns,demyelination,
+vibrio_cholera,tcbs_agar,testing,
+vibrio_cholera,oxidase,positive,
+vibrio_cholera,diarrhea,symptom,rice water like
+vibrio_cholera,alkaline_media,grows,
+vibrio_cholera,acid_solubility,labile,
+vibrio_cholera,pili,attaches,"to intestinal wall, toxin coregulated"
+vibrio_cholera,exotoxin,cholera toxin,"activates Gs, elevates cAMP, increases Cl secretion into gut lumen and causes diarrhea, GM1 ganglioside is attachment of toxin"
+vibrio_cholera,water,treatment/spread,"copious amounts of oral rehydration, also spread from contaminated water"
+vibrio_vulnificus,tcbs_agar,testing,
+vibrio_vulnificus,physiology,siderophores,iron uptake
+vibrio_vulnificus,necrotizing_fasciitis,symptom,"severe wound infections from raw shellfish, flesh eating"
+vibrio_vulnificus,lipopolysaccharide,toxin,endotoxin
+vibrio_vulnificus,animal_contact,spread,shellfish
+vibrio_parahemolyticus,tcbs_agar,testing,
+vibrio_parahemolyticus,animal_contact,spread,raw oysters
+vibrio_parahemolyticus,exotoxin,TDH,thermostable direct hemolysin
+vibrio_parahemolyticus,enterotoxin,toxin,
+vibrio_parahemolyticus,diarrhea,symptom,watery but less severe than cholera
+vibrio_parahemolyticus,type_three_secretion,secretion,
+vibrio_parahemolyticus,water,treatment,rehydration
+helicobacter_pylori,flagellum,motility,
+helicobacter_pylori,urease,positive,"urea to ammonia + CO2, reduces acidity of stomach/pylorus"
+helicobacter_pylori,urea_breath_test,testing,higher concentration of co2 indicates h.p. infection
+helicobacter_pylori,malt,infects,
+helicobacter_pylori,neoplasia,exacerbation,gastric adenocarcinoma
+helicobacter_pylori,ulcer,symptom,duodenal
+helicobacter_pylori,oxidase,positive,
+proteus_mirabilis,flagellum,motility,swarming motility
+proteus_mirabilis,kidney,affects,"struvite stones can cause kidney stones, staghorn calculi"
+proteus_mirabilis,urease,positive,alkaline environment forms calculi
+proteus_mirabilis,uti,symptom,
+proteus_mirabilis,oxygen_metabolism,facultative anaerobe,
+bordetella_pertussis,airway,affects,ciliated epithelial cells
+bordetella_pertussis,droplet,spread,
+bordetella_pertussis,pili,possesses,filamentous hemagglutinin is the main adhesin
+bordetella_pertussis,neutrophil,affects,disables activation
+bordetella_pertussis,lymphocyte,affects,disables activation
+bordetella_pertussis,exotoxin,"pertussis toxin, tracheal cytotoxin","pertussis toxin disrupts Gi protein by ribosylating ADP, causing increased cAMP, disables chemokine receptors on lymphocytes, inhibits neutrophil activation"
+bordetella_pertussis,vaccine,"killed, accellular (DTaP)",purified antigens along with diphtheria and tetanus toxins
+bordetella_pertussis,mesophilic,regulation,"at colder temperatures and nutrient environments, toxin synthesis is turned off"
+bordetella_pertussis,corynebacterium_diphtheriae,vaccine,combined
+bordetella_pertussis,clostridium_tetani,vaccine,combined
+haemophilus_influenzae,chocolate_agar,grows,requires factor 5 and 10 (NAD + hemin)
+haemophilus_influenzae,aerosol,spread,
+haemophilus_influenzae,pneumonia,symptom,
+haemophilus_influenzae,epiglotitis,symptom,"cherry red, emergency"
+haemophilus_influenzae,capsule,polysaccharide,type B strain
+haemophilus_influenzae,protease,enzyme,type B strain
+haemophilus_influenzae,lipopolysaccharide,toxin,endotoxin
+haemophilus_influenzae,otitis_media,symptom,
+haemophilus_influenzae,meningitis,symptom,more common in children
+haemophilus_influenzae,sepsis,symptom,
+haemophilus_influenzae,spleen,complication,asplenic or sickle cell patients higher risk
+haemophilus_influenzae,vaccine,capsule vaccine,"DIP - polysaccharide + diphtheria toxin, 2-18 months injection. DIP toxin increases t-dependent response which is stronger"
+haemophilus_influenzae,prophylaxis,prevents,"rifampin, close contacts with children"
+legionella_pneumophila,silver_stain,testing,along with buffered charcoal yeast extract with cysteine and rion
+legionella_pneumophila,oxidase,positive,
+legionella_pneumophila,pneumonia,symptom,"legionnaire's disease, atypical pneumonia, unilobal infiltrate on xray, smokers and old workspaces/conferences"
+legionella_pneumophila,headache,symptom,
+legionella_pneumophila,cns,confusion,
+legionella_pneumophila,fever,symptom,"pontiac fever, high, self limited, malaise"
+legionella_pneumophila,hyponatremia,symptom,
+legionella_pneumophila,urine_antigen_test,testing,
+pseudomonas_aeruginosa,water,spread,"thrives in aquatic environments, swimmer's ear"
+pseudomonas_aeruginosa,oxidase,positive,
+pseudomonas_aeruginosa,catalase,positive,
+pseudomonas_aeruginosa,cgd,complication,
+pseudomonas_aeruginosa,oxygen_metabolism,obligate aerobe,
+pseudomonas_aeruginosa,cystic_fibrosis,complication,pulmonary infection
+pseudomonas_aeruginosa,pneumonia,symptom,
+pseudomonas_aeruginosa,nosocomial,environment,"catheter, utis"
+pseudomonas_aeruginosa,osteomyelitis,symptom,"iv drug users and diabetics, fatal in burn patients"
+pseudomonas_aeruginosa,capsule,polysaccharide,
+pseudomonas_aeruginosa,sepsis,symptom,
+pseudomonas_aeruginosa,folliculitis,symptom,hot tub 
+pseudomonas_aeruginosa,exotoxin,exotoxin A,"along with elastase, and phospholipase C, causes tissue damage to create iron"
+pseudomonas_aeruginosa,physiology,siderophores,iron uptake pyocyanine and pyoveridin
+pseudomonas_aeruginosa,necrosis,ecthyma gangrenosum,black necrotic skin lesions
+pseudomonas_aeruginosa,lesion,ecthyma gangrenosum,
+pseudomonas_aeruginosa,corynebacterium_diphtheriae,similar,exotoxin A is similar to diphtheria and ribosylates EF2
+burkholderia_pseudomallei,catalase,positive,
+burkholderia_pseudomallei,oxygen_metabolism,obligate aerobe,
+burkholderia_pseudomallei,oxidase,positive,
+burkholderia_pseudomallei,water,spread,"wet season, tropical areas"
+burkholderia_pseudomallei,soil,spread,
+burkholderia_pseudomallei,pneumonia,symptom,similar to tb without cavitary lesions
+burkholderia_cepacian_complex,catalase,positive,
+burkholderia_cepacian_complex,oxidase,positive,
+burkholderia_cepacian_complex,oxygen_metabolism,obligate aerobe,
+burkholderia_cepacian_complex,soil,spread,
+burkholderia_cepacian_complex,water,spread,
+burkholderia_cepacian_complex,cystic_fibrosis,complication,
+burkholderia_cepacian_complex,pneumonia,symptom,necrotizing
+burkholderia_cepacian_complex,immunocompromised,complication,
+burkholderia_cepacian_complex,bacteremia,exacerbation,
+burkholderia_cepacian_complex,encephalomyelitis,symptom,
+burkholderia_cepacian_complex,abscess,symptom,
+burkholderia_cepacian_complex,resistance,possesses,multiple drugs
+bartonella_quintana,louse,vector,
+bartonella_quintana,immunocompromised,complication,
+bartonella_quintana,fever,symptom,trench fever
+bartonella_henselae,warthin_starry_stain,testing,
+bartonella_henselae,silver_stain,testing,
+bartonella_henselae,fever,symptom,cat scratch fever
+bartonella_henselae,lymphadenopathy,symptom,
+bartonella_henselae,immunocompetent,affects,cat scratch fever
+bartonella_henselae,neoplasia,similar,vascular lesions also in kaposi's sarcoma
+bartonella_henselae,immunocompromised,affects,bacillary angiomatosis
+bartonella_henselae,lesion,symptom,"vascular, in bacillary angiomatosis"
+bartonella_henselae,animal_contact,spread,cat scratches/bites
+brucella_species,oxygen_metabolism,obligate aerobe,
+brucella_species,animal_contact,spread,farm animals
+brucella_species,food_poisoning,cause,unpasteurized milk products
+brucella_species,intracellular,facultative,"macrophages, reticuloendothelial system"
+brucella_species,macrophage,infects,
+brucella_species,flu-like,symptom,"fever, chills, anorexia"
+brucella_species,fever,symptom,undulating
+brucella_species,liver,affects,enlargement
+brucella_species,spleen,affects,enlargement
+brucella_species,lymphadenopathy,symptom,
+brucella_species,osteomyelitis,symptom,
+francisella_tularensis,intracellular,facultative,affects phagocytes
+francisella_tularensis,ulcer,symptom,tularemia
+francisella_tularensis,necrosis,symptom,tularemia
+francisella_tularensis,lesion,symptom,tularemia
+francisella_tularensis,granuloma,symptom,tularemia
+francisella_tularensis,animal_contact,spread,rabbits are primary reservoir
+francisella_tularensis,tick,vector,dermacentor tick
+francisella_tularensis,aerosol,spread,very contagious
+francisella_tularensis,lymphadenopathy,symptom,regional
+pasteurella_multocida,catalase,positive,
+pasteurella_multocida,oxidase,positive,
+pasteurella_multocida,capsule,polysaccharide,main virulence factor
+pasteurella_multocida,sheep_blood,grows,"grows on 5% sheep's blood, bipolar safety pin staining"
+pasteurella_multocida,animal_contact,spread,"respiratory tract of small animals, dog/cat bites"
+pasteurella_multocida,cellulitis,symptom,
+pasteurella_multocida,necrotizing_fasciitis,symptom,
+pasteurella_multocida,lymphadenopathy,symptom,
+pasteurella_multocida,liver,complication,liver disease higher at risk
+pasteurella_multocida,copd,complication,copd individuals higher risk
+anaplasma_phagocytophilum,intracellular,obligate,"vacuoles of leukocytes, morulae"
+anaplasma_phagocytophilum,granulocyte,infects,
+anaplasma_phagocytophilum,tick,vector,black legged ixodes tick
+anaplasma_phagocytophilum,animal_contact,spread,"mouse is larva for tick, white tailed deer is adult"
+anaplasma_phagocytophilum,gut,symptom,anaplasmosis
+anaplasma_phagocytophilum,wright_giemsa_stain,testing,peripheral blood smear
+anaplasma_phagocytophilum,flu-like,symptom,anaplasmosis
+anaplasma_phagocytophilum,rash,NO RASH,
+anaplasma_phagocytophilum,pancytopenia,symptom,
+ehrlichia_chaffeensis,intracellular,obligate,"vacuoles of leukocytes, morulae ""mulberry"" inclusions"
+ehrlichia_chaffeensis,tick,vector,lone star tick (amblyomma Americanum)
+ehrlichia_chaffeensis,animal_contact,spread,white tailed deer only
+ehrlichia_chaffeensis,flu-like,symptom,ehrlichiosis
+ehrlichia_chaffeensis,gut,symptom,ehrlichiosis
+ehrlichia_chaffeensis,rash,NO RASH,
+ehrlichia_chaffeensis,pancytopenia,symptom,
+ehrlichia_chaffeensis,monocyte,infects,
+mycobacterium_tuberculosis,acid_fast,stains,mycloic acid in carbol-fuchsin stain
+mycobacterium_tuberculosis,lowenstein-jensen_agar,testing,
+mycobacterium_tuberculosis,oxygen_metabolism,obligate aerobe,
+mycobacterium_tuberculosis,intracellular,obligate,
+mycobacterium_tuberculosis,macrophage,infects,
+mycobacterium_tuberculosis,cell_membrane,contains,"cord factor (trehalose dimycolic acid) forms cords when plated, PIM and LAM are other structures found in the mycobactera cell membrane. Cord factor is the main virulence factor."
+mycobacterium_tuberculosis,inflammation,symptom,cord factor
+mycobacterium_tuberculosis,granuloma,symptom,"cord factor, caseous, necrotic"
+mycobacterium_tuberculosis,phagolysosome,affects,sulfatides inhibit phagosome-lysosome fusion
+mycobacterium_tuberculosis,pneumonia,symptom,middle and lower parts of lung on CXR
+mycobacterium_tuberculosis,heat_solubility,labile,
+mycobacterium_tuberculosis,catalase,positive,
+mycobacterium_tuberculosis,lymphadenopathy,symptom,"enlarged hilar lymph nodes and mediastinal lymph nodes, ghon complex"
+mycobacterium_tuberculosis,lesion,symptom,lung cavitary lesions
+mycobacterium_tuberculosis,calcification,symptom,"ghon complex, encapsulates bacteria within lung tissue"
+mycobacterium_tuberculosis,asymptomatic,state,"latent tb, can be reactivated by TNF inhibitors and immunosupressants"
+mycobacterium_tuberculosis,fibrosis,symptom,
+mycobacterium_tuberculosis,ppd_skin_test,testing,"antibodies create indurations, diagnoses is based on height and several other risk factors. BCG vaccine causes false positives in pdd"
+mycobacterium_tuberculosis,hematogenous,exacerbation,"miliary TB, potentially fatal"
+mycobacterium_tuberculosis,sequelae,secondary-TB,"UPPER LOBE disease and cavitation, hemoptysis, night sweats, anorexia, weight loss"
+mycobacterium_tuberculosis,cns,infects,"Pott disease, spine TB"
+mycobacterium_tuberculosis,meningitis,symptom,
+mycobacterium_tuberculosis,neoplasia,tuberculomas,
+mycobacterium_tuberculosis,prophylaxis,prevents,rifampin for reactivation of latent TB
+mycobacterium_tuberculosis,aerosol,spread,
+mycobacterium_leprae,acid_fast,stains,
+mycobacterium_leprae,psychrophilic,grows,extremities
+mycobacterium_leprae,animal_contact,infects,armadillos
+mycobacterium_leprae,t-cell,response,
+mycobacterium_leprae,lesion,symptom,
+mycobacterium_leprae,lepromin_skin_test,testing,
+mycobacterium_leprae,contact,spread,
+tuberculoid_leprosy,lesion,symptom,"hairless, well demarcated"
+tuberculoid_leprosy,lepromin_skin_test,stronger response,"nodule formation, stronger immune response"
+tuberculoid_leprosy,t-cell,Th1 mediated,
+lepromatous_leprosy,lepromin_skin_test,weaker response,"no nodule formation, more widespread lesions and higher load"
+lepromatous_leprosy,lesion,symptom,"poorly demarcated, long john"
+lepromatous_leprosy,t-cell,Th2 response,failure of macrophage containment
+lepromatous_leprosy,neuropathy,symptom,"glove and stocking neuropathy, loss of sensitivity in extremities"
+lepromatous_leprosy,papule,symptom,
+lepromatous_leprosy,macule,symptom,
+lepromatous_leprosy,nodule,symptom,"earlobes, associated with leonine facies"
+mycobacterium_avium_intracellulare,copd,symptom,
+mycobacterium_avium_intracellulare,mycobacterium_tuberculosis,similar,similar symptoms
+mycobacterium_avium_intracellulare,diarrhea,symptom,watery
+mycobacterium_avium_intracellulare,bacteremia,exacerbation,disseminated in immunocompromised patients
+mycobacterium_avium_intracellulare,water,spread,
+mycobacterium_avium_intracellulare,soil,spread,
+mycobacterium_avium_intracellulare,acid_fast,stains,
+mycobacterium_avium_intracellulare,macrophage,infects,
+mycobacterium_avium_intracellulare,granuloma,symptom,macrophages
+mycobacterium_avium_intracellulare,lymphadenopathy,symptom,cervical lymphadenitis
+mycobacterium_avium_intracellulare,resistance,possesses,multidrug
+hiv,art,treatment,
+mycobacterium_avium_intracellulare,hiv,complication,"higher risk if patient has HIV, low CD4"
+mycobacterium_avium_intracellulare,prophylaxis,prevents,"macrolide, in HIV patients with CD4 < 50, initate ART"
+mycobacterium_scrofulaceum,acid_fast,stains,
+mycobacterium_scrofulaceum,macrophage,infects,
+mycobacterium_scrofulaceum,granuloma,symptom,
+mycobacterium_scrofulaceum,aerosol,spread,
+mycobacterium_scrofulaceum,lymphadenopathy,symptom,unilateral cervical lymphadenitis
+mycobacterium_marinum,acid_fast,stains,
+mycobacterium_marinum,macrophage,infects,
+mycobacterium_marinum,granuloma,symptom,
+mycobacterium_marinum,water,spread,"aquariums, infected water, hand infection"
+mycobacterium_marinum,animal_contact,spread,"fish, amphibians, reptiles"
+borrelia_burgdorferi,tick,vector,"ixodes scapularis in NE in United States, mouse is reservoir, deer is obligatory"
+borrelia_burgdorferi,wright_giemsa_stain,testing,
+borrelia_burgdorferi,rash,symptom,"erythema chronicum migrans, bull's eye stage 1"
+borrelia_burgdorferi,flu-like,symptom,stage 1
+borrelia_burgdorferi,myocarditis,symptom,"stage 2, heartbloack"
+borrelia_burgdorferi,cns,symptom,"bilateral bell's palsy in stage 2, cognitive issues in stage 3"
+borrelia_burgdorferi,asymptomatic,latent period,
+borrelia_burgdorferi,arthritis,symptom,"polyarthritis, stage 3"
+borrelia_recurrentis,dark_field_microscopy,testing,
+borrelia_recurrentis,wright_giemsa_stain,testing,
+borrelia_recurrentis,fever,symptom,relapsing
+borrelia_recurrentis,louse,vector,pediculus humanus corporis (human body louse)
+borrelia_recurrentis,jaundice,symptom,
+borrelia_recurrentis,thrombocytopenia,symptom,
+borrelia_recurrentis,jarisch_herxheimer_reaction,complication,treatment with antibiotics
+borrelia_hermsii,dark_field_microscopy,testing,
+borrelia_hermsii,wright_giemsa_stain,testing,
+borrelia_hermsii,fever,symptom,relapsing
+borrelia_hermsii,tick,vector,
+borrelia_hermsii,borrelia_recurrentis,similar,hermsii is endemic while recurrentis is epidemic
+leptospira_interrogans,water,spread,"animal urine contamination, tropical regions"
+leptospira_interrogans,flu-like,symptom,
+leptospira_interrogans,eye_infection,symptom,conjunctival suffusion - redness without exudates
+leptospira_interrogans,exudate,NO EXUDATE,
+leptospira_interrogans,bacteremia,exacerbation,"systemic leptospirosis, weil's disease, bloodstream, multiple organ damage"
+leptospira_interrogans,kidney,dysfunction,
+leptospira_interrogans,liver,dysfunction,
+leptospira_interrogans,jaundice,symptom,
+leptospira_interrogans,meningitis,symptom,aseptic
+treponema_pallidum,cell_membrane,adhesion proteins,
+treponema_pallidum,exotoxin,hyaluronidase,perivascular invasion
+treponema_pallidum,dark_field_microscopy,testing,
+treponema_pallidum,rpr,testing,"fast, purified antibodies"
+treponema_pallidum,antibody_test,testing,fluorescent treponemal antibody
+treponema_pallidum,sti,cause,
+treponema_pallidum,primary_syphilis,stage,
+treponema_pallidum,secondary_syphilis,stage,
+treponema_pallidum,tertiary_syphilis,stage,
+tertiary_syphilis,gumma,symptom,
+tertiary_syphilis,aortitis,symptom,
+tertiary_syphilis,tabes_dorsalis,symptom,
+tertiary_syphilis,argyll-robertson_pupils,symptom,
+treponema_pallidum,congenital_syphilis,stage,
+treponema_pallidum,jarisch_herxheimer_reaction,complication,"antibiotic treatment, fevers, chills, headache"
+chlamydia_trachomatis,eye_infection,symptom,"A-C, can be neonatal"
+chlamydia_trachomatis,uveitis,symptom,"A-C, reiter's syndrome"
+chlamydia_trachomatis,urethritis,symptom,"A-C, reiter's syndrome"
+chlamydia_trachomatis,arthritis,symptom,"A-C, reiter's syndrome"
+chlamydia_trachomatis,intracellular,obligate,
+chlamydia_trachomatis,atp,none,cannot produce own atp
+chlamydia_trachomatis,peptidoglycan,none,no muramic acid
+chlamydia_trachomatis,granular_inclusion,seen,within cells
+chlamydia_trachomatis,wright_giemsa_stain,testing,
+chlamydia_trachomatis,pcr,testing,
+chlamydia_trachomatis,sti,cause,D-K
+chlamydia_trachomatis,neisseria_gonorrhoeae,similar,"later conjunctivitis in neonates than gonorrhea, coinfection treat with ceftriaxone"
+chlamydia_trachomatis,exudate,symptom,"watery discharge, D-K"
+chlamydia_trachomatis,pid,symptom,"infertility, D-K"
+chlamydia_trachomatis,neonate,affects,
+chlamydia_trachomatis,lymphadenopathy,symptom,"lymphogranuloma veneruem, inguinal node infection, L1-L3"
+chlamydophila_pneumoniae,pneumonia,symptom,atypical
+chlamydophila_pneumoniae,intracellular,obligate,
+chlamydophila_pneumoniae,atp,none,cannot produce own atp
+chlamydophila_pneumoniae,peptidoglycan,none,no muramic acid
+chlamydophila_pneumoniae,granular_inclusion,seen,within cells
+chlamydophila_pneumoniae,wright_giemsa_stain,testing,
+chlamydophila_pneumoniae,pcr,testing,
+chlamydophila_pneumoniae,sinusitis,symptom,
+chlamydophila_psittaci,pneumonia,symptom,atypical
+chlamydophila_pneumoniae,intracellular,obligate,
+chlamydophila_pneumoniae,atp,none,cannot produce own atp
+chlamydophila_pneumoniae,peptidoglycan,none,no muramic acid
+chlamydophila_pneumoniae,granular_inclusion,seen,within cells
+chlamydophila_pneumoniae,wright_giemsa_stain,testing,
+chlamydophila_pneumoniae,pcr,testing,
+chlamydophila_pneumoniae,animal_contact,spread,birds
+coxiella_burnetiid,rash,NONE,
+coxiella_burnetiid,q-fever,symptom,
+coxiella_burnetiid,intracellular,obligate,
+coxiella_burnetiid,endospore,form,spore like in animal poop
+coxiella_burnetiid,aerosol,spread,
+coxiella_burnetiid,pneumonia,atypical,
+coxiella_burnetiid,headache,symptom,
+coxiella_burnetiid,hepatitis,symptom,
+coxiella_burnetiid,animal_contact,spread,milk
+coxiella_burnetiid,vaccine,acellular,
+coxiella_burnetiid,granuloma,symptom,"lungs, liver, bone marrow, spleen"
+coxiella_burnetiid,endocarditis,symptom,
+gardnerella_vaginalis,uti,symptom,bacterial vaginosis - imbalance of flora
+gardnerella_vaginalis,exudate,"greyish white, fishy odor",
+gardnerella_vaginalis,oxygen_metabolism,anaerobic,more growth
+gardnerella_vaginalis,physiology,pH,"more basic, from 5 to 6.5 instead of normal 4.5"
+gardnerella_vaginalis,whiff_test,testing,"10% KOH, pungent odor"
+mycoplasma_pneumoniae,peptidoglycan,none,lacks cell wall
+mycoplasma_pneumoniae,cell_membrane_sterols,contains,exception of bacteria to contain this
+mycoplasma_pneumoniae,pneumonia,symptom,"atypical, walking, appears worse on xray, patchy infiltrates"
+mycoplasma_pneumoniae,contact,close contact between young adults,
+mycoplasma_pneumoniae,cold_agglutinins_test,testing,"IgM agglutinins bind to surface of rbcs at low temperature, causing clumping and hemolysis"
+mycoplasma_pneumoniae,eaton's_agar,testing,
+rickettsia_rickettsii,intracellular,obligate,cannot produce CoA and NAD
+rickettsia_rickettsii,headache,symptom,
+rickettsia_rickettsii,vascular_injury,symptom,
+rickettsia_rickettsii,petechial_rash,symptom,"or maculopapular, starts at extremities and progresses to trunk"
+rickettsia_rickettsii,rocky_mountain_spotted_fever,symptom,2-14 day incubation
+rickettsia_rickettsii,tick,vector,dermacentor tick
+rickettsia_rickettsii,myalgia,symptom,
+rickettsia_prowazekil,contact,spread,military camp recruits and POW
+rickettsia_prowazekil,louse,vector,"human louse feces, scratching"
+rickettsia_prowazekil,rash,symptom,"centrally then outward, spares extremities"
+rickettsia_prowazekil,myalgia,symptom,
+rickettsia_prowazekil,arthritis,symptom,
+rickettsia_prowazekil,pneumonia,symptom,
+rickettsia_prowazekil,encephalitis,symptom,
+rickettsia_prowazekil,coma,symptom,
+rickettsia_prowazekil,intracellular,obligate,cannot produce CoA and NAD
+bacteroides_fragilis,oxygen_metabolism,obligate anaerobe,
+bacteroides_fragilis,capsule,polysaccharide,
+bacteroides_fragilis,bile,stable,
+bacteroides_fragilis,gut,colonizes,
+bacteroides_fragilis,abscess,symptom,
+bacteroides_fragilis,ulcer,symptom,
+bacteroides_fragilis,endocarditis,symptom,
+bacteroides_corrodens,bile,stable,
+bacteroides_corrodens,oxidase,positive,
+bacteroides_corrodens,gut,colonizes,
+bacteroides_corrodens,bacteremia,exacerbation,sever invasive disase
+cgd,oxidative_burst,inhibits,
+macule,cyst,skin infection,
+cyst,folliculitis,skin infection,
+folliculitis,impetigo,skin infection,
+impetigo,erysipelas,skin infection,
+erysipelas,cellulitis,skin infection,
+cellulitis,abscess,skin infection,
+macule,papule,skin infection,
+papule,furuncle,skin infection,
+furuncle,carbuncle,skin infection,
+cold_agglutinins_test,immunoglobulin,affects,
+vaccine,immunoglobulin,produces,
+natural_penicillin,borrelia_recurrentis,treatment,
+natural_penicillin,streptococcus_pyogenes,treatment,treats strep pharyngitis and rheumatic fever.
+natural_penicillin,peptidoglycan,affects,prevents cell wall synthesis by binding PBPs
+natural_penicillin,streptococcus_agalactiae,treatment,prophylaxis
+natural_penicillin,streptococcus_viridans,treatment,
+natural_penicillin,actinomyces_israelii,treatment,
+natural_penicillin,clostridium_perfringens,treatment,
+natural_penicillin,pasteurella_multocida,treatment,
+natural_penicillin,treponema_pallidum,treatment,prophylaxis in pregnant mothers
+natural_penicillin,neisseria_meningitidis,treatment,
+natural_penicillin,kidney,side effect,nephrotoxicity
+natural_penicillin,anemia,side effect,
+beta_lactamase,natural_penicillin,resistant,
+natural_penicillin,hypersensitivity,side effect,IgG antibodies against penicillin bind to RBCs
+anti-staph_penicillin,staphylococcus_aureus,treatment,altered PBPs (MRSA) confer resistance
+anti-staph_penicillin,endocarditis,treatment,
+anti-staph_penicillin,osteomyelitis,treatment,
+anti-staph_penicillin,natural_penicillin,related,"beta lactam with added beta lactamase inhibition, similar side effects"
+aminopenicillin,streptococcus_pyogenes,treatment,pharyngitis
+aminopenicillin,streptococcus_pneumoniae,treatment,
+aminopenicillin,otitis_media,treatment,
+aminopenicillin,sinusitis,treatment,
+aminopenicillin,helicobacter_pylori,treatment,
+aminopenicillin,moraxella_catarrhalis,treatment,
+aminopenicillin,borrelia_burgdorferi,treatment,
+aminopenicillin,haemophilus_influenzae,treatment,
+aminopenicillin,enterococcus_faecalis,treatment,
+aminopenicillin,listeria_monocytogenes,treatment,
+aminopenicillin,spleen,indicated,prophylaxis in asplenic patients/immunocompromised
+anti-pseudomonal_penicillin,cutaneous,side effect,Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN)
+anti-pseudomonal_penicillin,pseudomonas_aeruginosa,treatment,
+anti-pseudomonal_penicillin,natural_penicillin,related,"beta lactam with added beta lactamase inhibition, similar side effects"
+anti-pseudomonal_penicillin,nosocomial,treatment,"Serious hospital acquired infections (pneumonia, intra- abdominal infections, sepsis)"
+first_gen_cephalosporin,natural_penicillin,related,"beta lactam, similar side effects"
+first_gen_cephalosporin,staphylococcus_aureus,treatment,
+first_gen_cephalosporin,staphylococcus_epidermidis,treatment,
+first_gen_cephalosporin,staphylococcus_saprophyticus,treatment,
+first_gen_cephalosporin,streptococcus_pyogenes,treatment,pharyngitis
+first_gen_cephalosporin,uti,treatment,"klebsiella, proteus, etc."
+first_gen_cephalosporin,prophylaxis,prevents,prophylaxis during surgery
+second_gen_cephalosporin,first_gen_cephalosporin,related,
+second_gen_cephalosporin,prophylaxis,prevents,surgery
+second_gen_cephalosporin,gram_negative_cell_wall,treatment,increased spectrum for gram negatives
+third_gen_cephalosporin,streptococcus_gallolyticus,treatment,
+third_gen_cephalosporin,staphylococcus_aureus,treatment,Ceftaroline covers MRSA
+third_gen_cephalosporin,pseudomonas_aeruginosa,treatment,Ceftazidime
+third_gen_cephalosporin,borrelia_burgdorferi,treatment,ceftriaxone
+third_gen_cephalosporin,meningitis,treatment,crosses blood brain barrier
+third_gen_cephalosporin,burkholderia_cepacian_complex,treatment,
+third_gen_cephalosporin,haemophilus_influenzae,treatment,crosses blood brain barrier
+third_gen_cephalosporin,neisseria_meningitidis,treatment,crosses blood brain barrier
+third_gen_cephalosporin,neisseria_gonorrhoeae,treatment,ceftriaxone DOC
+third_gen_cephalosporin,typhoidal_salmonella,treatment,
+third_gen_cephalosporin,listeria_monocytogenes,treatment,ceftriaxone
+third_gen_cephalosporin,streptococcus_pneumoniae,treatment,ceftriaxone DOC
+third_gen_cephalosporin,uti,treatment,
+third_gen_cephalosporin,second_gen_cephalosporin,related,
+fourth_gen_cephalosporin,pseudomonas_aeruginosa,treatment,
+fourth_gen_cephalosporin,nosocomial,treatment,serious hospital acquired infections
+fourth_gen_cephalosporin,third_gen_cephalosporin,related,
+fifth_gen_cephalosporin,pseudomonas_aeruginosa,treatment,ceftolozane
+fifth_gen_cephalosporin,fourth_gen_cephalosporin,related,
+fifth_gen_cephalosporin,staphylococcus_aureus,treatment,MRSA
+imi_mero_dori,klebsiella_pneumoniae,treatment,
+imi_mero_dori,nosocomial,treatment,serious hospital acquired infections
+imi_mero_dori,gut,side effect,nausea vomiting diarrhea
+imi_mero_dori,cns,side effect,seizures (imi lowers)
+imi_mero_dori,rash,side effect,
+imi_mero_dori,beta_lactamase,treatment,covers Extended Spectrum beta lactamase organisms
+ertapenem,beta_lactamase,treatment,covers Extended Spectrum beta lactamase organisms
+ertapenem,prophylaxis,prevents,for GI/GU surgery
+ertapenem,imi_mero_dori,related,
+meropenem_vaborbactam,beta_lactamase,treatment,"covers ESBLS, CREs, and ampCs, basically unstoppable"
+meropenem_vaborbactam,fifth_gen_cephalosporin,related,similar coverage but slightly more 
+meropenem_vaborbactam,imi_mero_dori,related,
+aminoglycoside,ribosome,inhibits,"binds to 30S, bacteriocidal"
+aminoglycoside,oxygen_metabolism,treatment,treats gram negative aerobic bacteria
+aminoglycoside,gram_negative_cell_wall,treatment,"treats gram negative aerobic bacteria, used synergistically"
+aminoglycoside,cns,side effect,"neurotoxicity, contraindicated in myasthenia gravis patients"
+aminoglycoside,kidney,side effect,nephrotoxicity
+aminoglycoside,ototoxicity,side effect,
+aminoglycoside,vancomycin,combination,
+aminoglycoside,gut,treatment,"prophylaxis, active against parasites. neomycin and paramycin"
+aminoglycoside,francisella_tularensis,treatment,streptomycin
+aminoglycoside,yersinia_pestis,treatment,streptomycin
+aminoglycoside,klebsiella_pneumoniae,treatment,gentamycin
+aminoglycoside,pseudomonas_aeruginosa,treatment,"gentamycin, tobramycin, amikacin"
+aminoglycoside,teratogen,side effect,
+fluoroquinolone,pneumonia,treatment,good alternative
+fluoroquinolone,pseudomonas_aeruginosa,treatment,ciprofloxacin
+fluoroquinolone,uti,treatment,
+fluoroquinolone,osteomyelitis,treatment,
+fluoroquinolone,bacillus_anthracis,treatment,
+fluoroquinolone,typhoidal_salmonella,treatment,
+fluoroquinolone,mycoplasma_pneumoniae,treatment,
+fluoroquinolone,legionella_pneumophila,treatment,
+fluoroquinolone,qtc,side effect,
+fluoroquinolone,teratogen,side effect,avoid during pregnancy
+fluoroquinolone,tendonitis,side effect,
+fluoroquinolone,vomiting,side effect,
+fluoroquinolone,diarrhea,side effect,
+fluoroquinolone,cns,side effect,"neurotoxicity, seizures"
+fluoroquinolone,gut,treatment,"gram negative gi organisms like campylobacter, shigella, and salmonella"
+tetra_mino_doxy,gram_positive_cell_wall,treatment,gram positives including MRSA
+tetra_mino_doxy,ribosome,inhibits,"30S subunit, bacteriostatic"
+tetra_mino_doxy,bacillus_anthracis,treatment,doxycycline
+tetra_mino_doxy,rickettsia_rickettsii,treatment,
+tetra_mino_doxy,bartonella_henselae,treatment,doxycycline
+tetra_mino_doxy,anaplasma_phagocytophilum,treatment,
+tetra_mino_doxy,ehrlichia_chaffeensis,treatment,
+tetra_mino_doxy,francisella_tularensis,treatment,
+tetra_mino_doxy,borrelia_recurrentis,treatment,doxycycline
+tetra_mino_doxy,borrelia_burgdorferi,treatment,doxycycline
+tetra_mino_doxy,brucella_species,treatment,doxycycline
+tetra_mino_doxy,yersinia_enterocolitica,treatment,
+tetra_mino_doxy,chlamydia_trachomatis,treatment,chlamydial cervicitis and urethritis
+tige_era_oma,enterococcus_faecium,treatment,
+tige_era_oma,enterococcus_faecalis,treatment,
+tige_era_oma,tetra_mino_doxy,related,
+tige_era_oma,resistance,treatment,Culture directed for MDR organisms
+tetra_mino_doxy,teratogen,side effect,
+tetra_mino_doxy,diarrhea,side effect,
+tetra_mino_doxy,photosensitivity,side effect,tissue and skin hyperpigmentation
+tetra_mino_doxy,kidney,side effect,"fanconi syndrome, renal tubular acidosis"
+macrolide,ribosome,inhibits,"50S subunit, bacteriostatic"
+macrolide,inflammation,inhibits,anti-inflammatory
+macrolide,diarrhea,side effect,prokinetic
+macrolide,pneumonia,treatment,community acquired and atypical infections
+macrolide,cytochrome_p450,side effect,inhibits CYP 3A4
+macrolide,qtc,side effect,
+macrolide,rash,side effect,
+macrolide,legionella_pneumophila,treatment,
+macrolide,mycoplasma_pneumoniae,treatment,
+macrolide,chlamydia_trachomatis,treatment,azithromycin
+macrolide,bordetella_pertussis,treatment,
+macrolide,bartonella_henselae,treatment,azithromycin
+macrolide,typhoidal_salmonella,treatment,erythromycin
+macrolide,corynebacterium_diphtheriae,treatment,erythromycin
+macrolide,mycobacterium_avium_intracellulare,treatment,azithromycin prophylaxis in CD <50
+macrolide,clostridioides_difficile,treatment,fidaxomicin
+macrolide,helicobacter_pylori,treatment,clarithromycin
+macrolide,liver,side effect,hepatitis
+macrolide,eye_infection,treatment,erythromycin prevents opthalmia neonatorum
+vancomycin,streptococcus_gallolyticus,treatment,
+vancomycin,staphylococcus_epidermidis,treatment,
+vancomycin,staphylococcus_aureus,treatment,binds dala-dala directly
+vancomycin,clostridioides_difficile,treatment,oral
+vancomycin,meningitis,treatment,
+vancomycin,osteomyelitis,treatment,
+vancomycin,staphylococcus_epidermidis,treatment,
+vancomycin,enterococcus_faecalis,treatment,
+vancomycin,gram_positive_cell_wall,treatment,only gram +
+vancomycin,endocarditis,treatment,
+vancomycin,kidney,side effect,
+vancomycin,ototoxicity,side effect,
+vancomycin,hypersensitivity,side effect,stimulates mast cells
+daptomycin,vancomycin,related,vancomycin resistant enterococci
+daptomycin,cell_membrane,affects,depolarization
+daptomycin,myopathy,side effect,"skeletal muscle (rhabdmyolysis), check serum CPK levels"
+daptomycin,pneumonia,side effect,"eosinophilic, contraindicated due to surfactant"
+daptomycin,staphylococcus_aureus,treatment,MRSA
+daptomycin,cutaneous,treatment,serious infections
+daptomycin,bacteremia,treatment,serious infections
+daptomycin,hypersensitivity,side effect,
+daptomycin,neuropathy,side effect,
+linezolid,enterococcus_faecalis,treatment,
+linezolid,ribosome,inhibits,23s rna of 50S subunit
+linezolid,gram_positive_cell_wall,treatment,gram positive organisms
+linezolid,vancomycin,related,vancomycin resistant enterococci
+linezolid,nosocomial,treatment,serious hospital infections
+linezolid,thrombocytopenia,side effect,
+linezolid,neuropathy,side effect,optic and peripheral
+linezolid,cns,side effect,serotonin syndrome (too much)
+metronidazole,gardnerella_vaginalis,treatment,
+metronidazole,oxygen_metabolism,treatment,anaerobic infections
+metronidazole,helicobacter_pylori,treatment,alternative
+metronidazole,vomiting,side effect,"disulfiram like reaction, especially with alcohol"
+metronidazole,bacteroides_fragilis,treatment,
+metronidazole,clostridium_tetani,treatment,
+metronidazole,clostridioides_difficile,treatment,DOC
+metronidazole,neuropathy,side effect,peripheral
+smx_tmp,pneumonia,treatment,DOC for pneumocystis jirovecii
+smx_tmp,staphylococcus_aureus,treatment,MRSA soft tissue infections
+smx_tmp,hypersensitivity,side effect,sulfonamides
+smx_tmp,myelosuppression,side effect,
+smx_tmp,rash,side effect,sjs and tens
+smx_tmp,teratogen,side effect,"hyperbilirubinemia, avoid in children < 1montho"
+smx_tmp,immunocompromised,prevents,"cd < 200, prophylaxis for pjp, cd <100 prophylaxis for toxoplasmosis"
+smx_tmp,pancytopenia,side effect,
+smx_tmp,anemia,side effect,G6PD deficiency
+smx_tmp,nocardia_asteroides,treatment,
+smx_tmp,moraxella_catarrhalis,treatment,
+smx_tmp,proteus_mirabilis,treatment,
+smx_tmp,hypersensitivity,side effect,lupus
+smx_tmp,cytochrome_p450,side effect,inhibits
+smx_tmp,gram_negative_cell_wall,treatment,effects against gram negative gi (salmonella and shigella) and uti bacteria
+clindamycin,ribosome,inhibits,"50S, bacteriostatic"
+clindamycin,oxygen_metabolism,treatment,anaerobic activity
+clindamycin,gram_positive_cell_wall,treatment,gram positives including MRSA
+clindamycin,staphylococcus_aureus,treatment,most of MRSA
+clindamycin,natural_penicillin,related,alternative
+clindamycin,streptococcus_pyogenes,treatment,soft tissue (cellulitis)
+clindamycin,abscess,treatment,lung 
+clindamycin,bacteroides_fragilis,treatment,aspiration pneumonia
+clindamycin,clostridium_perfringens,treatment,
+clindamycin,pid,treatment,genital tract infections with gentamicin
+clindamycin,gardnerella_vaginalis,treatment,
+clindamycin,clostridioides_difficile,side effect,associated with psuedomembrane colitis
+clindamycin,rash,side effect,maculopapular
+polymyxin,gram_negative_cell_wall,treatment,
+polymyxin,pneumonia,treatment,"MDR, last line"
+polymyxin,uti,treatment,"MDR, last line"
+polymyxin,cell_membrane,affects,detergent
+polymyxin,cns,side effect,neurotoxicity
+polymyxin,kidney,side effect,nephrotoxicity
+chloramphenicol,ribosome,inhibits,"binds 50S, bacteriostatic"
+chloramphenicol,meningitis,treatment,high cns concentrations
+chloramphenicol,neonate,side effect,gray baby syndrome
+chloramphenicol,anemia,side effect,aplastic
+chloramphenicol,myelosuppression,side effect,
+chloramphenicol,rickettsia_rickettsii,treatment,
+chloramphenicol,haemophilus_influenzae,treatment,
+chloramphenicol,neisseria_meningitidis,treatment,
+chloramphenicol,streptococcus_pneumoniae,treatment,
+lipoglycopeptide,gram_positive_cell_wall,treatment,"gram positives, inhibits cell wall synthesis"
+lipoglycopeptide,sti,treatment,
+lipoglycopeptide,osteomyelitis,treatment,
+lipoglycopeptide,rash,side effect,
+tuberculosis_drug,mycobacterium_tuberculosis,treatment,RIPE therapy
+tuberculosis_drug,mycolic_acid,affects,"isoniazid, can be used for latent TB. activated by KatG (catalase peroxidase), resistance is developed by downregulating this enzyme, degraded by liver N-acetyltransferase"
+tuberculosis_drug,neuropathy,side effect,"isoniazid can cause peripheral neuropathy, coadministration with pyridoxine prevents"
+tuberculosis_drug,cns,side effect,seizures can be caused by isoniazid
+tuberculosis_drug,liver,side effect,hepatotoxicity
+tuberculosis_drug,hypersensitivity,side effect,lupus
+tuberculosis_drug,cytochrome_p450,side effect,"isoniazid inhibits, rifampin activates"
+tuberculosis_drug,rna_pol,inhibits,rifampin binds bacterial DNA dependent RNA polymerase
+tuberculosis_drug,brucella_species,treatment,rifampin
+tuberculosis_drug,neisseria_meningitidis,prevents,rifampin prophylaxis
+tuberculosis_drug,haemophilus_influenzae,prevents,rifampin prophylaxis
+tuberculosis_drug,gram_positive_cell_wall,affects,"ethambutol inhibits carbohydrate formation (arabinosyl transferase), bacteriostatic"
+tuberculosis_drug,kidney,"gout, uric acid",pyrazinamide
+leprosy_drug,macrolide,related,combined with ethambutol to treat MAC infections
+leprosy_drug,mycobacterium_avium_intracellulare,treatment,"prophylaxis with macrolide when CD < 50, rifabutin"
+leprosy_drug,cytochrome_p450,side effect,rifabutin activates 
+leprosy_drug,mycobacterium_leprae,treatment,"dapsone, clofazimine for lepromatous leprosy + rifampin for both"
+leprosy_drug,granulocyte,side effect,agranulocytosis
+leprosy_drug,anemia,side effect,hemolytic with G6PD deficiency
+virus_generic,capsid,possesses,"viruses have a protein capsid surrounding their genome, different shapes"
+virus_generic,envelope,possesses,some viruses are enveloped
+virus_generic,dna,possesses,some viruses have dna genomes
+virus_generic,rna,possesses,some viruses have rna genomes
+rna_pol,rna,transcribes,
+dna_pol,dna,transcribes,
+virus_generic,glycoprotein,possesses,
+rna,rdrp,enzyme,rdrp is mainly used for negative sense rna viruses to translate their dna to positive sense.
+budding,neuraminidase,enzyme,cleaves sialic acid when budding
+rna,cytoplasm,location,rna viruses usually replicate in the cytoplasm with a few exceptions
+dna,nucleus,location,dna viruses usually replicate in the nucleus with a few exceptions
+viral_replication,golgi_apparatus,uses,viruses use the golgi apparatus for packaging and vesicles
+viral_replication,endoplasmic_reticulum,uses,viruses us the ER for protein processing
+lytic,lysogenic,related,viruses can be latent or active
+viral_replication,endosome,uses,viruses enter the cell through an endosome
+viral_replication,lytic,involves,viruses can replicate by lysing the host cell
+viral_replication,lysogenic,involves,viruses can replicate as the host cell divides by integrating into the genome
+rna,ribosome,uses,organisms and viruses use host cell ribosomes to replicate
+picornaviridae,hep_a,related,
+picornaviridae,poliovirus,related,
+picornaviridae,coxsackievirus,related,
+picornaviridae,rhinovirus,related,
+hep_a,fecal_oral,spread,
+poliovirus,fecal_oral,spread,
+coxsackievirus,fecal_oral,spread,
+rhinovirus,droplet,spread,
+hep_a,liver,affects,hepatitis and hepatomegaly
+hep_a,spleen,affects,splenomegaly
+poliovirus,meningitis,aseptic,"no organsisms, normal glucose, elevated protein"
+coxsackievirus,meningitis,aseptic,"no organsisms, normal glucose, elevated protein"
+rhinovirus,airway,affects,upper respiratory tract
+poliovirus,acid_solubility,stable,allows survival in gastric environment
+poliovirus,malt,affects,gut mucosa such as peyer's patches and tonsils
+poliovirus,cns,affects,anterior horn of spinal cord
+poliovirus,paralysis,symptom,asymmetrical
+poliovirus,vaccine,salk and sabin,"salk vaccine is inactivated that is administered intramuscularly, only one used in the US produces only IgG. Live attenuated vaccine is given orally to produce igG and IgA, has risk of causing paralysis."
+coxsackievirus,pericarditis,symptom,dilated cardiomyopathy
+rhinovirus,acid_solubility,labile,
+rhinovirus,psychrophilic,grows,"33 degrees C, slightly cold"
+rhinovirus,resistance,possesses,over 100 serotypes so no vaccine or treatment
+hep_a,food_poisoning,cause,"uncooked shellfish or contaminated water. Chlorination, UV irradiation, boiling, and bleach can inactivate hep A in contaminated water"
+hep_a,acid_solubility,stable,
+hep_a,contact,close contact or men who have sex with men,
+hep_a,vomiting,symptom,
+hep_a,diarrhea,symptom,
+hep_a,jaundice,symptom,
+hep_a,vaccine,inactivated,
+caliciviridae,food_poisoning,cause,shellfish contaminated with norovirus
+caliciviridae,diarrhea,explosive,"nausea, vomiting, and stomach cramps"
+picornaviridae,strand,single,
+caliciviridae,strand,single,
+dengue_virus,envelope,encased,
+yellow_fever_virus,envelope,encased,
+zika_virus,envelope,encased,
+west_nile_virus,envelope,encased,
+dengue_virus,strand,single,
+yellow_fever_virus,strand,single,
+zika_virus,strand,single,
+west_nile_virus,strand,single,
+dengue_virus,animal_contact,spread,aedes aegypti mosquito is vector
+yellow_fever_virus,animal_contact,spread,aedes aegypti mosquito is vector
+zika_virus,animal_contact,spread,aedes aegypti mosquito is vector
+west_nile_virus,animal_contact,spread,"clux mosquito is vector, birds are reservoir host"
+dengue_virus,hemorrhagic_fever,symptom,
+dengue_virus,thrombocytopenia,symptom,
+dengue_virus,myelosuppression,symptom,
+dengue_virus,kidney,affects,renal failure
+dengue_virus,septic_shock,symptom,
+dengue_virus,vaccine,live attenuated,"tetravalent, given to patients with a prior history of dengue fever"
+yellow_fever_virus,jaundice,symptom,
+yellow_fever_virus,myalgia,symptom,lumbosacral pain
+yellow_fever_virus,hemorrhagic_fever,symptom,"melena, hematemesis, epistaxis, petechiae"
+yellow_fever_virus,thrombocytopenia,symptom,"elevated PT, PTT"
+yellow_fever_virus,vaccine,live attenuated,
+zika_virus,contact,spread,vertical and sexual transmission
+zika_virus,cns,affects,microcephaly
+zika_virus,guillain_barre,symptom,
+west_nile_virus,encephalitis,symptom,
+west_nile_virus,meningitis,symptom,
+west_nile_virus,paralysis,symptom,acute asymmetric flaccid
+west_nile_virus,poliovirus,related,damage to anterior horn cells
+west_nile_virus,cns,affects,"seizures, altered mental status, parkinson like movements"
+west_nile_virus,coma,symptom,in serious neuroinvasive disease
+hep_a,sti,spread,anal-oral
+hep_c,strand,single,
+hep_c,sti,spread,
+hep_c,hematogenous,spread,blood transfusions or needles
+hep_c,envelope,encased,
+hep_c,resistance,possesses,antiproofreading activity of rdrp leads to antigenic variation
+hep_c,liver,affects,cirrhosis
+hep_c,neoplasia,exacerbation,"hepatocellular carcinoma, check AFP and liver ultrasounds"
+hep_c,pcr,testing,"HCV RNA test, indicates active infection"
+hep_c,antibody_test,testing,may be negative with positive RNA test which suggests occult HCV infection (window or immunocompromised)
+hep_c,daa,treatment,
+hep_c,vaccine,hep A and hep B indicated,
+neoplasia,sequelae,example,cancer is common after bacterial or viral infection
+hemorrhagic_fever,sequelae,example,
+hep_c,rdrp,enzyme,no 3 to 5 proofreading activity
+coronavirus,strand,single,
+coronavirus,animal_contact,spread,high pathogenicity coronaviruses
+coronavirus,capsid,contains,helical nucleocapsids with N protein
+coronavirus,envelope,encased,
+coronavirus,glycoprotein,contains,"embedded in envelope. Membrane glycoprotein, envelope glycoprotein, and spike glycoprotein"
+coronavirus,pneumonia,symptom,"binds to ACE2 in alveolar cells, potentially fatal, complicated by acute respiratory distress syndrome"
+coronavirus,rdrp,enzyme,"uses positive sense as a template for negative sense, and then the other way around"
+coronavirus,golgi_apparatus,uses,"S, M, and E proteins, released via exocytosis"
+coronavirus,endoplasmic_reticulum,uses,joins N protein subunits and membrane glycoproteins in the cytoplasm
+coronavirus,droplet,spread,
+coronavirus,asymptomatic,state,
+coronavirus,fever,symptom,
+coronavirus,serology,testing,antigen testing
+coronavirus,pcr,testing,nasopharyngeal swab
+togaviridae,animal_contact,spread,equine encephalitides occurs through mosquitoes and birds. Chikungunya virus is transmitted through aedes aegypti mosquitoes
+togaviridae,envelope,encased,
+togaviridae,capsid,contains,icosahedral
+togaviridae,meningitis,symptom,WEEV EEEV and VEEV. EEEV is most high mortality among adults
+togaviridae,encephalitis,symptom,WEEV EEEV and VEEV. EEEV is most high mortality among adults
+togaviridae,neonate,affects,"WEEV encephalitis more severe, VEEV neuroinvasive more common in children"
+togaviridae,fever,symptom,
+togaviridae,arthritis,symptom,"chronic arthralgia and arthritis, affects the hands"
+togaviridae,rash,symptom,maculopapular
+rubella,strand,single,
+rubella,envelope,encased,
+rubella,droplet,spread,
+rubella,macule,symptom,starts at the face and spreads to trunk
+rubella,papule,symptom,starts at face and spreads to trunk
+rubella,lymphadenopathy,symptom,"posterior cervical, posterior auricular, and subocciptal"
+rubella,arthritis,symptom,adults
+rubella,neonate,symptom,"congenital rubella infection, acquired in utero"
+rubella,rash,symptom,"CRS, blueberry muffin"
+rubella,jaundice,symptom,"CRS, hyperbilirubinemia"
+rubella,eye_infection,symptom,"CRS, cataracts, glaucoma, and retinopathy"
+rubella,cns,affects,"hearing loss, microcephaly"
+rubella,congenital_heart_defect,complication,patent ductus arteriosus
+rubella,vaccine,live attenuated,"MMR or MMR + varicella, avoid in pregnancy, contraindicated in immunocompromised state"
+hiv,strand,single,2 copies
+hiv,reverse_transcriptase,contains,pol gene
+hiv,capsid,contains,"conical capsid composed of p24 subunits, outer protective matrix comprised of p17 protein (core proteins, encoded by gag)"
+hiv,envelope,encased,encoded by env proteins
+hiv,glycoprotein,possesses,"gp41 transmembrane protein helps with fusion, gp120 helps with attachment (env proteins)"
+envelope,glycoprotein,contains,
+hiv,t-cell,infects,"binds to CD4 receptor and a chemokine co-receptor CCR5 or CXCR4, R5 are tropic to CCR5, X4 are tropic towards CSCR4 (later)"
+hiv,macrophage,infects,
+hiv,hematogenous,spread,shared needles
+hiv,sti,spread,"semen, rectal, and vaginal fluids"
+hiv,neonate,spread,vertical transmission during pregnany or breastfeeding
+hiv,flu-like,symptom,"acute retroviral syndrome, viral RNA increases rapidly and T-Cells decline"
+hiv,asymptomatic,state,"latent state 8-10 years in which viral load increases and CD4 count slowly declines, RNA levels remain relatively constant because of host response"
+hiv,enzyme_immunoassay,testing,"4th generation immunoassay, HIV 1 and 2 antibodies and p24 antigen"
+coronavirus,enzyme_immunoassay,testing,
+hep_c,enzyme_immunoassay,testing,
+hiv,pcr,testing,"NAAT testing, later stages"
+hiv,integrase,enzyme,pol gene
+hiv,resistance,possesses,antigen variation and dense glycosylation of gp120
+hiv,golgi_apparatus,uses,
+hiv,endoplasmic_reticulum,uses,
+hiv,protease,enzyme,final cleavage after assembly of polyproteins into functional proteins
+reye_syndrome,sequelae,complication,liver failure and encephalitis
+orthomyxoviridae,strand,single,
+orthomyxoviridae,envelope,contains,
+orthomyxoviridae,nucleus,location,"replicates within nucleus, contrary to many other RNA viruses"
+orthomyxoviridae,resistance,possesses,antigenic drift is point mutations in HA or NA genes. Antigenic shift occurs when different strains combine causing major variations to HA and NA
+orthomyxoviridae,neuraminidase,facilitates release by cleaving sialic acid,
+orthomyxoviridae,hemagglutinin,enzyme,"HA facilitates entry by binding to sialic acid residues, determines cell tropism"
+orthomyxoviridae,m2_protein,enzyme,"proton channel modulates hydrogen ion concentration, facilitating optimal pH for uncoating"
+orthomyxoviridae,droplet,spread,
+orthomyxoviridae,vaccine,killed and live attenuated,"attenuated is intranasal, killed in injected"
+amantadine_rimantadine,orthomyxoviridae,treatment,
+oseltamivir_zanamivir,orthomyxoviridae,treatment,
+orthomyxoviridae,sequelae,exacerbation,pneumonia and infections with staph and strep
+orthomyxoviridae,reye_syndrome,exacerbation,
+orthomyxoviridae,guillain_barre,exacerbation,
+paramyxoviridae,measles,related,
+paramyxoviridae,mumps,related,
+paramyxoviridae,parainfluenza_virus,related,
+paramyxoviridae,strand,single,
+paramyxoviridae,envelope,encased,
+paramyxoviridae,capsid,contains,helical
+paramyxoviridae,droplet,spread,
+paramyxoviridae,vaccine,live attenuated,"for measles, mumps, and rubella"
+paramyxoviridae,rubella,MMR vaccine,avoid during pregnancy and immunosuppressed
+measles,airway,symptom," (cough, coryza(cold), koplik spots)"
+measles,eye_infection,symptom,conjunctivitis
+measles,fever,symptom,high
+measles,rash,symptom,"maculopapular, starts on face and moves inferiorly, slower progressing than rubella, confluent"
+measles,sequelae,exacerbation,"pneumonia, subacute sclerosing panencephalitis"
+measles,hemagglutinin,enzyme,binding to erythrocytes
+measles,fusion_protein,enzyme,
+measles,immunoglobulin,post exposure,post exposure prophylaxis with immunoglobulin or MMR vaccine
+mumps,oral_cavity,parotitis,replicates in salivary gland
+mumps,orchitis,symptom,
+mumps,meningitis,symptom,
+mumps,hemagglutinin,enzyme,
+mumps,fusion_protein,enzyme,
+mumps,neuraminidase,enzyme,
+parainfluenza_virus,hemagglutinin,enzyme,
+parainfluenza_virus,fusion_protein,enzyme,
+parainfluenza_virus,neuraminidase,enzyme,
+pneumoviridae,strand,single,
+pneumoviridae,envelope,encased,
+pneumoviridae,capsid,contains,helical
+pneumoviridae,fusion_protein,enzyme,"F protein, major target for antibodies, causes syncytia (giant cells)"
+pneumoviridae,droplet,spread,
+pneumoviridae,neonate,affects,RSV affects children in 1st year of life. Prematurity also affects HMPV
+pneumoviridae,nosocomial,environment,RSV
+pneumoviridae,pneumonia,symptom,pneumonia and bronchiolitis in infants
+pneumoviridae,copd,complication,RSV and HMPV can be exacerbated in patients with COPD
+pneumoviridae,immunoglobulin,palivizumab,monoclonal igG antibody for treatment of RSV
+pneumoviridae,airway,affects,"HMPV causes lower respiratory infections in children, complicated by asthma"
+rabies,strand,single,
+rabies,capsid,contains,helical and bullet shaped
+rabies,envelope,encased,
+envelope,budding,involves,can be formed from budding
+rabies,glycoprotein,contains,spike shaped allows rabies to attach to host cells
+rabies,animal_contact,spread,zoonatic spread by bites
+rabies,pns,affects,attaches to nicotinic acetylcholine receptor found at postsynaptic membrane of neuromuscular junction. Travels retrograde along nerve axon toward CNS about 50-100 mm per day
+rabies,cns,affects,"hippocampus, thalamus, hypothalamus, brainstem. Spreads centrifugally from CNS to peripheral organs via autonomic and somatic nerves. Hyper activation of sympathetic"
+rabies,encephalitis,symptom,lethal if not prevented before appearance of symptoms
+rabies,coma,symptom,"convulsions, coma, and death in the comatose phase"
+rabies,paralysis,symptom,paralytic rabies is an ascending flaccid paralysis that will be fatal once it reaches respiratory areas
+rabies,immunoglobulin,treatment,passive immunity through rabies immune globulin
+rabies,vaccine,killed,rabies vaccine
+rabies,prophylaxis,prevents,pre rabies vaccine or immunoglublin in high risk occupations or travelers. Post exposure is after bitten
+filoviridae,strand,single,
+filoviridae,capsid,contains,helical structure
+filoviridae,envelope,encased,
+filoviridae,hemorrhagic_fever,symptom,severe bleeding and organ dysfunction
+filoviridae,petechial_rash,symptom,
+filoviridae,septic_shock,symptom,
+filoviridae,animal_contact,spread,"primates, bats"
+bunyaviridae,strand,single,circular structures
+bunyaviridae,golgi_apparatus,uses,acquire their envelopes from golgi apparatus
+bunyaviridae,envelope,encased,
+bunyaviridae,animal_contact,spread,"hanatvirus is trasmitted through feces urine, and saliva of rodents. California encephalitis virus and Rift Valley fever virus are transmitted through mosquitoes"
+bunyaviridae,edema,symptom,Hantavirus can cause pulmonary edema
+bunyaviridae,kidney,affects,Hantavirus can cause prerenal azotemia (cannot adequately filter blood waste due to decreased blood flow)
+bunyaviridae,hemorrhagic_fever,symptom,Hantavirus
+bunyaviridae,encephalitis,symptom,"seizures, california encephalitis or Rift Valley fever"
+arenaviridae,envelope,encased,
+arenaviridae,strand,ambisense,
+arenaviridae,capsid,contains,elongated and helical
+arenaviridae,animal_contact,spread,rodents
+arenaviridae,encephalitis,symptom,aseptic meningoencephalitis
+arenaviridae,myalgia,symptom,
+arenaviridae,fever,symptom,
+arenaviridae,headache,symptom,
+arenaviridae,vomiting,symptom,
+reoviridae,strand,double,
+reoviridae,diarrhea,symptom,"Rotavirus. waterry, gastroentiritis, leading cause of severe diarrhea in young children"
+reoviridae,enterotoxin,NSP4,Rotavirus. increases chloride permeability like cholera
+reoviridae,water,treatment,oral rehydration therapy
+reoviridae,vaccine,live attenuated,"orally, risk of telescoping bowel intussusception"
+herpesviridae,envelope,encased,
+herpesviridae,strand,double,
+herpesviridae,granular_inclusion,contains,eosinophilic inclusions known as Cowdry type A bodies.
+herpes_simplex_viruses,neonate,affects,transmitted vertically
+herpesviridae,herpes_simplex_viruses,related,subtype
+herpes_simplex_viruses,oral_cavity,affects,"HSV1. gingivostomatitis, vesicular lesions and ulcerations within oral cavity and surrounding perioral region. Herpes labialis (cold sores)"
+herpes_simplex_viruses,eye_infection,symptom,"HSV1. keratoconjunctivitis, serpiginous corneal ulcers"
+herpes_simplex_viruses,encephalitis,symptom,"HSV1, sporadic"
+herpes_simplex_viruses,sti,spread,
+herpes_simplex_viruses,lesion,symptom,"vesiular, dew drops on a rose petal"
+herpes_simplex_viruses,cns,resides,latent HSV1 resides in trigeminal ganglia. Latent HSV2 resides in sacral ganglia
+herpes_simplex_viruses,hypersensitivity,symptom,"Erythema multiforme, target lesions that start from extremities and move centrally"
+herpes_simplex_viruses,lymphadenopathy,symptom,"HSV2, tender in the inguinal region"
+herpes_simplex_viruses,meningitis,symptom,"HSV2, aseptic"
+herpes_simplex_viruses,pcr,testing,
+herpes_simplex_viruses,tzanck_smear,testing,"used historically but can arize in other diseases, multinucleated giant cells"
+cytomegalovirus,monocyte,infects,latent
+herpesviridae,cytomegalovirus,related,subtype
+cytomegalovirus,lymphocyte,infects,latent
+cytomegalovirus,neonate,affects,"transmitted vertically, resulting in congenital CMV"
+cytomegalovirus,fever,symptom,
+cytomegalovirus,lymphadenopathy,symptom,back of neck
+cytomegalovirus,serology,testing,
+cytomegalovirus,pcr,testing,
+cytomegalovirus,immunocompromised,complication,"transplant patients (bone marrow, solid organ) and immunocompromised increased risk of CMV reactivation"
+cytomegalovirus,pneumonia,symptom,"transplant paitents higher risk for CMV pneumonia, hepatitis, gastritis, colitis, and encephalitis)"
+cytomegalovirus,hiv,complication,CD4 + counts below 50 are more vulnerable
+cytomegalovirus,eye_infection,symptom,"CMV retinitis, pizza pie retinopathy"
+cytomegalovirus,esophagitis,symptom,
+cytomegalovirus,ulcer,symptom,ulcerative colitis
+cytomegalovirus,granular_inclusion,contains,"owl's eyes inclusions, cells with large ovoid nuclei containing intranuclear basophilic inclusions"
+cytomegalovirus,rash,symptom,Congenital CMV infections can cause blueberry muffin rash
+cytomegalovirus,rubella,related,lymphadenopathy and blueberry muffin rash similar
+cytomegalovirus,jaundice,symptom,congenital CMV
+cytomegalovirus,hepatosplenomegaly,symptom,congenital CMV
+cytomegalovirus,cns,affects,"congenital CMV senorineural hearing loss, intellectual disabilities, microcephaly, seizures, ventriculomegaly, and periventricular calcifications"
+cytomegalovirus,hydrops_fetalis,symptom,congenital CMV
+herpesviridae,epstein-barr_virus,related,subtype
+epstein-barr_virus,cytomegalovirus,related,"distinguished by monospot test, acute EBV infection has heterophile IgM antibodies, which agglutinate horse or sheep red blood cells"
+epstein-barr_virus,fever,symptom,
+epstein-barr_virus,pharyngitis,symptom,tonsillar exudate
+epstein-barr_virus,lymphadenopathy,symptom,posterior cervical region
+epstein-barr_virus,lymphocyte,affects,atypical lymphocytes (downey cells) which are abnormally large reactive cd8+ t-cells with strongly basophilic cytoplasm (seen with peripheral blood smear)
+epstein-barr_virus,b-cell,infects,"latency within b cells, persisting indefinitely within the host, potentially reactivating"
+epstein-barr_virus,glycoprotein,contains,gp350 binds to CD21 on B cells
+epstein-barr_virus,spleen,symptom,"splenomegaly, avoid contact sports when infected with mono due to splenic rupture"
+epstein-barr_virus,neoplasia,exacerbation,"Hasopharyngeal carcinoma. Hodgkin and non-Hodgkin lymphoma (Burkitt lymphoma). Hodgkin lymphoma is characterized by Reed-Sternberg cells, large, abnormal B cells with a distinctive bilobed nucleus"
+epstein-barr_virus,lesion,symptom,endemic burkitt lymphoma presents as swelling or lesions in the jaw
+epstein-barr_virus,hiv,complication,"oral hairy leukoplakia, benign white lesions is triggered by EBV in individuals with HIV or AIDS"
+herpesviridae,varicella-zoster_virus,related,subtype
+varicella-zoster_virus,chickenpox,children,
+varicella-zoster_virus,shingles,adult,
+varicella-zoster_virus,droplet,spread,
+varicella-zoster_virus,tzanck_smear,testing,"hisorically, not used anymore"
+varicella-zoster_virus,pcr,testing,
+chickenpox,sequelae,complication,varicella pneumonia and rarely encephalitis. Adults more likely than children to develop
+varicella-zoster_virus,immunocompromised,complication,elevated risk for complications
+varicella-zoster_virus,vaccine,live attenuated,"note, shingrix, a recombinant subunit vaccine is now used for shingles prevention. CD4 > 200 eligible"
+varicella-zoster_virus,neonate,affects,"vertical transmission, congenital varicella syndram marked by skin scarring, visual impairment, and underdeveloped limbs"
+herpesviridae,hhv-6,related,subtype
+hhv-6,t-cell,infects,targets CD4 helpter t-cells
+hhv-6,fever,symptom,high fever (104 degrees) for 4 days
+hhv-6,cns,symptom,febrile seizures
+hhv-6,rash,symptom,"diffuse, lacy body rash AFTER the fever has subsided, spares the face"
+herpesviridae,hhv-8,related,subtype
+hhv-8,sti,spread,men who have sex with men
+hhv-8,kaposi_sarcoma,causes,AIDS defining illness
+hhv-8,b-cell,infects,B cell lymphoma
+kaposi_sarcoma,bartonella_henselae,related,"bacillary angiomatosis similar to kaposi lesions, microscopic examinations of lesions to differentiate"
+polyomaviridae,strand,double,
+polyomaviridae,jc_virus,related,subtype
+polyomaviridae,bk_virus,related,subtype
+jc_virus,cns,affects,"PML, marked by non-enhancing multifocal brain lesions"
+jc_virus,hiv,complication,at increased risk
+bk_virus,immunocompromised,complication,transplant patients (kidney and bone marrow)
+bk_virus,kidney,affects,nephropathy and hemorrhagic cystitis
+hpv,strand,double,
+hpv,papule,symptom,"1-4 causes cutaneous (hands and feet), 6 and 11 cause anogenital warts"
+hpv,sti,spread,"6 and 11, and others"
+hpv,treponema_pallidum,similar,condyloma lata and condyloma acuminata
+hpv,contact,spread,direct physical contact for 1-4
+hpv,neoplasia,exacerbation,"laryngeal papillomatosis (6 and 11) and squamous cell cancer (16, 18, 31, 33)"
+hpv,vaccine,gardasil 9,does not cover types 1-4
+hpv,p53,affects,E6 protein causes uncontrolled cell proliferation by degrading p53
+hpv,pap_smear,testing,
+hpv,retinoblastoma,affects,"E7 protein targets Rb, leading to unchecked cellular proliferation"
+hpv,immunocompromised,exacerbation,"persistent hpv infection with hiv, increased risk for cervical cancer"
+parvoviridae,strand,single,
+parvoviridae,size,small,one of the smallest viruses
+parvoviridae,droplet,spread,
+parvoviridae,neonate,affects,"vertical transmission, TORCH virus"
+parvoviridae,rash,symptom,"""slapped cheek syndrome"", manifests initially on the face and spreads inferiorly"
+parvoviridae,edema,symptom,
+parvoviridae,arthritis,symptom,arthralgias and arthritis
+parvoviridae,anemia,symptom,"transient aplastic crisis in individuals with sicklle cell, severe and temporary reduction in red blood cell production"
+parvoviridae,hydrops_fetalis,symptom,
+adenovirus,strand,double,
+adenovirus,fecal_oral,spread,less common
+adenovirus,droplet,spread,
+adenovirus,tonsil,affects,acute tonsillitis
+adenovirus,eye_infection,symptom,viral conjunctivitis (pink eye)
+adenovirus,fever,symptom,
+adenovirus,pneumonia,symptom,
+adenovirus,kidney,affects,hemorrhagic cystitis
+adenovirus,vaccine,live attenuated,oral
+poxviridae,strand,double,
+poxviridae,size,large,largest DNA viruses
+poxviridae,cytoplasm,location,replicate in cytoplasm where they azquire lipoprotein membranes from intracellular membranes of host
+poxviridae,rna_pol,enzyme,"DNA dependent RNA polymerase, does not need nuclear machinery"
+poxviridae,granular_inclusion,contains,Guarnieri bodies
+poxviridae,smallpox,related,subtype
+poxviridae,cowpox,related,subtype
+poxviridae,molluscum_contagiosum,related,subtype
+smallpox,lesion,symptom,unifrorm unlike chickenpox
+smallpox,chickenpox,similar,uniform
+cowpox,smallpox,similar,helped with vaccine
+molluscum_contagiosum,lesion,symptom,dome shaped with central umbilical dimple
+molluscum_contagiosum,immunocompromised,complication,lesions will appear in adults
+hep_b,strand,both,"partially single, partially double"
+hep_b,hepatitis,symptom,"viral hepatitis, chronic infection can lead to cirrhosis"
+hep_b,envelope,encased,acquires from host organelles
+hep_b,nucleus,location,Final viral DNA undergoes processes similar to ccDNA formation and transcription
+hep_b,endoplasmic_reticulum,uses,HBs
+hep_b,capsid,contains,core protein
+hep_b,golgi_apparatus,uses,HBs
+hep_b,cytoplasm,location,"packaging of polymerase and core protein, pgRNA converts back to viral DNA which is transported into the nucleus. Surface antigen produced here"
+hep_b,reverse_transcriptase,enzyme,
+hep_b,sti,spread,"sexual contact, IV drug use, and blood transfusions"
+hep_b,neonate,affects,spread during childbirth when there is a mixing of maternal and fetal blood (TORCH)
+hep_b,sequelae,exacerbation,"polyarteritis nodosa (inflammation and necrosis of medium sized vessels). Involves kidneys, manifesting as hypertension, microscopic hematuria, and proteinuria"
+hep_b,rash,symptom,maulopapular or urticarial
+hep_b,arthritis,symptom,polyarthralgia and polyarthritis
+hep_b,glomerulus,affects,Chronic HBV can cause kidney disease like membranous glomerulopathy (subtle basement membrane thicking) and membranoproliferative glomerulonephritis with more extensive tissue changes
+hep_b,glycoprotein,contains,HBsAg (hepatitis B surface antigen) and marks active HBV. HBeAg (hep B envelope antigen) indicates active viral replication and increased infectivity. 
+hep_b,serology,testing,"HBsAg and HBeAg positive during symtomatic phase. Anti-Hbe antibodies indicates resolution of acute infection, anti-HBs indicate recovery from HBV infection or successful vaccination. Vaccine only will test negative for other antibodies"
+hep_b,immunoglobulin,IgM,Anti-HBc IgM 9hepatitis B core antibodies is the first detectable antibody during the window period (viral antigens no longer present and subsequent antibodies yet to form)
+hep_b,neoplasia,exacerbation,hepatocellular carcinoma
+hep_b,hep_d,related,hep_d requires hep_b coinfection (surface antigen required)
+hep_d,strand,single,circular
+hep_d,envelope,encased,
+hep_b,lamivudine,treatment,
+hep_b,nrti,treatment,
+hep_b,interferon_alpha,treatment,
+hep_b,vaccine,killed,"at risk infants, active"
+hep_b,immunoglobulin,HBIG,"At risk infants, passive"
+hep_b,liver,affects,HBV binds to hepatocytes using proteoglycans
+hep_b,dna,converts,partially double stranded DNA is converted into covalently closed circular DNA through genome repair
+hep_b,rna_pol,uses,"Uses host RNA polymerase to transcribe cccDNA into four RNA intermediates, subgenomic RNA and pregenomic RNA produce core protein, viral polymerase, and surface antigens"
+nrti,lamivudine,example,
+nrti,reverse_transcriptase,inhibits,nucleotide analog
+nrti,lipodystrophy,side effect,
+nrti,hiv,treatment,2 NRTIs and 1 integrase inhibitor is typical
+nrti,lactic_acidosis,side effect,
+nrti,cutaneous,side effect,hyperpigmentation of palms and soles
+nrti,anemia,side effect,zidovudine
+nrti,myelosuppression,side effect,zidovudine
+nrti,prophylaxis,prevents,zidovudine prevents vertical transmission. Tenofovir + emtricitabine for HIV PrEP
+nrti,granulocyte,affects,zidovudine can cause agranulocytosis
+nrti,hypersensitivity,side effect,associated with HLA -B 57:01
+nnrti,reverse_transcriptase,inhibits,binds to allosteric site
+nnrti,teratogen,side effect,
+nnrti,liver,affects,liver toxicity
+nnrti,cns,affects,"dizziness, psychosis, etc."
+nnrti,cytochrome_p450,side effect,
+nnrti,cutaneous,side effect,sjs and tens
+nnrti,hiv,treatment,
+protease_inhibitor,protease,inhibits,
+protease_inhibitor,hiv,treatment,
+protease_inhibitor,lipodystrophy,side effect,
+protease_inhibitor,cytochrome_p450,side effect,inhibition with ritonavir
+protease_inhibitor,tuberculosis_drug,interaction,"rifampin induces cyp450, so rifabutin is substituted"
+entry_inhibitor,t-cell,binds,CCR5
+entry_inhibitor,hiv,treatment,gp120 and CCR5 interaction
+fusion_inhibitor,hiv,treatment,gp41 interaction
+integrase_inhibitor,integrase,inhibits,
+integrase_inhibitor,hiv,treatment,
+integrase_inhibitor,myopathy,side effect,may cause rhabdomyolysis
+acy_vala_fam,herpes_simplex_viruses,treatment,
+acy_vala_fam,varicella-zoster_virus,treatment,
+acy_vala_fam,resistance,develops,viral kinase mutations
+acy_vala_fam,shingles,treatment,valacyclovir and famciclovir
+acy_vala_fam,dna_pol,inhibits,replication
+acy_vala_fam,prophylaxis,prevents,HSV prophylaxis in pregnant women with genital herpes or immunocompromised states
+acy_vala_fam,kidney,side effect,"interstitial nephritis or crystalline nephropathy, solved by hydration"
+acy_vala_fam,cns,side effect,"delirium, confusion, vertigo, hallucinations"
+daa,protease,inhibits,NS3/4A
+daa,rdrp,inhibits,NS5B
+daa,headache,side effect,with fatigue and nausea
+gan_val,dna_pol,inhibits,replication
+gan_val,cytomegalovirus,treatment,
+gan_val,resistance,develops,viral kinase mutations
+gan_val,myelosuppression,side effect,additive with zidovudine
+foscarnet,cytomegalovirus,treatment,
+foscarnet,herpes_simplex_viruses,treatment,
+foscarnet,varicella-zoster_virus,treatment,
+foscarnet,kidney,side effect,renal insufficiency
+foscarnet,cns,side effect,seizures
+cidofovir,cytomegalovirus,treatment,
+cidofovir,herpes_simplex_viruses,treatment,
+cidofovir,varicella-zoster_virus,treatment,
+cidofovir,dna_pol,inhibits,
+cidofovir,kidney,side effect,"nephrotoxicity, treated with probenecid (which increases plasma concentrations of different drugs)"
+resistance,recombination,involves,recombination events such as antigenic shift give viruses increased variation and resistance
+hep_e,strand,single,
+hep_e,hepatitis,symptom,
+hep_e,caliciviridae,related,
+hep_e,fecal_oral,spread,
+hep_e,immunocompromised,exacerbation,
+hep_e,serology,testing,
+htlv-1,strand,single,
+htlv-1,integrase,enzyme,
+htlv-1,t-cell,infects,attaches to protiens on T cels or dentritic cells
+htlv-1,asymptomatic,state,latent provirus
+htlv-1,budding,performs,
+htlv-1,sti,spread,blood transfer and sexual contact
+htlv-1,cns,affects,"HTLV1 associated progressive myelopathy (tropical spastic paraparesis)."", ""Uveitis, arthritis ,polymyositis, dermatitis, and keratoconjunctivitis""]"
+htlv-1,pcr,testing,"[""peripheral blood mononuclear cells and distinguish between type 1 and 2"
+htlv-1,antibody_test,testing,recombinant HTLV antigens
+htlv-1,kidney,affects,bladder symtpoms and spastic galt
+htlv-1,neoplasia,exacerbation,"[""gag, pol, and env genes"", provirus cell proto-oncogene"", ""Adult T cell Leukemia"""
+htlv-1,envelope,encased,
+htlv-1,glycoprotein,contains,
+htlv-1,pcr,testing,

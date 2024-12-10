@@ -1,0 +1,1095 @@
+Staph Aureus
+protein A - main virulence factor
+coagulase - coagulate blood
+catalase - break down h2o2, fibrin to fibrinogen
+mannitol (salt agar) - test for staph auries, selects only for staph cocci, ferment mannitol turn yellow
+beta hemolytic - complete hemolysis
+protein A - main virulence factor. bind Fc portion of immunoglobins, prevents complement binding
+nares - opening of the nose
+pneumonia - post viral
+patchy infiltrates on x-ray
+septic arthritis
+absecces, impetigo, other skin infections
+endocarditis - iv drug use
+osteomyelitis
+scalded skin syndrome - exfoliative toxin (protease)
+toxic shock syndrome - TSST (superantigen)
+food poisoning - rapid onset, vomiting, meat and mayo
+MRSA - penicillin binding proteins altered
+vancomycin
+nafcillin
+penicillin
+impetigo
+beta lactamase
+
+
+Staph epidermidis
+catalase - positive
+gram - positive
+coagulase - negative
+urease - positive , urea to ammonia
+novobiocin - sensitive
+normal skin flora
+catheter
+endocarditis - artificial heart valves
+biofilm - polysaccharide
+vancomycin
+
+Staph saprophyticus
+catalase - positive
+gram - positive
+coagulase - negative
+urease - positive
+novobiocin - resistant
+honeymoon cystitis
+UTIs (pyelonephritis)
+acute prostatitis
+
+Steptococcus Pyogenes
+gram- positive
+shape- strep
+catalase - negative
+encapsulated - hyaluronic acid
+beta hemolytic - non immunogenic
+pharyngitis - inflamed throat
+impetigo - honey crust
+erysipelas - above cellultis
+cellulitis - subcut
+exotoxin A 
+scarlet fever - pharyngitis, diffuse rash,strawberry tongue
+Toxic Shock Like Syndrome - superantigen
+superantigen
+necrotizing fasciitis
+SpeA and C - superantigen TSLS
+SpeB - protease Nec_fas
+M-protein - Cell wall, interferes with opsonization (antiphagocytic), immunogenic, similar to myosin, attacks heart valves
+Rheumatic fever - after pharyngitis not promptly treated type 2
+Joints - polyarthritis
+heart - myocarditis and pericarditis
+nodules
+erythema marginatum
+Sydenham's chorea - rapid movement
+glomerulonephritis - type 3 2 weeks after either pharyngitis or impetigo early treatment wont help
+facial edema
+cola-colored urine
+penicillin
+streptolysin O - rbc
+streptokinase - converts plasminogen to plasmin
+DNase - depolymerize DNA
+bacitracin - sensitive
+Antistreptolysin O antibody
+
+Streptococcus Agalactiae
+newborns
+hippyurate - positive
+CAMP test - GBS plated with staph aureus increased zone of hemolysis with staph aureus - arrowhead
+polysaccharide capsule
+beta hemolytic
+bacitracin - resistant
+meningitis
+neonatal sepsis
+pneumonia
+passed during birth
+swabbed at 35 weeks
+penicillin
+catalase - negative
+
+Streptococcus Pneumoniae
+gram - positive
+alpha hemolytic
+polysaccharide capsule - major virulence
+optochin - sensitive
+bile - soluble, cannot be detected
+MOPS - meningitis, otitis media, pneumonia, sinusitis most common cause
+igA protease
+spleen - encapsulated resistance
+macrolide
+3rd gen ceph - ceftriaxone
+Adult vaccine 23-valent - polysaccharide IgM
+7 valent polysaccharide protein IgG
+
+
+
+Streptococcus viridans
+gram - positive
+alpha hemolytic
+optochin - resistant
+no capsule
+bile insoluble
+strep mutans dental caries
+strep sanguinus - endocarditis in damaged heart valves (mitral valve)
+platelets - adheres dextrans
+
+
+Enterococcus faecium/faecalis
+gram - positive
+faecalis - more common
+faecium - more dangerous
+Resist 6.5% NaCl
+bile - resistant
+UTIs
+Endocarditis
+Biliary tree
+faecium - Vancomycin resistant enterococcus
+linezolid 
+tigecycline
+gamma hemolytic
+hydrolyze esculine
+
+Streptococcus gallolyticus (Group D Strep)
+Strep bovis/equinus (SBSEC)
+gram - positive
+chains/pairs
+encapsulated - polysaccharide
+gamma hemolytic - no hemolysis
+bile - resistant, hydrolyze esculine
+biofilm - heart valves
+Normal GI flora in cows and people
+opportunistic
+endocarditis
+colorectal neoplasia
+3rd gen cephalosporins
+vancomycin
+penicillin
+
+
+_______________________________________
+
+
+Bacillus anthracis
+gram - positive
+found in soil and contaminated animal
+black eschar 
+rods and chains
+capsule - protein poly-d glutamate
+obligate aerobe
+weaponized
+spores
+Lethal factor - exotoxin protease, cleaves map kinase, responsible for necrosis
+edema factor - adenylate cyclase, edema inhibits phagocytosis
+pulm anthrax - woolsorter's disease, inhalation of spores
+pulmonary hemorrhage - 100% mortality
+widened mediastinum - mediastinal lymph nodes
+fluoroquinolones
+doxycycline
+
+
+Bacillus cereus
+aerobic
+spore forming
+food poisoning - reheated fried rice
+
+clostridium tetani
+gram - positive
+tetanus
+rods
+obligate anaerobe
+spores
+soil
+puncture wound
+rusty nails or barbed wire
+spastic paralysis 
+rhesus sardonicus - lockjaw
+opisthotonus - arching back
+tetanospasmin -travels retrograde through motor neurons
+cleaves snare protein inhibits vesicle release of gaba and glycine (inhibitory neurotransmitters)
+Renshaw cells - control motor stimulation
+toxoid vaccine - toxin conjugated to antibody
+
+Costridium botulinum
+gram - positive
+canning food
+heat stable toxin
+spores
+obligate anaerobe
+flaccid paralysis - descending
+multiple individuals presenting together
+diplopia/ptosis
+snare protein 
+attacks acetylcholine motor neurons
+floppy baby syndrome
+adult - preformed toxin
+normal flora outcompete - except in babies
+spores in honey
+
+clostridium perfringins
+motorcycle accidents
+deep penetrating wounds
+spores 
+soil
+obligate anaerobe
+gas gangrene (clostridial myonecrosis)
+carbohydrate metabolism produces gas
+alpha toxin - lecithinase (damages phospholipid membranes)
+lyses red blood cells
+double zone of hemolysis
+IV penicillin G
+late onset food poisoning
+crepitus
+
+clostridioides difficile
+(not rly costridium)
+c-diff
+gram - positive 
+bacillus
+obligate anaerobe
+spores
+colonize normal flora
+fecal-oral ingestion
+nosocomial(hospital-acquired) infections
+hand wash
+contact precautions
+toxigenic cdiff
+antibiotic disruption - clindamycin, fluoroquinolones, penicillin, cephalosporins, proton pump inhibitors
+toxin A
+toxin b - more toxic
+disrupt cytoskeleton and tight junctions
+colon
+pseudomembranous colitis - necrosis and pseudomembranes
+high volume foul smelling diarrhea
+fever
+leukocytosis
+toxic megacolon
+PCR detection
+Enzyme ammino assay test
+glutamate dehydrogenase
+oral vancomycin
+fidaxomicin
+IV metronidazole to help with slowing of contractions
+fecal microbiota transplant
+
+Corynebacterium diphtheriae
+gram- positive
+club shaped
+metachromatic granules - analin dye
+V or Y formation
+exotoxin - Active subunit and Binding subunit inhibits elongation factor 2 to inhibit protein synthesis (ribosylation),
+pseudomembranes 
+tonsils, oropharynx, airways
+lymphadenopathy
+local paralysis - posterior oropharynx
+tellurite agar
+loefller's medium
+elek's test - toxic strain test
+toxoid vaccine - igG
+myocarditis
+
+
+Listeria monocytogenes
+pregnant women 20X more likely
+beta hemolytic
+motile - flagella
+facultative intracellular
+bacillus
+gram- positive
+polymerize actin against wall (actin rockets) - intracellular
+catalase - positive
+survives and multiplies in freezing temps
+packaged meat, cheese, milk (refrigerated)
+meningitis in newborn and adults over 60
+vancomycin, ceftriaxone, AMPICILLIN
+
+
+Actinomyces israelii
+gram - positive
+branching filamentous Rods
+obligate anaerobe or facultative anaerboes
+normal flora of oral cavity
+dental work/jaw trauma
+cervicofacial actinomyces
+draining sinus tracts
+sulfur granules
+abscesses
+penicillin G
+surgical drainage
+
+
+Nocardia asteroids
+branching filamentous rod
+no spores
+gram - positive
+obligate aerobe
+soil
+acid - fast staining (carbofuscion) , mycolic acids
+catalase positive
+chronous granulatomous disease
+urease positive
+immunocompromised patients (HIV, transplant, glucocorticoids)
+promininent in men
+pulmonary, CNS, cutaneous
+pneumonia 
+protease
+lung abscess (cavitary lesions)
+brain abscesses
+cutaneous - open wounds exposed to dirt
+indurated lesions
+sulfonamides (TMP-SMX)
+
+_______________________________
+
+Neisseria
+gram - negative
+diplococci
+glucose metabolism
+oxidase positive
+chocolate agar (heated blood)
+VPN (thayer-martin agar)
+Membrane attack complex
+pili undergo antigenic variation
+capsule
+IgA protease - evasion of host defenses and mucosal colonization
+lipooligosaccharrides - endotoxin like, proinflammatory
+opacity epithelial binding
+beta-lactamase
+
+
+Neisseria meningitidis
+maltose fermenter
+pili promote nasopharyngeal colonization
+asymptomatic carriage
+capsule - vaccine target
+meningococcus type B - not immunogenic
+spread by respiratory droplets - contact
+confined spaces
+hematogenous spread
+LOS - inflammation
+LOS blebs
+vascular injury
+hypo volumic shock
+thrombocytopenia and thrombosis (DIC)
+protein C
+waterhouse-friderichsen syndrome - adrenal insufficiency, hypoglycemia, hyponatremia, hyperkalemia
+meningitis - 2nd most common cause
+immune-complex mediated complications (pericarditis, arthritis)
+febrile, flu-like illness
+intense myalgias
+strep-like pharyngitis
+petechial rash
+spinal tap
+penicillin
+ceftriaxone
+chloramphenicol
+post exposure prophylaxis - rifampin, ciprofloxacin
+quadrivalent capsular polysaccharide vaccine (helps against type B N. meningitidis)
+conjugate vaccine - capsule antigen and carrier protein (diptheria toxoid)
+recombinant serotype B vaccine
+vaccine indicated in hypocomplementemia/asplenic
+
+
+Neisseria gonorrhoeae
+facultative intracellular - PMNs
+not encapsulated
+STI
+Asymptomatic carriage
+newbowns transmitted in vaginal canal - eye infection and blindness
+male-
+urethritis - can be symptomatic urethritis, opacity proteins, painful urination, milky discharge 
+prostatitis
+orchitis - testicular pain/swelling
+female - mucopurulent cervicitis(discharge/swelling) 
+intermenstrual bleeding
+pelvic inflammatory disease - ab pain, dispurunia
+salpingitis - ectopic pregnancy and infertility
+fitz-hugh-curtis syndrome - inflammation of liver and peritonium, violin string adhesions
+disseminated gonococcal infection - later stage
+purulent arthritis - synovial fluid, can be negative
+tenosynovitis, arthralgia, dermatitis
+ophtalmia neonatorum - first 5 days (early), erythromycin ointment
+Nucleic Acid Amplification testing (NAAT)
+ceftriaxone
+chlamydia coverage with doxycycline or macrolide 
+coinfection with chlamydia
+barrier methods
+No long lasting immunity
+
+
+Moraxella catarrhalis
+catalase positive
+gram- negative
+diplococcus
+Nasopharynx
+oxidase positive
+obligate aerobe
+biofilm
+beta lactamase
+hocky - puck sign
+otitis media
+bacterial sinusitis
+COPD exacerbations
+cephalosporins
+amoxicillin - clavulanate
+trimethoprim sulfamethoxazole (TMP SMX)
+fluoroquinolones
+
+
+_______________________________
+
+
+Klebsiella pneumoniae
+non-motile
+alcoholic
+abcesses
+aspiration
+capsule - polysaccharide
+currant jelly sputum
+urease positive
+
+
+Enterobacter cloacae
+motile
+
+serratia marcescens
+motile
+pink pigment in shower
+
+
+pneumonia
+nosocomial infection
+uti
+multi drug resistant
+carbapenem
+ferment lactose
+pink colonies MacConkey agar
+gram - negative
+rod
+
+
+Salmonella
+gram - negative
+rod
+motile
+polysaccharide capsule
+facultative intracellular within macrophages
+invasive salmonella cross M cells
+acid labile
+hydrogen sulfide gas
+black colonies on hektoen agar
+type III secretion
+
+
+Non-Typhoid salmonella
+K2 antigen
+S Enteritidis and Typhimurium
+water and foodborne illness
+poultry is #1 reservoir
+animal contact
+gostroentiritis
+bacteremia
+septic shock
+endovascular infection
+meningitis
+osteomyelitis - sickle cell increases risk
+gastro salmon - self-limited
+antibiotics may be indicated in sever cases
+3rd gen ceph
+fluoroquinolones
+invasive must use antibiotics
+K2 antigen
+
+typhoidal salmonella
+K1 antigen
+typhi and paratyphi
+typhoid fever
+only found in humans (human feces)
+fecal-oral route
+TS colonization of gallbladder (asymptomatic carrier state)
+endemic in developing world
+Vi polysaccharide capsular antigen - resist neutrophilic response, inhibits hemotaxis, interfers with complement opsonization, inhibits oxidative burst
+monocytic immune response
+enteric fever - stepwise rising, bone marrow
+relative bradycardia
+rose-colored macules (minority)
+hepatosplenomegaly, intestinal bleeding and perforation
+anemia and leukopenia
+fluoroquinolones
+3rd gen ceph
+erythromycin
+Live attenuated oral vaccine
+Injectable Vi capsular polysaccharide
+conjugate vaccine - Vi + tetanus toxoid protein
+
+
+
+Shigella sonhei
+
+Shigella dysenteriae
+
+green colonies on hektoen agar
+non-motile
+acid-stable
+fewer microbes to cause infection
+escapes through M cell phagolysosome
+uses host cytoskeleton (actin rocket)
+facultative intracellular
+fecal blood and leukocytes
+inflammatory diarrhea
+shiga toxin - glomerular damage, 60S subunuit of ribosomes, type III secretion system to secrete inflammatory cytokines
+drop in platelet count
+red blood cell hemolysis - schistocytes
+HUS (hemolytic uremic syndrome)
+under 10 years of age
+
+
+Escherichia coli
+lactose fermenter - pink on MacConkey agar
+encapsulated
+K antigen
+Green sheen on EMB agar
+catalase positive
+fimbriae - UTI, #1 cause
+gram negative sepsis #1 cause
+Lipopolysaccharide (general immunogenic molecule)
+neonatal meningitis - if has K antigen
+
+
+Enterohemorrhagic e coli
+undercooked meat
+bloody diarrhea
+does not ferment sorbitol
+toxin in inhibits 60S (shiga like toxin)
+HUS, hemolysis, thrombosis, thrombocytopenia, glomerular damage
+0157H7 antigen serotype - outbreaks
+
+
+Enterotoxigenic E. coli
+traveler's diarrhea
+via water
+Mexico
+heat labile toxin - increase cAMP - similar to cholera toxin
+heat stable toxin - increase cGMP
+watery diarrhea
+
+
+Yersinia enterocolitica
+gram - negative
+rod
+puppy feces
+toddlers commonly infected
+contaminated milk
+resistant to cold temps
+bipolar staining (safety pin)
+capsule
+M-cells
+similar to stable toxin of ETEC
+bloody diarrhea
+abcesses, fever, leukocytosis
+GI tract
+mimics appendicitis
+
+
+Yersinia pestis
+gram - negative
+rod
+bubonic plague
+rats and prairie dogs
+fleas
+bubos (swollen lymph nodes)
+abscesses
+DIC - endotoxin necrosis
+exotoxin
+yersenia associated proteins - inhibits phagocytosis and cytokine production
+type III secretion
+streptomycin (aminoglycoside)
+tetracycline
+killed vaccine
+
+
+campylobacter jejuni
+gram-negative
+bacilli
+heat resistant (42C)
+intestinal tract of animals (poultry)
+fecal-oral route
+bloody diarrhea
+curved spiral
+oxidase positive
+bacteremia (invasive)
+reactive arthritis
+guillain barre - demyelination of peripheral nerves - ascending - immune system response
+
+Vibrio Cholera
+comma -shaped
+gram -negative
+oxidase positive
+rice water diarrhea
+alkaline media
+acid labile (more than salmonella)
+toxin coregulated pilus - attaches to intestinal wall
+cholera toxin - activates Gs, elevated cAMP, GM1 ganglioside
+El Tor Biotype for O antigen more common for epidemic outbreaks than classical
+oral rehydration
+
+Vibrio vulnificus
+raw  shellfish
+sever wound infections
+siderophores
+endotoxin
+
+vibrio hemolyticus
+TDH - thermostable direct hemolysin
+enterotoxin
+T3SS
+
+helicobacter pylori
+motile
+gram-negative
+helical rod
+urease positive - urea ->ammonia + CO2, reduces acidity
+stomach/pylorus
+urea breath test
+endoscopy
+oxidase positive
+duodenal ulcers - gastrin up, somatostatin down
+risk of gastric adenocarcinoma
+MALT
+triple therapy - proton pump inhibitor, amoxicillin, macrolide(clarithromycin)
+
+
+proteus mirabilis
+gram - negative
+facultative anaerobe
+swarming motility when plated
+staghorn calculi
+urease positive - ability to form calculi
+alkaline enrionment can cause struvite stones
+UTI
+fishy odor
+sulfonadmides, fluoroquinolones, cephalosporins, carbapenems, and aminoglycosides
+
+
+Bordetella pertussis
+gram-negative
+rod
+droplets
+respiratory pili - filamentous hemagglutinin
+pertussis toxin - disrupts ADP ribosylation of Gi protein (disables) (cAMP up), disables chemokine receptors on lymphocytes(lymphocytosis)
+adenylate cyclase toxin - cAMP up, edema factor in anthrax
+tracheal cytotoxin - damage to ciliated cells of respiratory epithelium
+whooping cough
+catarrhal stage - conjunctival ejection and lacrimation
+paroxysmal stage - whooping stage
+convalescent stage - gradual reduction in symptoms (100 day cough)
+macrolides
+killed vaccine
+acellular vaccine (DTaP) - purified antigens with diptheria and tetanus toxoids
+2 component regulatory system
+
+haemophilus influenzae
+gram - negative
+cocco-bacillary shape
+chocolate agar - factor 5 and 10 (NAD + hematin)
+aerosol transmission
+pneumonia
+epiglotitis - cherry red
+otitis media
+meningitis - capsular type B strain
+sepsis
+asplenic or sickle cell more vulnerable
+type B capsule vaccine (DIP) - polysaccharide + diptheria toxin, 2-18 months
+ceftriaxone
+rifampin prophylaxis - close contacts with children
+
+
+legionella pneumophila
+gram - negative
+rod
+silver stain
+buffered charcoal yeast extract - cysteine and iron
+oxidase positive
+legionnaires disease - smokers, atypical pneumonia, unilobar infiltrate on xray, hyponatremia, headache and confusion, diarrhea, high fever
+Pontiac fever - self limited fever and malaise
+urine antigen test
+macrolide
+fluoroquinolones
+
+
+pseudomonas aeruginosa
+gram - negative
+rod
+thrives in aquatic environments
+oxidase positive
+catalase positive - CGD
+blue-green pigment - pyocanine and pyoveridin
+scavenge iron and phosphate
+elastase
+exotoxin A
+phospholipase C
+grape-like odor
+obligate aerobe
+nosocomial pneumonia
+pulmonary infection in cystic fibrosis
+osteomyelitis - iv drug users and diabetcs, fatal in burn patients
+capsule
+catheter
+sepsis
+UTIs - nosocomial
+hot tub folliculitis
+ecthyma ganrenosum - black necrotic skin lesions
+otitis externa (swimmer's ear)
+exotoxin A - similar to diptheria , ribosylates EF2
+piperacillin + tazobactam
+aminoglycosides
+fluoroquinolones
+
+burkholderia psudomallei
+gram-negative
+rod
+catalase positive
+obligate aerobe
+oxidase positive
+contaminated soil/water - peak during wet season
+meliodosis - tropical, pneumonia, similar to tuberculosis w/without cavitary lesions
+
+Burkholderia cepacian complex
+gram-negative
+catalase positive
+obligate aerobe
+oxidase positive
+contaminated soil/water - peak during wet season
+immunocompromised individuals - cystic fibrosis
+pneumonia
+cepacia syndrome - necrotizing pneumonia and bacteremia
+encephalomyelitis
+abscess
+multi-drug resistance - ceftazidime, carbapenem, doxycycline, methoxazole
+
+bartonella henselae
+gram - negative
+warthin starry stain - silver stain
+cat scratch fever - large lymph nodes, immunocompetent, self limiting
+bacillary angiomatosis - cat scratches/bites, raised vascular lesions, immunocompromised, also in kaposi's sarcoma
+doxycycline
+macrolides
+
+
+Brucella
+gram-negative
+coccobacilli
+aerobic
+farm animals
+unpasteurized milk products
+facultative intracellular - macrophages, reticuloendothelial system 
+fevers
+chills
+anorexia
+undulant fever
+enlargement of liver, spleen, and lymph nodes
+osteomyelitis
+tetracycline (doxycycline) in combination with rifampin
+
+
+francisella tularensis
+gram- negative
+coccobacilli
+facultative intracellular
+tularemia -skin ulcers, caseating necrosis, painful lesions, granulomas
+rabbits
+tick vector (Dermacentor tick)
+aerosolized
+lymphatic spread - regional lymphadenopathy
+aminoglycosides (streptomycin)
+
+
+Pasteurella multocida
+catalase positive
+oxidase positive
+gram - negative
+capsule - pain virulence factor
+bipolar safety pin staining
+coccobacillus
+grows on 5% sheep's blood
+respiratory tract of small animals
+dog/cat bites
+cellulitis
+necrotizing fasciitis
+osteomyelitis
+lymphadenopathy - liver disease, COPD
+penicillin
+beta lactamase inhibitor (clavulanic acid)
+
+
+Anaplasma phagocytophilum
+gram-negative
+obligate intracellular - vacuoles of leukocytes
+bacilli
+black-legged tick (ixodes) - white footed mouse (larva) white tailed deer (adult)
+anaplasmosis
+flu like illnesses
+GI symptoms
+no rash
+pancytopenia
+doxycycline
+morulae-containing leukocytes - peripheral blood smaear with wright giemsa stain, granulocytes
+
+Ehrlichia chaffeensis
+gram-negative
+bacilli
+obligate intracellular
+lone star tick (amblyomma Americanum) - white tailed deer
+ehrlichiosis
+flu like illnesses
+GI symptoms
+no rash
+panctopenia
+doxycycline
+morulae containing leukocytes - peripheral blood smear with wright giemsa stain, monocytes
+
+
+__________________________________
+
+Mycobacterium tuberculosis
+acid- fast
+bacilli
+mycolic acid
+carbol fuchsin stain 0 ziehl-neelsen
+lowenstein-jensen agar
+obligate aerobe
+surviving and replicating within macrophages
+cord factor - inhibits macrophage function, membrane glycolipid, inhibits phagolysosomal fusion, granuloma, inflammation
+sulfatides  - inhibiting phosome-lysosome fusion
+affects middle and lower parts of lungs on CXR
+enlarged hilar lymph nodes
+Ghon complex - calcified lung lesion , nearby enlarged lymph nodes
+casuous necrotic granulomas - macrophages, cheese like
+latent tb - dormant areas within the body
+fibrosis
+calcification - encapsulates M. t within lung tissue
+purified protein derivative (PDD) skin test - induration after intradermal injection, 5 mm induration for high risk, 10 mm for high TB prevalence, 15 mm for no risk factors
+Bacille Calmette-Guerin (BCG) - cause false positive reactions in PDD
+Miliary TB - hematogenous dissemination, severe and potentially fatal
+TNF inhibitors - reactivation of latent TB, granuloma
+secondary TB - upper lobe disease and cavitation, cough, hemoptysis, night sweats, anorexia, weight loss
+Pott disease - spine TB
+tuberculous meningitis
+tuberculomas
+rifampin, isoniazid, pyrazinamide, ethambutol
+RI used to prevent reactivation
+
+
+Mycobacterium leprae
+bacillus
+acid-fast - mycolic acid
+cooler temps - extremeties
+carbol fuschin stain
+armadillo and humans
+Th1 cell mediated response (tuberculoid)
+skin lesions - hairless, well demarcated
+lepromin skin test - m. leprae injected under skin, nodule formation associated with tuberculoid leprosy, no nodule forms associated with lepromatous leprosy, weaker immune response, more widespread lesions, higher load
+lepramatous - TH2 response, disseminated more, weaker Th1 response and failure of macrophage containment
+close human to human contact
+glove and stocking neuropathy - loss of sensitivity in extremities
+Long John lesions - poorly demarcated erythematous papules, macules, nodules, and plaques
+Leonine facies deformity - thickening of skin, loss of eyebrows and eyelashes, collapse of nose, formation of nodular earlobes
+dapsone and rifampin in tuberculoid leprosy - 6 months
+dapsone, rifampin, clofazimine for lepromatous leprosy - 2-3 years
+
+
+Mycobacterium avium intracellulare
+carbol fuschin stain
+acid fast - mycolic acid
+macrophage - granulomas
+M. avium, M. intracellulare (Mycobacterium avium complex)
+lung disease - COPD
+TB symptoms
+watery diarrhea
+disseminated disease - immunocompromised, low CD4
+water, soil, dust
+aerosol
+cervical lymphadenitis
+multidrug resistance
+macrolide, ethambutol, rifabutin (rifampin related)
+prophylaxis with macrolide - HIV patients CD4 < 50, initiation of ART
+
+
+Mycobacterium scrofulaceum
+carbol fuschin stain
+acid fast - mycolic acid
+macrophage - granulomas
+aerosol
+unilateral cervical lymphadenitis
+
+
+Mycobacterium marinum
+carbol fuschin stain
+acid fast - mycolic acid
+macrophage - granulomas
+infected water
+fish, amphibians, reptiles, humans
+aquarium fish tanks
+hand infection in aquarium handlers
+
+
+______________________________________-
+
+
+Borrelia burgdorferi
+lyme disease
+spirochete
+NE united states
+tick borne - ixodes scapularis
+white-footed mouse (reservoir), obligatory host(white  tailed deer)
+thin walls
+wright's stain
+giemsa stain
+stage 1 - erythema chronicum migrans "bull's eye rash" flu like
+stage 2 - heart block caused by myocarditis
+bilateral bell's palsy
+stage 3 - migratory polyarthritis and cognitive issues
+doxycycline, ceftriaxone
+
+
+borrelia recurrentis
+dark field microscopy
+variable surface antigens
+wright-giemsa stain
+spirochete
+relapsing fever
+overcrowding
+pediculus humanus corporis (human body louse vector)
+skin scratching + eye rubbing
+humans = reservoir host
+crisis phase 1 = hot symtpoms - 30 minutes
+crisis phase 2 = cold symtpoms - few hours
+jaundice
+thrombocytopenia
+Penicillin G
+Doxycycline
+jarisch herxheimer reaction
+
+
+Leptospira interrogans
+spirochete - question mark
+tropical regions
+animal urine -> water 
+flu-like
+conjunctival suffusion - redness without inflammatory exudates
+systemic - leptospirosis, weil's disease, bloodstream, multiple organs
+renal dysfunction
+liver dysfunction
+jaundice
+
+
+treponema pallidum
+syphilis
+spirochete - spiral shaped
+STI
+darkfield microscopy
+non treponemal CDRL (Venereal Disease Research Laboratory) test - produces false positive (mononucleosis, elevated rheumatoid factor, systemic lupus erythematosus, leprosy, and IV drug use) - cardiolipin cholesterol lecthitin
+RPR (rapid plasmid reagen)
+FTA antibody test
+early syphilis - primary, secondary, early latent
+late syphilis - tertiary, late latent
+primary - genital chancre - local ischemic necrosis
+secondary syphilis - maculopapular rash, systemic, flat-topped lesions called condyloma lata
+spirochetes can be visualized in condyloma lata in darkfield microscopy
+tertiary syphilis - gummas, aortitis (aneurysm tree bark),
+tabes dorsalis - loss of vibration sense, proprioception, posterior spinal cord
+argyll-Robertson pupils (accommodate but do not react to light)
+congenital syphilis - saber shins, saddle nose, Hutchinson's teeth, deafness
+penicillin (desensitization)
+Jarisch-Herxheimer reaction, fever chills, headache
+
+
+Chlamydia trachomatis
+A-C - trachoma eye infection, reiter's syndrome (uveitis, urethritis, arthritis)
+D-K - STI, watery discharge, PID, mother to child (conjuncitivits or pneumonia/later than gonorrhea), can cause infertility
+L1-L3 - lymphogranuloma veneruem, inguinal node infection
+
+
+Chlamydophila pneumoniae
+atypical pneumonia
+
+
+Chlamydophila psittaci
+atypical pneumonia - birds
+
+obligate intracellular
+gram-indeterminate - no muramic acid
+no ATP
+
+elementary bodies - extracellular infection form
+reticulate bodies - intracellular replicating form, inclusion bodies, giemsa stain, nucleic acid amplification tests
+macrolides - trachoma, STI, must give oral form
+tetracyclines
+for suspect infection with Neisseria gonorrhoeae coinfection, ceftriaxone
+
+
+Coxiella burnetiid
+gram- atypical
+no rash
+q-fever
+obligate intracellular
+spore-like (animal poop)
+aerosol
+pneumonia 
+headache
+fever
+hepatitis
+self limiting
+acellular vaccine
+pasteurizing milk
+
+
+Gardnerella vaginalis
+gram - variable
+bacterial vaginosis - imbalance of vaginal bacteria
+lactobacilli imbalance
+thin, greyish white, malodorous discharge, fishy odor
+increased anaerobic bacteria
+pH around 5-6.5
+whiff test - 10% KOH prep, pungent odor
+clue cells - epithelial cells coated with bacteria
+metronidazole
+
+
+mycoplasma pneumoniae
+no cell wall - no gram stain
+cholesterol in membrane
+atypical pneumonia
+walking pneumonia
+patchy infiltrate in xray
+appears worse than it actually is
+young adults in close contact
+cold agglutinins test - IgM bind to surface of rbcs, low temperature
+eaton's agar
+macrolides - erythromycin, azithromycin
+
+
+Rickettsia
+coccobacillary
+obligate intracellular
+weakly gram negative
+can't produce CoA and NAD - rely on eukaryotic host
+weil-felix test - agglutination, proteus vulgaris + rickettsia
+headache 
+fever
+vasculitis
+rash, petechial/maculopapular
+doxycycline
+giemsa test
+
+
+Rickettsia rickettsia
+rocky mountain spotted fever
+Dermacentor tick - biting
+headache
+fever
+myalgia
+rash starts at extremities and progresses to the trunk
+2 - 14 day incubation
+
+
+
+Rickettsia prowazekil
+military camp recruits and prisoners of war
+rash spares hands feet and head
+feces of lice - transmission, scratching
+Epidemic typhus
+develops centrally on trunk and spreads outward
+myalgias
+arthralgias
+pneumonia
+encephalitis
+coma
+
+
