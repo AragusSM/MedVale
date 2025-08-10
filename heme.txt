@@ -1,0 +1,840 @@
+hematopoietic cells -
+erythrocytes
+lymphocyte
+neutrophil
+eosinophil
+basophil
+monocyte
+platelet
+
+anemia
+mean corpuscular volume - size of red blood cells
+reticulocytes are red blood cell precursors (RI correction and reticulocyte response)
+
+
+complete blood count 
+- hemogram wbc on left, hct bottom, hb on top, plaetelet on right, RBC, RDW, and MCV as well as white cell counts anywhere
+
+nutritional tests -
+folate, B12, Iron (capacity and saturation), ferritin
+
+hemolysis labs - LDH, Bilirubin, Haptoglobin
+
+coagulation/bleeding studies
+
+peripheral smear 
+to morphology, clumping, leukemia (blasts)
+
+
+morphology
+
+leukemia
+
+bone marrow biopsy/aspioration
+
+leukocytosis-
+neutrophil predominant (infection, corticosteroids, immature myelocytes signal chronic myeloid leukemia)
+lymphocyte predominant (viral infection or chronic lymphoid leukemia
+
+leukopenia - decreased production
+nutriotional deficiencies, aplastic anemia, bone marrow infiltration by tumor leukemia or granulomas, vrial infections, chremotherpeutic medications, myueldysplastic syndrome
+decreased survival autoimmune destruction
+
+neutropenia
+infection risk
+ANC = percent granulocytes + percent bands X WBC
+< 500 increases risk of infection
+
+lymphopenia
+
+to chemotherapy to neutropenia, to lymphopenia
+
+eythrocytosis
+secondary hypoxia causing increase epo
+primary - cloinal disorder of myeloid stem cell and JAK2 mutation
+
+thrombocytopenia
+decreased production in bone marrow
+increased destruction in periphery
+sequestration by the spleen
+consumption in DIC and TTP
+dilution
+
+thrombocytosis
+reactive to inflammation, iron deficiency
+myeloproliferative disorder (essential thrombocytosis, polycythemia vera)
+
+pancytopenia
+bone marruow issure
+medications viruses, toxins
+
+increased counts, disorder in gene
+
+hemoglobin
+affinity high in the lungs and low in tissues
+4 myoglobins with 2 a subunits and 2 b subunits
+intersubunit ntreactions that inhibit o2 binding
+affinity depends on partial pressure of oxygen
+oxygen binding induces conformational change in Fe to histidine residue
+T state to R state
+to allosteric (cooperative binding) to pH (lower pH reductes affinity), to CO2 reduces affinity, (carbamate with N ter releases protons, indirect through the bicarbonate buffer), binding of BPG reduces affinity
+histidine requires protonation for stabilizing affect (T state), to CO (poisoning since affinity is over 200 times fgreater than O2, impends release to tissues)
+
+myoglobin
+17kD protein that binds a heme group which contains a single ironi atom available for binding O2
+
+
+carbonic anhydrase 
+forms bicarbonate
+
+polycythemia
+hematocrit (percent of rbc in blood) > 55%
+blood doping
+side effects are blood clots and other issues
+
+neonatal jaundice
+turnover from fetal hemoglobin to adult hemoglobin releases bilirubin
+
+thalassemia
+mutation in alpha or beta hemoglobulin
+alph - 4 beta tetramer, no cooperativity poor O2 release
+beta - a chains by themselves precipictate and are non functional (autosomal recessive)
+symptoms are iron overload, bone deformities, and enlarged spleen, slow growth rates, hear problems
+
+other diseases
+unstable proteins (disrupted a1b1 interface, Heinz or inclusion bodies and hemolytic anemia)
+high O2 affinity (weaken Bohr effect)
+methemoglobin (fe2 to Fe3)
+hemoglobin Jamaica plain (unfavorable steric clashesi n oxyHb but not deoxy
+
+
+heme
+
+
+pyrrole 5 membered ring, 4Cs and 1N
+
+porphyrinogen 4 pyrrole rings joined by methylene bridges
+
+porphyrin ring formed from four pyrrole rings joined by methynyl bridges
+
+ALA synthase
+converts succinyl CoA and glyckne into delta aminolevulinic acid 
+rate limiting step in mitochondria
+requires pyridoxal phosphate
+2 in erythroid cells and 1 in non erythroid
+in erythroid, iron induces heme (iron stabilizes mRNA)
+excess heme inhibits uptake of iron, heme inhibits transferrin
+heme binds to protein kinase to inhibit activity, normal is to phrophorylate eIF2 which inactivates, when heme is high eIF2 activity increases and more hemoglobin produces, uses heme, eIF2 will become inactivated
+
+in non erythroid, heme inhibits transport, synthesis, and activity
+to succinyl CoA, Glycine, to aminolevulinic acid
+
+
+succinyl CoA
+
+glycine
+
+aminolevulinic acid
+
+porphobilinogen
+
+uroporhyrinogen
+number refers to arrangement side chains
+prefix is nature of side chains
+
+hydroxymehtylbilane
+
+ALA dehydratase
+cytosol
+to ALA, porphobilinogen
+
+porphobilinogen deaminase/uroporphyrinogen 1 synthase/hydroxymethylbilane synthase 
+cytosol
+4 molecules of phorphobilinogen
+to hydroxymethylbilane, phorphobilinogen
+
+urophorphyrinogen III cosynthase
+cytosol
+intervenes and flips on the pyrrole rings so that product of hydroxymethylbilane becomes III instead of I (which is toxic)
+to, hydroxymethylbilane, urophorphyrinogen III
+
+uroporphyrinogen decarboxylase
+four acetyl groups become methyl groups
+moves to mitochondria
+to, urophorphyrinogen, coprophorphyrinogen III
+
+coprophorphyrinogen III
+
+corpophorphyrinogen oxidase
+2 propionyl groups are oxidized and dexarboxylated to vinyl groups
+mitochondria
+to, coprophorphyrinogen III, protoporphyrinogen IX
+
+protophorphyrinogen oxidase
+mitochondria
+methylene bridges are oxidized to methenyl bridges converting porphyrinogen into porphyrin
+to, protoporhphyrinogen IX, protoporphyrin IX
+
+ferrochelatase
+mitochondria
+iron atom inserted into middle of porphyrin ring
+to, protoporphyrin IX, heme
+
+
+heme oxygenase (reticuloendothelial system)
+consists of macrophages and monocytes as well as Kupffer cells. reticuloendothelial isozyme of heme oxygenase is inducible by heme, int or cobalt and stress. (two other types located in testes and brain). generates CO and Fe from NADPH, 2O2, and heme
+to biliverdin
+
+biliverdin reductase
+to biliverdin, bilirubin
+carried by albumin to liver for further metabolism
+
+UDP glucuronyl transferase 
+liver, bilirubin is conjugated with 2 clucuronate, which is more water soluble and secreted into intestine as part of the bile. excreted from feces and urine
+to, bilirubin, bilirubin diglucuronide
+
+
+bilirubin diglucuronide
+
+porphyria
+to X linked anemia, aminolevulinic acid dehydratase porphyria, acute intermittent porphyria, congenital erythropoietic porphyria, porphyria cutanea tarda, hereditary coproporphyria, variegate porphyria, erythropoietic protoporphyria, lead poisoning
+
+
+x linked anemia
+ada synthase
+no porphyrias associated with defect in gene for ala synthase, rare form of anemia called siderblastic anemia which arises from lesions in ALA synthase
+
+aminolevulinic acid dehydratase porphyria 
+ADP
+rare disease
+abdominal and neurological build up in ADA, susceptible to lead poisoning
+
+
+acute intermittent porphyria 
+AIP
+porphobilinogen deaminase
+most frequent of the acute porphyrias. lessened activity of of deaminase will result in an increased porphobilinogen and ADA. primarily abdominal and neurological
+psychotic
+
+congenital erythropoietic porphyria
+uroporphyrinogen III cosynthase
+CEP
+very rare, lessened acitviity of uroporphyrinogen III cosynthase will cause accumulation of uroporphyrinogen I, uroporphyrin I, coproporphyrinogen I, and coproporphyrin I. photosensitivity and discolored urine. pigments deposited in teeth
+
+porphyria cutanea tarda
+PCT
+uroporphyrinogen decarboxylase
+most common porphyria. accumulation of uroporphyrinogen III. largely skin symptoms
+may be induced by hexachlorobenzene
+treatments include chloroquine and phlebotomy
+
+hereditary coproporphyria
+coproporphyrinogen oxidase
+HCP
+relatively rare, accumulation of coproporphyrin III. largely neurological and abdominal, sometimes involde skin
+
+variegate porphyria
+protoporphyrinogen oxidase
+accumulation of several porphyrins
+skin lesions and abdominal and neurological
+
+erythropoietic protoporphyria
+EPP
+ferrochelatase
+photosensitivity. accumulation of porphyrins in the skin
+
+lead poisoning
+ada dehydratase and ferrochelatase are inhibited by lead
+abdominal, neurological, and skin lesions
+
+
+cyp450
+certain drugs can induce the liver to make cytochrome P450
+puberty
+
+
+hemolytic jaundice
+hereditary spherocytosis
+excess destruction of erythrocytes
+elevated levels of bilirubin albubin or unconjugated bilirubin. 
+indirect bilirubin = total bilirubin minus direct
+increased fecal excretion
+
+hepatocellular injury 
+cirrhosis, hepatitis
+liver is damaged resulting in estruction of hepatocytes, focal necrosis, and cellular injury.
+elevated serum levels of bilirubin albumin and bilirubin glucuronides
+
+neonatal jaundice
+immature liver
+distributionsimilar to that in cirrhosis and hepatitis
+temporary and treated by UV irradiation
+
+criglar Najjar syndrome 
+type I is very rare caused by complete loss of UDP glucuronosyltransferase. similar to cirrhosis and hepatitis. fatal if left untreated and liver transplant may be necessary
+type II is 10% activity of enzyme. cause encephalopathy if left untreated
+
+gilbert syndrome
+UDP enzyme is 50%. occurs in 10 percent of population. can occur during stress exertion of infection
+
+obstructive jaundice
+obstruction of common bile duct such as tumor or gallstones. bilirubin glucourononside is high in serum'
+low fecal excretion
+bilirubin albumin is normal
+
+
+macrocytic anemia
+
+
+
+microcytic anemia
+MCV < 80
+to iron deficiency, anemia of chronic disease (serum iron decreased, thalassemias, other hemoglobinopathies, lead intoxication, sideroblastic anemia, prophyrias ( serum iron normal or increased)
+
+
+serum iron
+normal measurement ranges from 50-160 ug/dL
+most of this is Fe3+ bound to transferrin
+
+transferrin
+beta globulin, each molecule binds two atoms of iron. iron is absorved in Fe2+ and transport in plasma as Fe3+, which bind s to cell membrane receptors. indirectly measured as TIBC
+
+total iron binding capacity
+TIBC
+total amount of iron that could bind to transferrin, indirect measure of transferring. 
+normal is 250-400 ug/dL
+
+transferrin saturation
+ratio of iron to transferrin
+normal is 20-45%
+
+ferritin
+storage form of iron in tissues. normal starate is approximately 300-1000mg. 
+water soluble compound consisting of iron in the form of ferric oxyhydroxide and apoferritin
+
+serum ferritn
+normal adult 12-300ug/L
+1ug/L of serum ferritin is roughly equivalent to 8-10 mg of storage iron. apoferritin is acute phase reactant and can cause increase of serum ferritin in inflammatory disorders
+
+hemosiderin
+water insoluble storage form of iron in tissues consisting of aggregates of ferric oxyhyroxide and a protein shell. can be visualized in tissue biopsies as golden brown pigment and also by using an iron stain
+
+
+iron deficiency anemia
+gneereal findings f anemia plus some symptoms that are more specifically related to iron deficiency
+koilonychia - spoon shaped nails
+pica - cravings for substances with no nutritional value
+esophageal webs - plummer-vinsion syndrome
+Hgb/Hct/RBC down, MCV down MCHC down RDW up and plt up
+anisocytosis, poikilocytosis, hypochromia, pencil hsaped cells, target cells
+microcytes with minimal hypochromia, diameter of many RBCs is significantly less than diameter of lymphocyte nucleus
+late stage is odd shaped cells
+10% of dietary intake is absorbed. gastric acid converts dietary iron to ferrous form
+heme iron is absorbed by incompletely characterized heme transporters in duodenal cells. non heme iron is absorbed by way of membrane DMT1 transporter
+iron leaves by way of ferroportin
+actual amount of iron transported out of duodenal cell is controlled by hepcidin
+hepcidin binds to ferroportin and degrades it
+iron transported through duodenal cell membrane by ferroportin binds transferrin
+iron is utilized in RBC to produce hemoglobin and non-heme enzymes
+1ml of packed RBC contains approx. 1 mg of rion
+storage in bone marrow and other sites
+120 days of rbc, broked ndown by macrophages predominantly in bone marrow. stored as ferritin in macrophages and reuitilized in bone marrow by developing RBC precursors
+excretion is passive and whatever iron is normally skloughed and is approx. 1 mg.day
+
+diet, increased requirement,chronic blood loss, and decreased absorption
+
+
+
+anemia of chronic disease
+hgb/hct/rbc down, MCV nl or down MCHC nl or down, RDW nl or up, Plt Ct. nl
+maybe microcytic or normocytic
+chronic microbial infections
+rheumatoid arthritis
+chronic GI disorders
+neoplasms
+decreased production of erythropoietin
+decreased RBC production
+storage iron in macrophages is not released 
+ferritin up, serum Fe down and TIBC is nl or down
+hepcidin blocks ferroportin function in macrophages, stimulateds by inflammatory mediators, especially interleukin 6
+peripheral blood smear can be very similar to Fe deficiency
+
+
+other iron deficiency that are microcytic are thalassemias, other hemoglobinopathies, sideroblastic anemias and porphyrias
+
+Macrocytic anemia
+MCV > 99
+if retic index is 2 or >2 then marrow is appropriately responding (acute hemorrhage or hemolysis)
+if retic index < 2, it is a hypoproliferative anemia
+
+megaloblastic anemia
+hypoproliferative
+B12 or folate def, drug induced, myelodysplastic state
+necessary for thymidine for DNA synthesis, nuclei remain immature while cells grow and cytoplasm matures, known as megaloblastic effect
+usual findings for anemia, glossitis and vague abdominal complaints
+Hgb/Hct/RBC down, MCV up, MCHC nl
+plt nl or dec, WBC nl or dec
+RBC morphology anisocytosis and poikilocytosis
+macro ovalocytes
+hypersegmented neutrophils
+intramedullary destruction of RBC precursors
+lactate dehydrogenase - LDH up total bilirubin up
+indirect bilirun up
+ineffective hematopoiesis with hypercellular bone marrow and low peripheral blood counts
+
+
+
+non-megaloblastic macrocytic anemia
+hypoporliferative
+aplastic anemia
+liver disease
+alcoholism
+endocrinoipathies
+
+
+B12
+cobalamin
+takes years for deficiency to develop
+requires intrinsic factor in terminal ileum
+also poorly understood alternative mech of absorption, independent if IF and ileal cells and can absorb up to 1% of dietary intake
+malabsorption caused by pernicious anemia, dietary lack, bacterial overgrowth, Diphyllobothrium latum, terminal ileum disease, gastrectomy, transcobalamin deficiency, drug inhibition of B12
+dietary lack of foods of animal origin including dairy products.
+pernicious anemia can be diagnosed thorugh antiparietal cell antibody, anti intrinsic factoy antibody
+maintenance of myelin
+
+treatment involves intrinsic factor supplements/injections
+
+
+
+folate
+pterylmonoglutamic acid, high daily requirements, low stores, once diet lacks folate, 3 weeks for serum levels to drop and 3 months for megaloblastic changes in marrow.
+hypersegmented neutrophil
+dietary source is vegetables and fruits
+absorption in proximal jejunum
+causes of deficiency is dietary lack, increased need (pregnancy, lactation, infancy, large tumor burden), malabsorption, drug inhibition
+
+large doses of folate can correct anemia in B12 deficicieny but neurologic deficits will continue and become irreversible
+
+
+non-megaloblastic macrocytic anemia
+MCV> 100
+round macrocytes
+
+
+aplastic anemia is failure of hemtopoietic stem cell, resulting in pancytopenia
+petechiae and infection
+Hgb/Hct/RBC down, MCV normal or up, MCHC nl, platelet, WBC down
+hypocellular bone marrow
+Fanconi anemia, idiopathic, chemical agents, idiosyncratic drug reaction, radiation, viral infections, miscellaneous
+
+
+megakaryocyte
+
+platelet function analyzer
+draws blood through capillary (shear force)
+blood flows through membrane aperture coated with platelet agonists
+collagen/epinephrine is more sensitive while collagen/ADP is less sensitive and more specific
+platelets adhere/aggregate to block aperture and stop flow
+time is recorded in closure time
+
+fibrinogen
+
+fibrin
+
+activated partial thromboplastin time
+intrinsic
+HMWK prekallikrein
+factor 12, 11, 9, 8
+stage one: phospholidpid + contact activator +citrated plasma -> activated contact factors
+stage 2: activated contact factors, calcium, fibrin
+detect factor deficiencies
+detect non specific inhibitors (lupus anticoagulant, hjeparin, other anticoagulants)
+detect specific inhibitors (factor 8 inhibitor in hemophilia A, acquired hemophilia A)
+parenteral anticoagulation
+apt immediate mixing study
+
+prothrombin time
+extrinsic
+factor 7
+monitor vitamin K antagonisms or deficiency
+evaluate liver function
+diagnose and monitor inherited factor deficiency (2, 7, 5, 10)
+dilutional coagulopathy
+diagnose and monitor caoulopathies
+citrated plasma, tissue factor, calcium
+
+thrombin time
+factor 10 and 5, prothrombin
+converts fibrinogen to fibrin
+
+international normalized ratio INR
+patient pro time/mean normal pro time to the power of ISI(function of relationship between working and WHO thromboplastins
+
+
+fibrinogen assay
+detection of hypofibrogenemia in DIC or congenital, detection of dysfibrinogenemia
+fibrinogen + citrated plasma + thrombin to fibrin
+
+thrombin time
+detection of low levels of heparin contamination, detection of low leverls of direct thrombin inhibitor dabigatran and argatroban, detection of abnormal fibrinogen
+
+d-dimer assay
+elevated levels in patients with increased fibrinolysis, high negative predictive value for excluding VTE
+elevated after oral anticoagulation
+malignancy
+
+fibrinolysis
+
+
+hemophilia
+inherited
+factor 8 most common
+joint and muscle bleeding
+traumatic operative and post operative
+easy bruising and hematoma formation
+minial beleeding from small cuts
+sex linekd inheritance
+aPPT prolonged
+treatment with factor concentrates
+prophylaxis with very small amounts of factor
+tachyphylaxis
+emicizumbab bispecific antibody mimics factor 8 activity
+
+
+desmopressin (DDAVP)
+releases vWF from endothelial cells
+
+DIC and Fibrinolysis
+generation of thrombin and plasmin at rate that exceeds natural inhibitors
+microvascular endothelial damage with release of cytokines
+fresh frozen plasma, cryoprecipitate
+
+
+liver disease
+hemorrhage -> decreased synthesis of coagulation factors, fibrinolytic inhibitors, thrombopoietin, decreased absorption of vitamin K, synthesis of dysfibrinogens, decreased clearance of FDP
+fresh frozen plasma
+
+thrombosis -> decreased synthesis of coagulation inhibitors, plasminogen, factor 8 and vWF. decreased absoption of vitamin K (protein C and protein S activity), decrease clearance of activated factors
+
+vitamin K
+to factor 9, 7, 10, prothrombin
+deficiency from hemorrhagic disease of the newborn, intestinal disease with fat malabsorption, antibiotic therapy, nutritional deficiency, biliary disease
+to prothrombin complex concentrate
+
+prothrombin
+
+factors
+
+warfarin coumadin
+vitamin K antagonists, monitor with INR
+to vitamin K
+
+direct acting oral anticoagulants
+thrombin inhiibor (dabigatran)
+factor Xa inhibitor (rivaroxaban, apixababan
+to thrombin, factor Xa
+
+coagulation antibodies
+lupus anticoagulant (non specific inhibitor)
+prolongs coagulation tests but is associated with thrombotic risk
+specfici alloantibodies to factors (most iare antifactory 8) 20% of hemophiliacs
+specific auto-antibodies to coagulation factors (spontaneous inhibitor to factor 8) severe hemorrhage
+
+heparin 
+indirect thrombin inhiibor
+potentiates the action of antithrombin
+to thrombin
+
+thrombocytopenia
+increased destruction
+mostly acquired, 
+immune (auto immune, alloimmune, immune oxomplex, drug mediated)
+non immune (hypersplenism, DIC TTP/HUS)
+platelet transfusions < 10000/uL non immune
+qualitative platelet disorder
+not beneficia lin uremia medication, immune thrombocytopenia
+
+decreased production 
+inherited thrombocytopenia (MYH9) or congenital bone marrow failure
+aquired myelophthisic -bone marrow replacement
+bone marrow failure
+vitamin deficiency
+end stage liver disease
+myelodysplastic syndrome
+
+
+hepatitis:
+platelet function normal (sequestrationm BM suppressions, DIC, rarely autoimmune destruction)
+chronic hepatitits: thrombocytopenia mostly with HepC
+autoimmune phenomena more important
+IFN treatment
+ESLD all mechanisms plus decreased thrombopoietin 
+
+
+platelet transfusions
+
+
+vWF disease
+low levels = type 1
+dysfunctional = type 2
+type 2A - decreased platelet function due to absence of high molecular weight VWF multimaers
+2B - increased affinity of vGF for GP1b and reduced HMW-VWF multimers
+2M- decreased affinity of vwf for GP1B with normal VWF multmaers
+2N - reduced factor VIII binding to VWF
+absent = type3
+autosomal inheritance
+platelet adherence to subendothelium
+protect factor 8
+prolonged APTT and PFA 100
+treat with VWF concentrate, desmopressin, antifibrinolytics
+
+Bernard soulier syndrome
+missing or abnormal GP1b (adhesion)
+
+Glanzmann's thrombasthenia 
+aggregation missing or abnormal integrin GPIIbIIIa
+
+
+storage and secretion disorders
+
+medication disorder
+aspirin, theinopyridines, 
+mild effects
+GPIIbIIIa inhibitors
+
+uremia 
+retained organic acids
+inhibition of all platelet functions
+clinical bleeding
+often responds to RBC transfusion, dialysis and DDAVP
+
+primary bone marrow disorders
+myelodysplastic syndromnes
+myeloproliferative syndromes
+
+paraproteinemia
+platelets bind to proteins non specifically, interfering with agonist binding to receptor
+
+
+transfusion
+
+
+red cells
+adults
+Hgb 1g/dL Hct3% increase per unit
+350mL per unit
+1 unit dose
+Hgb < 7 g/DL or Hct < 21%, Hgb < 8 g/dL for cardiac disease
+acute blood loss > 15% blood volume Hgb <8 cardio pulmonary disease
+neonatal and pediatric
+increase Hgb 2-3 g/dL
+dose 10-15ml/kg
+age appropriate H/H thresholds + clinical signs and symptoms + underlying disease
+citrate, small amount plasma, refrigerator 1 -6 C month shelf life
+
+
+plasma
+adult
+decrease in INR 
+250ml per unit
+15mL/kg 250 mL in FFP uinit or 1 unit/20k dose
+INR > 2.0
+actue blood loss > 50% blood volume
+child
+15% -20 % rise in factor levels
+10-15mL/ kg
+acute blood loss > 15% DIC, replacement of factors if noncentrates not available
+frozen, 1 year frozen, thawed and refrigerated = 24 hours
+
+platelets
+adult
+platelet count increase 30000 to 50000 per dose
+300 mL 
+1 Dose
+PLT < 10000
+PLT < 50000 and major non neuraxial surgery
+thrombocxytopathy
+PLT < 50000 ul in bleeding 
+PLT < 10000 with intracranial or intrapulmonary hemorrhage
+child
+platelet count increase 50000
+5-10 mL/kg
+PLT < 10000
+PLT < 50000 and major non neuraxial surgery or active bleeding
+plasma containing a hemostatic level of coagulation factors, citrate
+room temp 5 days
+
+cryoprecipitate
+adults
+100mg/dL increase in fibrinogen
+125 mL per dose
+10 units
+hypofibrinogenemia
+fibrinogen < 100mg/dL
+child
+60-100 mg/dL increase in fibrinogen
+15-20 mL/ kg one single unit is around 15 mL
+fibrinogen < 100 mg/dL
+fibrinogen, Factor 8, Factor 13, vWF, fibronectin,m citrate, small amound of plasma
+frozen 1 year frozen, thawed 4 hours
+
+allergic transfusion
+1/300
+allergy to plasmsa protein 
+mild, hives
+treat with antihistaminesa/prophylaxis
+
+anaphylactic transfucsion
+1/25000
+allergy to plasma protein, igA deficiency
+severe
+hypotension, respiratory distress
+epinephrine, pressure support
+may wash products of all plasma proteins if necessary
+
+febrile nonhemolytic 
+1/20000
+white cell antibody or cytokine
+mild to mod. 
+fever chills diagnosis of exclusion
+antipyretics
+leukoreduction of blood components
+
+
+acute hemolytic (AHTR)
+1/25000
+ABO incompatible red blood cells
+severe to fatal
+fever, back pain, bleeding, DIC, hemoglobnemia, hemoglobinuria
+pressure and volume support
+careful attention to detail
+
+
+delayed hemolytic DHTR
+1/4000
+amnestic response with red blood cell incompatibility invbolving minor blood group
+mild to severe
+4 days after transfusion
+fever, anemia, jaundice
+supportive care
+previous history of transfusion and hisotyr f antibodies
+
+
+transfusion related acute lung injury (TRALI)
+1/5000
+donor antibody to receipients WBCs attacks vessels in lung
+severe
+acute lung injury < 6 hours, CXR inufiltrates, hypoxemia, no cardiac dysfunction
+supportive care
+decrease HLA antibodies in Donor population
+
+transfusion associated circulatory overload (TACO)
+1/3000
+cardio pulmonary disease with too rapid blood transfusion
+mod. to fatal
+dyspnea, hypoxia during  or after trans
+increased BNP, jugular venous distention, hypertension, tachycardia
+diuretics, slow transfusion
+
+
+septic shock due to bacterial contamination
+1/100000 
+bacterial contamination or toxin in transfueed unit
+severe to fatal
+rapid high fever rigors ,shock GI symptpoms
+antibiotics and pressure support
+donor screening
+
+transfusion associated graft vs host(GVHD)
+transfused t lymphocytes attack receipient
+sever to fatal
+symptoms appear 6 days 
+fever, diarrhea, skin rash
+supportive care
+irradiated blood components to at risk populations
+
+leukocyte reduced
+RBCs apheresis platelets/pooled platelets
+whole blood
+use filer based on size and properties to remove white cells
+prevents febrile reactions, HLA immunization, CMV, immunosuppressive, 
+
+GVHD contraindicated, previously frozen produces, transfusion of granulocyte concentrate
+
+no effect or shelf life
+
+
+washing or volume reduced
+automated cell washer or centriguge
+in saline takes one to several hours
+removal of plasma proteins from RBCS andp lkatelets, IGA deficiency ABO antibodies, neonatal alloimmune thrombocytopenia, history of anaphylactic reactions
+
+cannot wash FFP of plasma
+reduced shelf life
+
+
+CMV sero negative
+testing of donor units who are negative for CMV since most will be seropositive
+for patients who are severly immunosuppressed
+leukocyte reduction of blood is equaivalent to CMV seronegative
+no effect on shelf life
+
+
+irradiation
+renders WBCs incapable of replications without affecting function of RBCS, granulocytes and plkatelets
+prevents GVHD
+doesn't prevent VMC, most solid organ, HIV, peripheral progenitor cell infusions
+28 days after irradiation
+
+
+HLA matched
+provide hyman leukocyte antigen negative platelet unit for patients who have developed antibodies to specific human keukocyte antigens that are causing platelet refractoriness
+non immune mediarted platelet refractoriness
+no effect on shelf life
+
+infectious risks of blood transfusion
+
+Virchow triad
+stasis, hypercoagulable state
+endothelial injury
+
+DVT
+
+pulmonary embolism
+
+PNH
+
+HIT
+
+antiphospholipid antibodies
+
+protein C
+
+protein S
+
+anti-thrombin
+
+factor V Leiden
+
+IVC filter
+
+CHADS-VASc score
+
+hasbled
+
+thrombolytics
+
+anticoagulants
+cannot lyse clots
+
+
+antiplatelet agents
+
+fondaparinux
+
+direct thrombin inhibitors
+
+
+
+
+

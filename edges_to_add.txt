@@ -32,7 +32,7 @@ amp -> beta lactamase (+ clavulanate sulbactacm
 amp -> listeria
 amp -> gram negative gi rods
 amp -> spleen (prophylaxis
-amp -> epidermal necrolysis
+amp -> epidermal necrolysis (SJS TENS)
 
 
 piptic -> beta-lactamase inhibitors
@@ -225,11 +225,155 @@ lupus
 
 
 
+fluoro - topoisomerase(dna gyrase)
+fluro - gram negative
+flureo - cidal
+fluoro - gi
+fluoro - uti (complicated)
+fluoro -pseudo
+fluor -pyelonephritis
+fluro - osteomy (gram neg)
+fluoro - salmonella
+fluro - anthrax
+fluro - mycoplasma, legionella
+fluro - oral route (multivalent metals interfere)
+fluro - qt interval
+fluro - vomiting
+fluto - diarrhea
+flruo - tendon damage in elderly and steroid
+fluro - teratogen
+fluro - pregnancy
+
+metro - anaerobic
+free radical metabolites
+metro - giardia
+metro - patient partener
+metro - trichomonas
+metro - Gardnerella
+metro - helicon bacter substitute
+metro - bacteroides
+metro - clostridium
+metro - cdiff
+metro - palpitations, vomiting with alcohol
 
 
+amphotericin, nystatin - ergosterol, pores
+fungal cell membrane composed of ergosterol
+treats sever systemic fungal infections
+iv administration
+liposomal drug formulation
+ampho - fever
+intrathecal for cns
+ampho - renal
+flucytosine converted to CU and encorporated into dna
+
+azole - ketoconazole, miconazole, clotrimazole (imidazoles
+triazoles (itraconzole, fluconazole, and voriconazole)
+inhibit cyp450 that turns lanosterol into ergosterol
+voriconazole - candida ,aspergillosis
+fuconazole - mucocutaneous candidiasis
+itraconzole - systemic mycoses
+ketoconazole - skin
+jkeooconazole - adrenal steroid interferes
+clotrimazole, miconazole - tinea and candidiasis
+
+griseofulvin - tinea
+griseofulcin binds to micro tubules, activate cyp450
+terbinafine - fungicidal, inhibits ergosterol synth blocks squalene epoxidase
+terbinafine - hepato
+terbinafine - dermatophytes and onchomycosis
+echinocandins caspofungin micafungin and anidulafungin
+echinocandins interfer with beta 13 glucan synthesis on cell wall
+echhinocandins - candida
 
 
+NRTI nucleoside/tide reverse transcriptase inhibitors
+needs 2-3 phosphorylations to use
+reverse transcriptase
+analogs lack hydroxyl group
+inhibits 3 to 5 
+mitochondrial toxicity
+lipodystrophy
+neuropathy
+lactic acidosis
+lamivudine - hep B and HIV 
+emtricitabine similar to lamivudine
+emt - pigmentation
+nucleotide tenofivir
+tenofivir - bone density, kidney injury
+tenofivir -prep and HepB
+zidovudine - myelosuppression
+abacavir - HLAB allele, type 4 sensitibity, contraindicated in vascular disease 
+2 NRTIs and 1 integrase inhibitor
 
+
+NNRTIs - non
+nevirapine, efavirenz, and delaviridine
+bind to the HIV reverse transcriptase (allosteric)
+flu like , ab pain, jaundice, and fever
+hepatic failure, cns(insomnia, nightmares)
+teratogen
+cyp450 inducers
+steven johnson syndrome (rash)
+
+protease inhibitors
+ritonavir, atazanavir, and indinavir
+block HIV protease since no cleavage
+HIV pol gene codes for protease and responsile for resistance
+insulin resistance
+dyslipidemiase, lipodystrophy,
+idinavir  - kidney
+ritonavir inhibits cyp450
+
+
+entry inhibitors - maraviroc
+gp120 chemokine receptor and CCR5 (CD40)
+maraviroc binds CCr5
+gp41 HIV fusion
+enfurvirtide binds gp41
+pol gene encose protease vererse trasnciptase and integras
+integrase prevents viral DNA to integrate (raltegravir)
+integrase - rhabdomyolysis
+
+
+Acyclovir, Valacyclovir, Famiciclovir
+herpes simplex
+acyclovir - guanisine analog (phosphorylated 3 times) converted via thymidine kinase
+cidofivir is good for acyclovir resistant
+foscarnet directly inhjibit viral DNA polymerase
+valacyclovir has improved oral and reccurent
+acyc treats HSV encephalitis and neonatal and systemic
+famycyclovir and vala are preferred treatments for varicella shingles
+important in prophylaxis (transplant and pregnant with herpes)
+acyc - nephritis (treated by adequate hydration)
+acyc cns - confuction delirium, vertigo, etc
+
+
+Hepatitis C direct acting antivirals
+NS34A protease )injibited by previr
+asvir - NS5A inhibitor
+buvir - NS5B RDRP inhibitor (inhibiuts RNA production)
+interferon alfa + ribavirin no longer recommended
+DAA 0. fixed dose dual therapy (2 different drugs)
+DAA -> nausea
+DAA - 6 month delay (natural clearance)
+DAA -. check 12 weeks (check for vrial eradication)
+PCR to check
+
+
+Ganciclovir, Valganciclovir, Foscarnet, Cidofovir
+cytomegalovirus
+ganciclovir is guanisine anology by a CMV encoded protein kinase, competes for viral DNA polymerase, 
+CMVcommon with CD4 < 50
+valganciclovir -> better oral bioavailability
+valg - solid organ and bone marrow transplant
+gan/valg -> myelosuppression (zidovudine increased)
+foscarnet and cidofivir bypass
+foscarnet - renal
+foscarnet - hypomagnesia, hypokalemia, hypocalcemia
+cidofovir nephrotoxic
+probenecid blocks tubular secretion of cidofovir
+cidofivir is nucleoside analog while foscarnet is pyrophosphate
 
 
 

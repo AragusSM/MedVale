@@ -111,7 +111,6 @@ staphylococcus_saprophyticus,honeymoon_cystitis,symptom,common in sexually activ
 uti,pyelonephritis,synonym,
 staphylococcus_saprophyticus,uti,symptom,2nd most common cause of utis in women behind e. coli
 staphylococcus_saprophyticus,prostatitis,symptom,
-streptococcus_pyogenes,catalase,enzyme,
 streptococcus_pyogenes,capsule,hyaluronic acid,not immunogenic
 streptococcus_pyogenes,beta_hemolysis,performs,
 streptococcus_pyogenes,pharyngitis,symptom,
@@ -146,7 +145,6 @@ streptococcus_agalactiae,beta_hemolysis,performs,
 streptococcus_agalactiae,bacitracin,resistant,
 streptococcus_agalactiae,sepsis,symptom,"neonatal, early or late onset"
 streptococcus_agalactiae,pneumonia,symptom,early onset
-streptococcus_agalactiae,catalase,positive,
 streptococcus_agalactiae,coagulase,negative,
 streptococcus_agalactiae,contact,spread,"postpartum from mother to child, increased if premature rupture, prolonged labor, preterm birth, or precolonization"
 streptococcus_agalactiae,capsule,polysaccharide,
@@ -1956,3 +1954,4 @@ echinocandins,candida_albicans,treatment,"mucocutaneous and esophageal candidias
 echinocandins,aspergillus_fumigatus,treatment,invasive
 metronidazole,giardia_lamblia,treatment,
 metronidazole,entamoeba_histolytica,treatment,
+quinine,cinchonism,side effect,

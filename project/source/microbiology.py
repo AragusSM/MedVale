@@ -95,9 +95,8 @@ class Spirochete(Bacteria):
 
 
 class Fungus(Pathogen):
-    def __init__(self, identity, definition, spore, name="Fungus"):
+    def __init__(self, identity, definition, name="Fungus"):
         super().__init__(identity, definition, name)
-        self.spore = spore  # Specific attribute for Fungus
 
 
 class Virus(Pathogen):
@@ -122,9 +121,8 @@ class DNAVirus(Virus):
 
 
 class Parasite(Pathogen):
-    def __init__(self, identity, definition, host, name="Bacteria"):
+    def __init__(self, identity, definition, name="Parasite"):
         super().__init__(identity, definition, name)
-        self.host = host  # Specific attribute for Parasite
 
 
 class Antimicrobial(Generic):
@@ -133,7 +131,7 @@ class Antimicrobial(Generic):
 
 
 class Antibacterial(Antimicrobial):
-    def __init__(self, identity, definition, name="Beta_Lactam"):
+    def __init__(self, identity, definition, name="Antibacterial"):
         super().__init__(identity, definition, name)
 
 
@@ -174,4 +172,9 @@ class HIV_Antiviral(Antimicrobial):
 
 class Antiviral(Antimicrobial):
     def __init__(self, identity, definition, name="Antiviral"):
+        super().__init__(identity, definition, name)
+
+
+class Antiparasite(Antimicrobial):
+    def __init__(self, identity, definition, name="Antiparasite"):
         super().__init__(identity, definition, name)

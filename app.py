@@ -6,7 +6,7 @@ import pandas as pd
 import random
 
 # Initialize the SDK
-genai.configure(api_key="AIzaSyAM7Ta6FzBExxBAKzzGlHXCdLohLC-bO9A")
+genai.configure(api_key="AIzaSyDKZWahbzO0_UPACl6NbPah6ktu1_pVtEY")
 
 app = Flask(__name__)
 

@@ -4,33 +4,23 @@ from source import microbiology as micro
 import google.generativeai as genai
 import pandas as pd
 import random
-import os
 
 # Initialize the SDK
 genai.configure(api_key="AIzaSyAM7Ta6FzBExxBAKzzGlHXCdLohLC-bO9A")
 
-app = Flask(__name__, static_folder='static')
-
-
-@app.route('/static/<path:path>')
-def serve_static(path):
-    return send_from_directory('static', path)
-
+app = Flask(__name__)
 
 CLASSES_WITH_CHARACTERISTICS = ["Bacteria", "Coccus", "Bacillus", "Branched_Rods", "Mycobacteria", "Coccobacillus",
-                                "Spirochete", "Fungus", "Virus", "PositiveSenseRNA", "NegativeSenseRNA", "DNAVirus",
-                                "Parasite"]
+                                "Spirochete", "Virus", "PositiveSenseRNA", "NegativeSenseRNA", "DNAVirus"]
 
 
 def get_nodes(filename):
-    path = os.path.join(os.path.dirname(__file__), filename)
-    node_data = pd.read_csv(path)
+    node_data = pd.read_csv(filename)
     return node_data
 
 
 def get_edges(filename):
-    path = os.path.join(os.path.dirname(__file__), filename)
-    edge_data = pd.read_csv(path)
+    edge_data = pd.read_csv(filename)
     return edge_data
 
 
@@ -198,6 +188,13 @@ def node_char_list(node_list, class_name, prop=None, value=None):
     return filtered_nodes
 
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(
+        '.', 'favicon.ico', mimetype='image/vnd.microsoft.icon'
+    )
+
+
 @app.route('/')
 def index():
     data_node = get_nodes("micro_nodes.csv")
@@ -285,24 +282,95 @@ def generate_question():
     edge_list = edge_gen(data_edge, [node.identity for node in node_list])
     prompt = ""
 
-    # Randomly pick a node or edge
-    if random.choice(["node", "edge"]) == "node":
-        node = random.choice(node_list)
-        if (node.properties):
-            property = random.choice(node.properties)
-            prompt = f"{property} in {node.get_name()}"
+    # Get the selected node IDs from query parameters
+    node_ids = request.args.get("node_ids", None)
+    question_format = request.args.get("format", "basic")
+
+    if node_ids:
+        # Convert node_ids string to a list
+        node_ids = node_ids.split(",")
+
+        # Find the selected nodes and their edges
+        selected_nodes = [node for node in node_list if node.identity in node_ids]
+        selected_edges = [edge for edge in edge_list if edge.get_parent() in node_ids or edge.get_child() in node_ids]
+
+        # Generate prompt based on node properties or edges
+        if random.choice(["node", "edge"]) == "node" and selected_nodes:
+            selected_node = random.choice(selected_nodes)
+            if (selected_node.properties):
+                property = random.choice(selected_node.properties)
+                prompt = f"{property} in {selected_node.get_name()}."
+            else:
+                selected_edge = random.choice(selected_edges)
+                prompt = f"how {selected_edge.get_parent()} {selected_edge.get_connection()} {selected_edge.get_child()}."
+        elif selected_edges:
+            selected_edge = random.choice(selected_edges)
+            prompt = f"how {selected_edge.get_parent()} {selected_edge.get_connection()} {selected_edge.get_child()}."
+        else:
+            return jsonify({"error": "No valid nodes or edges selected."}), 400
+    else:
+        # Randomly pick a node or edge
+        if random.choice(["node", "edge"]) == "node":
+            node = random.choice(node_list)
+            if (node.properties):
+                property = random.choice(node.properties)
+                prompt = f"{property} in {node.get_name()}"
+            else:
+                edge = random.choice(edge_list)
+                prompt = f"how {edge.get_parent()} {edge.get_connection()} {edge.get_child()}"
+
         else:
             edge = random.choice(edge_list)
             prompt = f"how {edge.get_parent()} {edge.get_connection()} {edge.get_child()}"
 
-    else:
-        edge = random.choice(edge_list)
-        prompt = f"how {edge.get_parent()} {edge.get_connection()} {edge.get_child()}"
-
     user_message = (
-        f"Create a multiple-choice question about {prompt}."
-        f" Respond with clean JSON only, no extra text or formatting. Use this exact structure:"
+        f"Create a multiple-choice question about {prompt}. "
+        f"Include an explanation for why the correct answer is correct. "
+        f"Respond with clean JSON only, no extra text or formatting. Use this exact structure:"
         f"""
+                {{
+                    "question": "Your question here",
+                    "options": [
+                        "Correct answer",
+                        "Incorrect answer 1",
+                        "Incorrect answer 2",
+                        "Incorrect answer 3"
+                    ],
+                    "correct_option": "Correct answer",
+                    "explanation": "Why the correct answer is correct."
+                }}
+            """
+    )
+
+    if question_format == "vignette":
+        # Read clinical vignette examples from CSV
+        vignette_examples = []
+        with open("clinical_vignettes.csv", "r", encoding="utf-8", errors="ignore") as csv_file:
+            table = pd.read_csv(csv_file)  # Load CSV into a pandas DataFrame
+            for ind, row in table.iterrows():
+                question = row["Question"].strip()  # Ensure no leading/trailing whitespace
+                choices = row["Choices"].strip()
+                answer = row["Answer"].strip()
+                vignette_examples.append(f"""
+                    Question: {question}
+                    Choices: {choices}
+                    Correct Answer: {answer}
+                """)
+
+        # Join examples into a single string (limit to avoid token limits)
+        vignette_examples_text = "\n".join(random.sample(vignette_examples, min(len(vignette_examples), 10)))
+
+
+        # Build the user message for vignette questions
+        user_message = (
+            f"You are an AI capable of generating clinical vignette multiple-choice questions. "
+            f"Below are some examples of clinical vignette questions. They follow the format: "
+            f"Question: \"question\", Choices: \"choices\", Correct Answer: \"answer\". "
+            f"The examples are:\n\n"
+            f"{vignette_examples_text}\n\n"
+            f"Now, create a new clinical vignette multiple-choice question about {prompt} using this format. "
+            f"Respond with clean JSON only, no extra text or formatting. Use this exact structure:\n"
+            f"""
             {{
                 "question": "Your question here",
                 "options": [
@@ -311,10 +379,12 @@ def generate_question():
                     "Incorrect answer 2",
                     "Incorrect answer 3"
                 ],
-                "correct_option": "Correct answer"
+                "correct_option": "Correct answer",
+                "explanation": "Why the correct answer is correct."
             }}
             """
-    )
+        )
+
     try:
         response = model.generate_content(user_message)
         response_text = response.text.strip()
